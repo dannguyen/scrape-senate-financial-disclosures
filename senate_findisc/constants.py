@@ -1,4 +1,13 @@
 from pathlib import Path
+import lxml
+
+
+
+def hparse(html):
+    return lxml.html.fromstring(html)
+
+
+BASE_DOMAIN = 'https://efdsearch.senate.gov'
 
 DATA_PATH = Path('data')
 

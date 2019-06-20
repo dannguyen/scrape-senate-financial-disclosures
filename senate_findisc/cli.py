@@ -6,9 +6,11 @@ from pathlib import Path
 import re
 from sys import stderr, stdout
 import traceback
-
-from constants import DATA_PATH
+from urllib.parse import urljoin
+from constants import DATA_PATH, BASE_DOMAIN
 from constants import US_STATES
+from constants import hparse
+
 from scraper import scrape_by_state, init_scraper
 from parser import parse_raw_records, PARSED_HEADERS
 
@@ -72,7 +74,11 @@ if __name__ == '__main__':
 def fetch_files():
     scraper, _x = init_scraper()
     records = list(csv.DictReader(open(PARSED_DIR / 'state-indexes.csv')))
-    for n, r in enumerate(records):
+    # records = [r for r in records if 'view/paper' in r['doc_url']] # TEMPTHING
+    for n, r in enumerate(records[0:3]):
+        print(r['last_name'], r['first_name'], r['date'], r['doc_title'])
+
+
         url = r['doc_url']
         id = r['doc_id']
         if 'view/paper' not in url and id:
@@ -83,6 +89,47 @@ def fetch_files():
                     destname.parent.mkdir(parents=True, exist_ok=True)
                     destname.write_text(resp.text)
                     print(n, ' - Wrote', len(resp.text), 'chars to:', destname)
+        else:
+            destname = DOCFILES_DIR / id / 'index.html'
+            destdir = destname.parent
+            destdir.mkdir(parents=True, exist_ok=True)
+
+            if not destname.exists():
+                print(destname)
+                resp = scraper.get(url)
+
+
+                if resp.status_code == 200:
+                    doc = hparse(resp.text)
+                    imgs = doc.cssselect('img.filingImage')
+                    img_counter = 0
+
+                    try:
+                        for img in imgs:
+                            href = img.attrib['src']
+                            img_url = urljoin(BASE_DOMAIN, href)
+                            print("\t getting image: ", img_url)
+                            ix = scraper.get(img_url)
+                            if ix.status_code == 200:
+                                dest_imgname = destdir / Path(href).name
+                                print("\t saving to: ", dest_imgname)
+                                dest_imgname.write_bytes(ix.content)
+
+                            else:
+                                raise IOError("Did not get status code 200 for URL: {}".format(img_url))
+                    except Exception as err:
+                        print("Failed when trying to get images for {}: {}/{}".format(destname,
+                            img_counter, len(imgs)))
+                        print(err)
+                    else:
+                        destname.write_text(resp.text)
+                        print(n, ' - (paper) Wrote', len(resp.text), 'chars to:', destname)
+                        print('----')
+
+                    # now for the image extraction
+
+
+
 
 
 def fetch_state_index(state_initials):
