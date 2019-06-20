@@ -12,7 +12,7 @@ from constants import US_STATES
 from constants import hparse
 
 from scraper import scrape_by_state, init_scraper
-from parser import parse_raw_records, PARSED_HEADERS
+from raw_parser import parse_raw_records, PARSED_HEADERS
 
 STASHED_DIR = DATA_PATH / 'stashed'
 PARSED_DIR = DATA_PATH / 'parsed'
@@ -40,7 +40,8 @@ def init_arg_parser():
     _define_subparsers(mainparser)
     return mainparser
 
-def process_parsed_args(parser):
+def main():
+    parser = init_arg_parser()
     args = parser.parse_args()
     if args.mode == 'main':
         # do nothing but print the help to screen
@@ -56,17 +57,6 @@ def process_parsed_args(parser):
             fetch_state_index(args.state)
 
 
-def main():
-    p = init_arg_parser()
-    process_parsed_args(p)
-
-
-#####################
-if __name__ == '__main__':
-    main()
-
-
-
 
 
 
@@ -75,13 +65,15 @@ def fetch_files():
     scraper, _x = init_scraper()
     records = list(csv.DictReader(open(PARSED_DIR / 'state-indexes.csv')))
     # records = [r for r in records if 'view/paper' in r['doc_url']] # TEMPTHING
-    for n, r in enumerate(records[0:3]):
-        print(r['last_name'], r['first_name'], r['date'], r['doc_title'])
+    records = [r for r in records if r['doc_id']]
+    for n, r in enumerate(records):
+        print('{}. '.format(n), r['last_name'], r['first_name'], r['date'], r['doc_title'])
 
 
         url = r['doc_url']
         id = r['doc_id']
-        if 'view/paper' not in url and id:
+
+        if 'view/paper' not in url:
             destname = DOCFILES_DIR / (id + '.html')
             if not destname.exists():
                 resp = scraper.get(url)
@@ -90,6 +82,7 @@ def fetch_files():
                     destname.write_text(resp.text)
                     print(n, ' - Wrote', len(resp.text), 'chars to:', destname)
         else:
+            print("\t\t\t\t....paper!")
             destname = DOCFILES_DIR / id / 'index.html'
             destdir = destname.parent
             destdir.mkdir(parents=True, exist_ok=True)
@@ -155,7 +148,10 @@ def parse_raw_indexes():
             r['state'] = s.stem
             allrecs.append(r)
 
-    allrecs = sorted(allrecs, key=lambda r: [r['state'], r['last_name'], r['first_name'], r['date'], r['doc_type']])
+    allrecs = sorted(allrecs,
+                     key=lambda r: [r['state'], r['last_name'], r['first_name'],
+                            r['date'], r['doc_type'], r['amendment_number'], r['extension_number']
+                        ])
 
     destpath = PARSED_DIR / 'state-indexes.csv'
     destpath.parent.mkdir(parents=True, exist_ok=True)
@@ -187,6 +183,8 @@ def stash_allstates():
     stderr.write("\n=================\n")
     stderr.write('- Total records: {}\n'.format(len(allrecs)))
 
-
-if __name__ == "__main__":
+#####################
+if __name__ == '__main__':
     main()
+
+

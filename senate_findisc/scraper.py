@@ -74,8 +74,8 @@ def scrape_by_state(state):
 """
 from urllib.parse import parse_qs
 
-from senate_findisc.scraper import _extract_csrftoken, _agree_to_form
-from senate_findisc.scraper import *
+from efdsenate.scraper import _extract_csrftoken, _agree_to_form
+from efdsenate.scraper import *
 s, r = scrape_by_state('IA')
 
 sx, rx = init_scraper()
