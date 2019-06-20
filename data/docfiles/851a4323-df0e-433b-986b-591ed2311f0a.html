@@ -1,0 +1,4188 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2015 -
+	
+		Sessions,
+	
+	
+		Jefferson
+	
+
+	
+		B
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Annual
+				
+					Report for
+				
+				Calendar 2015 
+				
+				
+					(Amendment 2)
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					The Honorable
+				
+
+				
+					Jefferson
+				
+
+				
+					B
+				
+
+				
+					Sessions
+				
+
+				
+					III
+				
+
+				
+					
+						(Former Senator)
+					
+				
+			</h2>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 01/27/2017 @ 2 PM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+					<small>
+						<i class="fa fa-asterisk" title="Amended section"></i> Amended
+					</small>
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VTSAX" target="_blank">VTSAX</a> - Vanguard Total Stock Mkt Idx Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a> - Vanguard Money Market Reserves  (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VGSLX" target="_blank">VGSLX</a> - Vanguard REIT Index Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong>Morgan Stanley Bank NA</strong><div class="muted noWrap">(Fairhope, AL)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">Montgomery CNTY AL PUB Bldg Auth Rev</strong><div class="muted"><em>Rate/Coupon:</em> 5.0% <br> <em>Matures:</em> 03/01/2022</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong class="marginit-right">Birmingham AL Genl Oblig Ref Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 5.0% <br> <em>Matures:</em> 11/01/2018</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a> - Vanguard Money Market Reserves  (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VPCCX" target="_blank">VPCCX</a> - Vanguard PRIMECAP Core Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VMVAX" target="_blank">VMVAX</a> - Vanguard Mid-Cap Value Index Admiral (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VTSAX" target="_blank">VTSAX</a> - Vanguard Total Stock Mkt Idx Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VEMAX" target="_blank">VEMAX</a> - Vanguard Emerging Mkts Stock Idx Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VASVX" target="_blank">VASVX</a> - Vanguard Selected Value Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PRGTX" target="_blank">PRGTX</a> - T. Rowe Price Global Technology (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>14</td>
+							<td class="span4"><strong>Morgan Stanley Bank NA</strong><div class="muted noWrap">(Fairhope, AL)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>15</td>
+							<td class="span4"><strong class="marginit-right">Birmingham AL Wtrwks & Swr Brd Rev Ser-A</strong><div class="muted"><em>Rate/Coupon:</em> 4.375% <br> <em>Matures:</em> 01/01/2032</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16</td>
+							<td class="span4"><strong class="marginit-right">AL St Pub Sch & Collee Auth Rev Pub Cap Impt</strong><div class="muted"><em>Rate/Coupon:</em> 5.00% <br> <em>Matures:</em> 12/01/25</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17</td>
+							<td class="span4"><strong class="marginit-right">Sheffield Ala Elec Rev Ref</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 7/1/2025</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>18</td>
+							<td class="span4"><strong class="marginit-right">Daphne ALa Ref Impt Wts</strong><div class="muted"><em>Rate/Coupon:</em> 3.25% <br> <em>Matures:</em> 2/1/2026</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19</td>
+							<td class="span4"><strong class="marginit-right">Orange Beach AL Wtr Swr Fire Protn Auth Rev</strong><div class="muted"><em>Rate/Coupon:</em> 3.25% <br> <em>Matures:</em> 5/15/27</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>20</td>
+							<td class="span4"><strong class="marginit-right">Huntsville AL Gen Oblig Ref Cap Impt Warrants</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 11/1/2027</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>21</td>
+							<td class="span4"><strong class="marginit-right">Choctaw Cnty AL Brd Ed Cap Outlay Rev Ref Wts</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 3/1/2026</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CCCCX" target="_blank">CCCCX</a> - Center Coast MLP Focus C (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=OPITX" target="_blank">OPITX</a> - Oppenheimer Rochester Ltd Term Muni A (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Interest, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Monroe #1 - 10.15 acres (Monroe County, AL)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>25</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Monroe #2 - 1.27 acres w/house (Monroe County, AL)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>26</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Wilcox #1 - 479 acres (Wilcox County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Rent/Royalties, Other, (Timber sale)</td>
+							<td>$50,001 - $100,000<br/>Other $55,981.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #1 - 97.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #2 - 104.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>29</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #3 - 28.0 acres (Choctaw County, AL)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>30</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #4 - 30.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>31</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #5 - 40.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>32</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #6 - 18.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>33</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #7 - 80.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>34</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #8 - 20.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>35</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #9 - 77.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>36</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #10 - 613.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Rent/Royalties, Other, (Timber sale)</td>
+							<td>$100,001 - $1,000,000<br/>Other $450,000.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>37</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #11 - 6.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>38</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #12 - 0.80 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>39</td>
+							<td class="span4"><strong class="marginit-right">Real Estate</strong><div class="muted"><em>Description:</em> Choctaw #13 - 8.0 acres (Choctaw County, Alabama)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Other, (Timber sale)</td>
+							<td>$15,001 - $50,000<br/>Other $26,173.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>40</td>
+							<td class="span4"><strong>Regions Bank</strong><div class="muted noWrap">(Mobile, AL)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VDIGX" target="_blank">VDIGX</a> - Vanguard Dividend Growth Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>42</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VGHCX" target="_blank">VGHCX</a> - Vanguard Health Care Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>43</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWITX" target="_blank">VWITX</a> - Vanguard Interm-Term Tx-Ex Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>44</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWIGX" target="_blank">VWIGX</a> - Vanguard International Growth Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>45</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFSUX" target="_blank">VFSUX</a> - Vanguard Short-Term Investment-Grade Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>46</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VSGAX" target="_blank">VSGAX</a> - Vanguard Small Cap Growth Index Admiral (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>47</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWENX" target="_blank">VWENX</a> - Vanguard Wellington Admiral (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>48</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VHCOX" target="_blank">VHCOX</a> - Vanguard Capital Opportunity Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>49</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VCVLX" target="_blank">VCVLX</a> - Vanguard Capital Value Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>50</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VDIGX" target="_blank">VDIGX</a> - Vanguard Dividend Growth Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>51</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VEMAX" target="_blank">VEMAX</a> - Vanguard Emerging Mkts Stock Idx Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>52</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VGHCX" target="_blank">VGHCX</a> - Vanguard Health Care Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>53</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWITX" target="_blank">VWITX</a> - Vanguard Interm-Term Tx-Ex Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>54</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWIGX" target="_blank">VWIGX</a> - Vanguard International Growth Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>55</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VMVAX" target="_blank">VMVAX</a> - Vanguard Mid-Cap Value Index Admiral (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>56</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VASVX" target="_blank">VASVX</a> - Vanguard Selected Value Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>57</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFSUX" target="_blank">VFSUX</a> - Vanguard Short-Term Investment-Grade Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>58</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VSMAX" target="_blank">VSMAX</a> - Vanguard Small Cap Index Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>59</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VTSAX" target="_blank">VTSAX</a> - Vanguard Total Stock Mkt Idx Adm (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>60</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a> - Vanguard Money Market Reserves  (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>61</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VPCCX" target="_blank">VPCCX</a> - Vanguard PRIMECAP Core Inv (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>62</td>
+							<td class="span4"><strong class="marginit-right">Auburn Univ Ala Gen Fee Rev-A</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 11/1/27</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>63</td>
+							<td class="span4"><strong class="marginit-right">Jackson Cnty Ala Brd Ed Spl Tax Sch WT OID</strong><div class="muted"><em>Rate/Coupon:</em> 3.5% <br> <em>Matures:</em> 3/1/28</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>64</td>
+							<td class="span4"><strong class="marginit-right">University of Ala at Birmingham Gen Rev</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 10/1/28</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>65</td>
+							<td class="span4"><strong class="marginit-right">Scottsboro Ala Wtrwoks Swr & Gas Brd Wtr Swr Gas Rev</strong><div class="muted"><em>Rate/Coupon:</em> 3.375% <br> <em>Matures:</em> 8/1/29</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>66</td>
+							<td class="span4"><strong class="marginit-right">University Ala Gen Fee Rev Ref-A</strong><div class="muted"><em>Rate/Coupon:</em> 3.125% <br> <em>Matures:</em> 9/1/29</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>67</td>
+							<td class="span4"><strong class="marginit-right">Hoover Ala Wts Genl Oblig Ref</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 3/1/30</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>68</td>
+							<td class="span4"><strong class="marginit-right">Madison Ala Genl Oblig</strong><div class="muted"><em>Rate/Coupon:</em> 3.250% <br> <em>Matures:</em> 4/1/31</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>69</td>
+							<td class="span4"><strong>Town & Country Bank</strong><div class="muted noWrap">(Camden, AL)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>70</td>
+							<td class="span4"><strong>US Senate Federal Credit Union</strong><div class="muted noWrap">(Washington, DC)</div><div class="muted"><div class="muted"><em>Type: </em>Savings, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>71</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWILX" target="_blank">VWILX</a> - Vanguard International Growth Adm</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>72</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VINEX" target="_blank">VINEX</a> - Vanguard International Explorer Inv</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>73</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VTIAX" target="_blank">VTIAX</a> - Vanguard Total Intl Stock Index Admiral</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>74</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a> - Vanguard European Stock Index Adm</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>75</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VHCAX" target="_blank">VHCAX</a> - Vanguard Capital Opportunity Adm</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>76</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWIUX" target="_blank">VWIUX</a> - Vanguard Interm-Term Tx-Ex Adm</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>77</td>
+							<td class="span4"><strong class="marginit-right">Morgan County Ala Brd Ed Cap Outlay WRS Rev</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 03/01/2028</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>78</td>
+							<td class="span4"><strong class="marginit-right">Limestone County AL OID</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 11/1/2028</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>79</td>
+							<td class="span4"><strong class="marginit-right">Tuscaloosa AL OID</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 1/1/2029</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>80</td>
+							<td class="span4"><strong class="marginit-right">Shelby Cnty Ala Genl Oblig WTS Ref</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 8/15/2029</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>81</td>
+							<td class="span4"><strong class="marginit-right">Petrobras Intl Fin Co</strong><div class="muted"><em>Rate/Coupon:</em> 5.375% <br> <em>Matures:</em> 01/27/2021</div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Corporate Bond</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>82</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a> - Vanguard European Stock Index Adm</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>83</td>
+							<td class="span4"><strong class="marginit-right">Mineral Rights leased to Chief Capital (O&G)</strong><div class="muted"><em>Description:</em> Mineral Rights leased for oil (Choctaw County, AL)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Mineral Rights</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Other, (Lease bonus)</td>
+							<td><br/>Other $11,000.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>84</td>
+							<td class="span4"><strong class="marginit-right">Mineral rights leased to Pruet Production Company in Turkey Creek Oil Field</strong><div class="muted"><em>Description:</em> Mineral rights producing oil (Choctaw County, AL)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Mineral Rights</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>85</td>
+							<td class="span4"><strong class="marginit-right">Mineral Rights under land owned & separate from land</strong><div class="muted"><em>Description:</em> Unleased/Undeveloped mineral rights (Choctaw, Wilcox & Monroe Counties, AL)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Mineral Rights</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				In this section, electronically filed periodic transaction report (PTR) transactions are displayed for you.  Have you filed any paper-based PTRs in this period?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of transactions added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Transaction Date</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Ticker</th>
+						<th scope="col">Asset Name</th>
+						<th scope="col">Type</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Comment</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>1</td>
+							<td>
+								01/07/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    AL St Pub Sch &amp; College Auth Rev Pub Sch Cap Impt
+                                
+								
+									<div class="muted">
+										<em>Rate/Coupon:</em> 5.0%<br>
+										<em>Matures:</em> 12/01/2025
+									</div>
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>2</td>
+							<td>
+								01/08/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Limestone Cnty AL OID Bond
+                                
+								
+									<div class="muted">
+										<em>Rate/Coupon:</em> 3.0%<br>
+										<em>Matures:</em> 11/01/2028
+									</div>
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>3</td>
+							<td>
+								01/16/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Choctaw Cnty Ala Brd Ed Cap Outlay Rev Ref WTS
+                                
+								
+									<div class="muted">
+										<em>Rate/Coupon:</em> 3.0%<br>
+										<em>Matures:</em> 03/01/2026
+									</div>
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>4</td>
+							<td>
+								02/09/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Morgan Cnty Ala Brd Ed Cap Outlay WTS Rev Bond
+                                
+								
+									<div class="muted">
+										<em>Rate/Coupon:</em> 3.0%<br>
+										<em>Matures:</em> 03/01/2028
+									</div>
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>5</td>
+							<td>
+								08/26/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Shelby Cnty Ala Genl Oblig WTS Ref
+                                
+								
+									<div class="muted">
+										<em>Rate/Coupon:</em> 3.0%<br>
+										<em>Matures:</em> 08/15/2029
+									</div>
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>6</td>
+							<td>
+								10/02/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Petrobras Intl Fin Co
+                                
+								
+									<div class="muted">
+										<em>Rate/Coupon:</em> 5.375%<br>
+										<em>Matures:</em> 1/27/2021
+									</div>
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>7</td>
+							<td>
+								11/12/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Tuscaloosa AL OID
+                                
+								
+									<div class="muted">
+										<em>Rate/Coupon:</em> 3.0%<br>
+										<em>Matures:</em> 01/01/1929
+									</div>
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child buy, sell, or exchange an asset that exceeded $1,000?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of transactions added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Ticker</th>
+						<th scope="col">Asset Name</th>
+						<th scope="col">Transaction Type</th>
+						<th scope="col">Transaction Date</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Comment</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>01/12/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VFSUX" target="_blank">VFSUX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Short-Term Investment-Grade Adm
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>01/12/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEMAX" target="_blank">VEMAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Emerging Mkts Stock Idx Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>01/12/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWITX" target="_blank">VWITX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Interm-Term Tx-Ex Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>01/12/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWITX" target="_blank">VWITX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Interm-Term Tx-Ex Inv
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>01/26/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWIUX" target="_blank">VWIUX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Interm-Term Tx-Ex Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>01/26/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>02/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VCVLX" target="_blank">VCVLX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Capital Value Inv
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>02/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMVAX" target="_blank">VMVAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Mid-Cap Value Index Admiral
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>02/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>02/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>02/19/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWIGX" target="_blank">VWIGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Growth Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>02/19/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>02/23/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								14</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VHCOX" target="_blank">VHCOX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Capital Opportunity Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>02/23/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								15</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>03/05/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								16</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								17</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEMAX" target="_blank">VEMAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Emerging Mkts Stock Idx Adm
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								18</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard European Stock Index Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								19</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								20</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>04/06/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								21</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard European Stock Index Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>04/06/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								22</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>05/26/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								23</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>05/26/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								24</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWIGX" target="_blank">VWIGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Growth Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>05/26/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								25</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEMAX" target="_blank">VEMAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Emerging Mkts Stock Idx Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>05/26/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								26</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								27</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								28</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								29</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								30</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VGSLX" target="_blank">VGSLX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard REIT Index Adm
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>06/08/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								31</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VGHCX" target="_blank">VGHCX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Health Care Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								32</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEMAX" target="_blank">VEMAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Emerging Mkts Stock Idx Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								33</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VSMAX" target="_blank">VSMAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Small Cap Index Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								34</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>06/08/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								35</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>06/29/2015</td>
+							<td>$100,001 - $250,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								36</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>07/06/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								37</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard European Stock Index Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>07/06/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								38</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								39</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEMAX" target="_blank">VEMAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Emerging Mkts Stock Idx Adm
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>08/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								40</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard European Stock Index Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								41</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								42</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								43</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								44</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								45</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VHCOX" target="_blank">VHCOX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Capital Opportunity Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								46</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VSMAX" target="_blank">VSMAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Small Cap Index Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								47</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VDIGX" target="_blank">VDIGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Dividend Growth Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								48</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWIGX" target="_blank">VWIGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Growth Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								49</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VGHCX" target="_blank">VGHCX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Health Care Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								50</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VHCOX" target="_blank">VHCOX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Capital Opportunity Inv
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>08/26/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								51</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VHCAX" target="_blank">VHCAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Capital Opportunity Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/26/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								52</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/10/2015</td>
+							<td>$250,001 - $500,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								53</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>11/30/2015</td>
+							<td>$100,001 - $250,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								54</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VTIAX" target="_blank">VTIAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Total Intl Stock Index Admiral
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>06/08/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								55</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    VMMXX - Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/17/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								56</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    VMMXX - Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/25/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								57</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>11/30/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								58</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>11/30/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								59</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>11/30/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								60</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard European Stock Index Adm
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>11/30/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								61</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VFSUX" target="_blank">VFSUX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Short-Term Investment-Grade Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/30/2015</td>
+							<td>$100,001 - $250,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								62</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    VWILX - Vanguard International Growth Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/30/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								63</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VINEX" target="_blank">VINEX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Explorer Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/30/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								64</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VINEX" target="_blank">VINEX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Explorer Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/30/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								65</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/30/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								66</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>01/01/2025</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								67</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>01/30/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								68</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>02/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								69</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>04/01/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								70</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>05/01/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								71</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>06/01/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								72</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>07/01/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								73</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>07/31/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								74</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>09/01/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								75</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>10/01/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								76</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>10/30/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								77</td>
+							<td>Joint</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/01/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								78</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>02/23/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								79</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWIGX" target="_blank">VWIGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Growth Inv
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>02/23/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								80</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								81</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    VEMAX - Vanguard Emerging Mkts Stock Idx Adm
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								82</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEUSX" target="_blank">VEUSX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard European Stock Index Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								83</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>03/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								84</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VMMXX" target="_blank">VMMXX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Money Market Reserves 
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/25/2016</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								85</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VSGAX" target="_blank">VSGAX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Small Cap Growth Index Admiral
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/25/2016</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								86</td>
+							<td>Spouse</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Birmingham Ala Gen Oblig Ref Ser A Bond
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>11/02/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								Redeemed bond.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								87</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Tuscaloosa AL OID Bond
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/12/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								88</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Petrobras Intl Fin Co Bond
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>10/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								89</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Shelby Cnty Ala Genl Oblig WTS Ref Bond
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/21/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								90</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=CCCCX" target="_blank">CCCCX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Center Coast MLP Focus C
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>04/07/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								91</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Morgan Cnty Ala Brd Ed Cap Outlay WTS Rev Bond
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>02/09/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								92</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Choctaw Cnty Ala Brd Ed Cap Outlay Rev Ref WTS Bond
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>01/16/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								93</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Limestone Cnty AL OID Bond
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>01/08/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								94</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Alabama St Pub Sch &amp; College Auth Rev Pub Sch Cap Impt Bond
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>01/07/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								95</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWILX" target="_blank">VWILX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Growth Adm
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>09/14/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								96</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VWIGX" target="_blank">VWIGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard International Growth Inv
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>09/14/2015</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child receive any reportable gift during the reporting period?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child receive any <button data-toggle="popover" type="button" aria-haspopup="true" data-html="true" data-title="When is travel reportable? <button type='button' tabindex='0' id='jsPopoverClose' aria-label='close' class='close'><i class='fa fa-times' aria-hidden='true'><span class='sr-only'>Close</span></i></button>"data-template='<div class="popover popover__fixMedium" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'class="btn btn-link popover--textButton font-weight-bold" data-placement="auto" data-content="<p>If you are reimbursed for more than one trip from the same sponsor, and the trips added together are worth more than $350, then you must report each trip individually, even if the reimbursement for each separate trip does not equal more than $350.</p>">reportable travel</button>?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of liabilities added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Incurred</th>
+						<th scope="col">Debtor</th>
+						<th scope="col">Type</th>
+						<th scope="col">Points</th>
+						<th scope="col">Rate<br>(Term)</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Creditor</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								2012
+							</td>
+							<td>Self</td>
+							<td>Mortgage
+								</td>
+							<td>
+								0</td>
+							<td>
+								3.25%<br>
+								
+														(25 years)
+								
+							</td>
+							<td>$250,001 - $500,000</td>
+							<td>
+								GMFS
+								<div class="muted">Baton Rouge, LA</div>
+							</td>
+							<td>
+								AL residence</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								2015
+							</td>
+							<td>Joint</td>
+							<td>Mortgage
+								</td>
+							<td>
+								0</td>
+							<td>
+								3.25%<br>
+								
+														(30 years)
+								
+							</td>
+							<td>$100,001 - $250,000</td>
+							<td>
+								Capitol One
+								<div class="muted">Wilmington, DE</div>
+							</td>
+							<td>
+								DC residence, refinanced in 2015 from 7-year ARM to 30-year fixed.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								2010
+							</td>
+							<td>Joint</td>
+							<td>Mortgage
+								</td>
+							<td>
+								0</td>
+							<td>
+								4.25%<br>
+								
+														(7-year ARM)
+								
+							</td>
+							<td>$100,001 - $250,000</td>
+							<td>
+								Capitol One
+								<div class="muted">Wilmington, DE</div>
+							</td>
+							<td>
+								DC residence</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Jun 2006 to
+								present
+							</td>
+							<td>
+								Other
+								(Member of Board of Overseers)
+							</td>
+							<td>
+								Samford University
+								<div class="muted">
+									Birmingham, AL
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td></td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						This is not my first report.
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>

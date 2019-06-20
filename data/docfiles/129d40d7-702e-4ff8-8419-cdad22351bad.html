@@ -1,0 +1,896 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2018 -
+	
+		Krembs,
+	
+	
+		Bradley
+	
+
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Candidate
+				
+					Report 
+				
+				
+				
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					Mr.
+				
+
+				
+					Bradley
+				
+
+				
+
+				
+					Krembs
+				
+
+				
+
+				
+			</h2>
+			
+				<p class="muted">
+					State of Candidacy: MO
+					<span class="p-1">|</span> Candidacy Commenced: 02/27/2018
+				</p>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 06/21/2018 @ 3:53 AM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of honoraria added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Activity</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Who Paid?</th>
+						<th scope="col">Who received payment?</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								04/17/1981
+							</td>
+							<td>Appearance</td>
+							<td>$447,833.92</td>
+							<td>
+								Chain of Hearts Charity Games
+								<div class="muted">Florissant, Mo</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								06/24/1981
+							</td>
+							<td>Appearance</td>
+							<td>$4,956,687.00</td>
+							<td>
+								Chain of Hearts Charity Games, boosters
+								<div class="muted">Florissant, Mo</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Self-Employment Income
+								
+								
+							</td>
+							<td>
+								US Marshals&amp;FCC/Product Development Corporaton<br>
+								<div class="muted">Monterey, CA</div>
+							</td>
+							
+								<td>$7,481.49</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Self-Employment Income
+								
+								
+							</td>
+							<td>
+								US Marshals&amp;FCC-US District Courts/HIBU<br>
+								<div class="muted">Cedar Rapids, IA</div>
+							</td>
+							
+								<td>$4,061.82</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong class="marginit-right">Bradley Acres</strong><div class="muted"><em>Description</em>: reforestation property&nbsp;</div></td>
+							<td>Personal Property<div class="muted">Other</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong class="marginit-right">Placier Mining rights</strong><div class="muted"><em>Description</em>: Gold Mines&nbsp;</div></td>
+							<td>Personal Property<div class="muted">Precious Metals</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong class="marginit-right">Campaign entry articles</strong><div class="muted"><em>Description</em>: historic classed collectibles&nbsp;</div></td>
+							<td>Personal Property<div class="muted">Collectible</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong class="marginit-right">Sandrojewelry Saint Louis/Sandrojewelry-West</strong><div class="muted"></div></td>
+							<td>Business Entity<div class="muted">Sole Proprietorship</div></td>
+							<td>Self</td>
+							<td>Unascertainable</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">America~Saint Louis International Olympic Venueship and National Venueships</strong><div class="muted"></div></td>
+							<td>Business Entity<div class="muted">Sole Proprietorship</div></td>
+							<td>Self</td>
+							<td>Unascertainable</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Mar 1997 to
+								present
+							</td>
+							<td>
+								Consultant
+								
+							</td>
+							<td>
+								International Olympic Commission
+								<div class="muted">
+									Geneva, Switzerland
+								</div>
+							</td>
+							<td>
+								Other
+								(Licensee sole proprietorship)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Mar 1997 to
+								present
+							</td>
+							<td>
+								Consultant
+								
+							</td>
+							<td>
+								World Court, Eurasia Provincial
+								<div class="muted">
+									Jakarta, Indonesia
+								</div>
+							</td>
+							<td>
+								Other
+								(World Court litigations Barrister/prelate magistrate)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Oct 1980 to
+								present
+							</td>
+							<td>
+								Other
+								(noncomittal universal global friar/global minister)
+							</td>
+							<td>
+								Roman Catholic Church
+								<div class="muted">
+									Vatican City, ROME
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>attained the classification of friar, standard global 1980, amended Holy See Pontiff Saint John Paul the Second, no responsibilities or duties attached, global</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Mar 2016 to
+								present
+							</td>
+							<td>
+								Proprietor
+								
+							</td>
+							<td>
+								America-Saint Louis National Sports League
+								<div class="muted">
+									Saint Charles, Mo
+								</div>
+							</td>
+							<td>
+								Corporation
+								
+							</td>
+							<td>Chairman, Director, sole proprietor, Archive Director/Chair</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Mar 2018 to
+								present
+							</td>
+							<td>
+								Proprietor
+								
+							</td>
+							<td>
+								Committee to elect Bradley Krembs US Senate Missouri
+								<div class="muted">
+									Saint Charles, Mo
+								</div>
+							</td>
+							<td>
+								Company
+								
+							</td>
+							<td>Historic applicable proprietorship rights, of knowledge Missouri applicable Statues and governance clauses (1991-)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								Mar 1997 to
+								present
+							</td>
+							<td>
+								Consultant
+								
+							</td>
+							<td>
+								Global territorial litigations consultant
+								<div class="muted">
+									Saint Charles, Mo
+								</div>
+							</td>
+							<td>
+								Other
+								(arbitrational litigations advisor and consultant)
+							</td>
+							<td>None</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of agreements or arrangements added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Parties Involved</th>
+						<th scope="col">Type</th>
+						<th scope="col">Status and Terms</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Apr 1981
+							</td>
+							<td>
+								Chain of Hearts Charity Games
+								<div class="muted">Florissant, Mo</div>
+							</td>
+							<td>Other
+								
+									<div class="muted">(county office or higher for portfolio terms and conditions in charity contribution)</div>
+							</td>
+							<td>Seek a county office or higher win/lose, whereof winning a classed &#39;charity fundraiser&#39; allowing the terms applicable within the guidelines and regulations for &#39;series&#39; to point of winning (at time) towards the political portfolio selection of charities entailed.</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>

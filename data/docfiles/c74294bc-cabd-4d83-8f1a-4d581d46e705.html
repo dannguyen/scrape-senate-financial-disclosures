@@ -1,0 +1,3718 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2015 -
+	
+		Hatch,
+	
+	
+		Orrin
+	
+
+	
+		G
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Annual
+				
+					Report for
+				
+				Calendar 2015 
+				
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					The Honorable
+				
+
+				
+					Orrin
+				
+
+				
+					G
+				
+
+				
+					Hatch
+				
+
+				
+
+				
+					
+						(Former Senator)
+					
+				
+			</h2>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 05/13/2016 @ 5:53 PM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of honoraria added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Activity</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Who Paid?</th>
+						<th scope="col">Who received payment?</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								02/25/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								National Association of Real Estate Investment Trusts
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								02/25/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								National Association of Real Estate Investment Trusts
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								03/13/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								Alliance for Competitive Taxation
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								03/13/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								Alliance for Competitive Taxation
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								02/12/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								MIT Lincoln Laboratory
+								<div class="muted">Lexington, MA</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								02/12/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								MIT Lincoln Laboratory
+								<div class="muted">Lexington, MA</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								03/19/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								American Apparel and Footwear Association
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								03/19/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								American Apparel and Footwear Association
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								03/19/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								DX Diagnostics Forum
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								03/19/2015
+							</td>
+							<td>Speech</td>
+							<td>$1,000.00</td>
+							<td>
+								DX Diagnostics Forum
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								10/26/2015
+							</td>
+							<td>Appearance</td>
+							<td>$680.00</td>
+							<td>
+								Frank Sands
+								<div class="muted">Washington, D.C.</div>
+							</td>
+							<td>A Charity</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Royalties
+								
+								
+							</td>
+							<td>
+								American Society of Composers, Authors and Publishers<br>
+								<div class="muted">New York, NY</div>
+							</td>
+							
+								<td>$814.15</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Royalties
+								
+								
+							</td>
+							<td>
+								Living Scriptures, Inc.<br>
+								<div class="muted">Ogden, UT</div>
+							</td>
+							
+								<td>$129.78</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Royalties
+								
+								
+							</td>
+							<td>
+								Sony ATV Music Publishing LLC<br>
+								<div class="muted">Nashville, TN</div>
+							</td>
+							
+								<td>$700.62</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Royalties
+								
+								
+							</td>
+							<td>
+								BMG Columbia House<br>
+								<div class="muted">New York, NY</div>
+							</td>
+							
+								<td>$1,009.94</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Royalties
+								
+								
+							</td>
+							<td>
+								Jackman Music<br>
+								<div class="muted">Orem, UT</div>
+							</td>
+							
+								<td>$14.36</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Retirement
+								
+								
+							</td>
+							<td>
+								Fidelity Investments<br>
+								<div class="muted">Cincinnati, OH</div>
+							</td>
+							
+								<td>$254.84</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Retirement
+								
+								
+							</td>
+							<td>
+								Capital Bank and Trust Company<br>
+								<div class="muted">Norfolk, VA</div>
+							</td>
+							
+								<td>$2,761.61</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Retirement
+								
+								
+							</td>
+							<td>
+								UBS Financial Services Inc.<br>
+								<div class="muted">Boston, MA</div>
+							</td>
+							
+								<td>$25,612.41</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Royalties
+								
+								
+							</td>
+							<td>
+								Warner Bros. Pictures<br>
+								<div class="muted">Burbank, CA</div>
+							</td>
+							
+								<td>$5,000.00</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong>U.S. Senate Federal Credit Union</strong><div class="muted noWrap">(Alexandria, VA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong>U.S. Senate Federal Credit Union</strong><div class="muted noWrap">(Alexandria, VA)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong>U.S. Senate Federal Credit Union</strong><div class="muted noWrap">(Alexandria, VA)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong>Zions Bank</strong><div class="muted noWrap">(Salt Lake City, UT)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">Orrin G. Hatch and Elaine H. Hatch Trust Agreement</strong><div class="muted"></div></td>
+							<td>Trust<div class="muted">Blind</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong class="marginit-right">Fidelity Advisor Energy Class T - OGH IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong class="marginit-right">T - IRA, UBS Financial Services</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.1</td>
+							<td class="span4"><strong>UBS Bank Deposit Deposit Account</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, IRA Cash Accounts, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.2</td>
+							<td class="span4"><strong class="marginit-right">AMLP - Alerian MLP ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.3</td>
+							<td class="span4"><strong class="marginit-right">QQQ - PowerShares QQQ ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.4</td>
+							<td class="span4"><strong class="marginit-right">MDY - SPDR S&P MidCap 400 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.5</td>
+							<td class="span4"><strong class="marginit-right">SPY - SPDR S&P 500 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.6</td>
+							<td class="span4"><strong class="marginit-right">VB - Vanguard Small-Cap ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.7</td>
+							<td class="span4"><strong class="marginit-right">VHT - Vanguard Health Care ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.8</td>
+							<td class="span4"><strong class="marginit-right">VEA - Vanguard FTSE Developed Markets ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.9</td>
+							<td class="span4"><strong class="marginit-right">DXJ - WisdomTree Japan Hedged Equity ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.10</td>
+							<td class="span4"><strong class="marginit-right">HEDJ - WisdomTree Europe Hedged Equity ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.11</td>
+							<td class="span4"><strong class="marginit-right">BPTIX - Baron Partners Instl</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.12</td>
+							<td class="span4"><strong class="marginit-right">CAMYX - Cambiar International Equity Instl</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.13</td>
+							<td class="span4"><strong class="marginit-right">OAKLX - Oakmark Select I</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.14</td>
+							<td class="span4"><strong class="marginit-right">OAKBX - Oakmark Equity & Income I</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.15</td>
+							<td class="span4"><strong class="marginit-right">PVSYX - Putnam Capital Spectrum Y</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.16</td>
+							<td class="span4"><strong class="marginit-right">PRWCX - T. Rowe Price Capital Appreciation</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.17</td>
+							<td class="span4"><strong class="marginit-right">GSZIX - Goldman Sachs Strategic Income Instl</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.18</td>
+							<td class="span4"><strong class="marginit-right">EWC - iShares MSCI Canada</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.19</td>
+							<td class="span4"><strong class="marginit-right">EWW - iShares MSCI Mexico Capped</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.20</td>
+							<td class="span4"><strong class="marginit-right">IWM - iShares Russell 2000</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.21</td>
+							<td class="span4"><strong class="marginit-right">KYN - Kayne Anderson MLP Investment Company</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.22</td>
+							<td class="span4"><strong class="marginit-right">BPLEX - Boston Partners Long/Short Equity Inv</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.23</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NLSIX" target="_blank">NLSIX</a> - Neuberger Berman Long Short Instl</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.24</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=OAKIX" target="_blank">OAKIX</a> - Oakmark International I</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.25</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=POGRX" target="_blank">POGRX</a> - PRIMECAP Odyssey Growth</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.26</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=WAIGX" target="_blank">WAIGX</a> - Wasatch International Growth Investor</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.27</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=BSIIX" target="_blank">BSIIX</a> - BlackRock Strategic Income Opps Instl</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.28</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=DBLTX" target="_blank">DBLTX</a> - DoubleLine Total Return Bond I</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.29</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PDVYX" target="_blank">PDVYX</a> - Putnam Diversified Income Y</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.30</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=GARIX" target="_blank">GARIX</a> - Gotham Absolute Return Institutional</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.31</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VEU" target="_blank">VEU</a> - Vanguard FTSE All-World ex-US ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.32</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VSS" target="_blank">VSS</a> - Vanguard FTSE All-World ex-US Sm-Cp ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong class="marginit-right">S - IRA, UBS Financial Services</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=BAC" target="_blank">BAC</a> - Bank of America Corporation (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FAERX" target="_blank">FAERX</a> - Fidelity Advisor Overseas T (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.3</td>
+							<td class="span4"><strong>UBS Bank Deposit</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>IRA Cash Accounts, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong class="marginit-right">Contract</strong><div class="muted"><em>Debtor:</em> Walter J Plumb III&nbsp;</div></td>
+							<td>Accounts Receivable<div class="muted">From an Individual</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right">Connor Street Associates, LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Connor Street Associates, LLC (Salt Lake City, UT)&nbsp;<em>Description:</em>&nbsp;Land Investors&nbsp;<em>Filer comment:  </em>50% ownership in Connor Street Associates</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.1</td>
+							<td class="span4"><strong>Zions Bank</strong><div class="muted noWrap">(Salt Lake City, UT)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div><em>Filer comment:  </em>Connor Street Associates, LLC report capital gain income.</div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.2</td>
+							<td class="span4"><strong class="marginit-right">Nyumba Bora Inc.</strong><div class="muted"><em>Filer comment:  </em>0.5% ownership interest.</div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong class="marginit-right">Land in Oquirrh Mts</strong><div class="muted"><em>Description:</em> 50% Interest in 20 acres, Oquirrh Mts, Utah County UT (Utah County, UT)&nbsp;<em>Filer comment:  </em>Purchased for $3,750 in 1973</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong class="marginit-right">Aviva Life and Annuity Company</strong><div class="muted"><em>Provider:</em> Aviva Life and Annuity Company&nbsp;</div></td>
+							<td>Life Insurance<div class="muted">Whole</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13</td>
+							<td class="span4"><strong class="marginit-right">Hatch Trust Fund</strong><div class="muted"><em>Filer comment:  </em>Trust fund for legal fees and costs</div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>14</td>
+							<td class="span4"><strong class="marginit-right">Edries N Hansen Properties, LLC - 20% Interest</strong><div class="muted"><em>Company:</em> Edries N Hansen Properties, LLC (Smithfield, UT)&nbsp;<em>Description:</em>&nbsp;Invests in properties&nbsp;<em>Filer comment:  </em>20% Interest</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td>$250,001 - $500,000</td>
+							<td>Rent/Royalties, Interest, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>15</td>
+							<td class="span4"><strong class="marginit-right">Ashni Naturaceuticals</strong><div class="muted"><em>Description</em>: Research, development and market Naturaceuticals&nbsp;(Salt Lake City, UT)&nbsp;</div></td>
+							<td>Other Securities</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16</td>
+							<td class="span4"><strong class="marginit-right">Capital Bank & Trust SEP/IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CIBCX" target="_blank">CIBCX</a> - American Funds Capital Income Bldr C (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CIBFX" target="_blank">CIBFX</a> - American Funds Capital Income Bldr F1 (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=MFEGX" target="_blank">MFEGX</a> - MFS Growth A (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				In this section, electronically filed periodic transaction report (PTR) transactions are displayed for you.  Have you filed any paper-based PTRs in this period?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of transactions added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Transaction Date</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Ticker</th>
+						<th scope="col">Asset Name</th>
+						<th scope="col">Type</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Comment</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>1</td>
+							<td>
+								03/16/2015
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Connor Street Associates, LLC
+                                
+								
+									
+										<div class="muted">
+											<em>Company:</em> Connor Street Associates, LLC
+											
+										</div>
+									
+
+									
+										<div class="muted">
+											<em>Description:</em>&nbsp;Land Investors
+										</div>
+									
+								
+							</td>
+							<td>Purchase</td>
+							<td>$50,001 - $100,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child buy, sell, or exchange an asset that exceeded $1,000?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of transactions added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Ticker</th>
+						<th scope="col">Asset Name</th>
+						<th scope="col">Transaction Type</th>
+						<th scope="col">Transaction Date</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Comment</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=EWC" target="_blank">EWC</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    iShares MSCI Canada
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>01/15/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=EWW" target="_blank">EWW</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    iShares MSCI Mexico Capped
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>01/15/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKLX" target="_blank">OAKLX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark Select I
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>01/15/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=BPTIX" target="_blank">BPTIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Baron Partners Instl
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>01/15/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=BSIIX" target="_blank">BSIIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    BlackRock Strategic Income Opps Instl
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/07/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=PDVYX" target="_blank">PDVYX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Putnam Diversified Income Y
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/07/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=GSZIX" target="_blank">GSZIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Goldman Sachs Strategic Income Instl
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/07/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=KYN" target="_blank">KYN</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Kayne Anderson MLP Investment Company
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/07/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=GARIX" target="_blank">GARIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Gotham Absolute Return Institutional
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>08/25/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKLX" target="_blank">OAKLX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark Select I
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=PVSYX" target="_blank">PVSYX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Putnam Capital Spectrum Y
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=BPTIX" target="_blank">BPTIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Baron Partners Instl
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=IWM" target="_blank">IWM</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    iShares Russell 2000
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								14</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKIX" target="_blank">OAKIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark International I
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								15</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=SPY" target="_blank">SPY</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    SPDR S&amp;P 500 ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								16</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEU" target="_blank">VEU</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard FTSE All-World ex-US ETF
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								17</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=QQQ" target="_blank">QQQ</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    PowerShares QQQ ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								18</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=MDY" target="_blank">MDY</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    SPDR S&amp;P MidCap 400 ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								19</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VB" target="_blank">VB</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Small-Cap ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								20</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VSS" target="_blank">VSS</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard FTSE All-World ex-US Sm-Cp ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								21</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VHT" target="_blank">VHT</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Health Care ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								22</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=PRWCX" target="_blank">PRWCX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    T. Rowe Price Capital Appreciation
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								23</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=KYN" target="_blank">KYN</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Kayne Anderson MLP Investment Company
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								24</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=BSIIX" target="_blank">BSIIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    BlackRock Strategic Income Opps Instl
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								25</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEA" target="_blank">VEA</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard FTSE Developed Markets ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								26</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=DBLTX" target="_blank">DBLTX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    DoubleLine Total Return Bond I
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								27</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=PDVYX" target="_blank">PDVYX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Putnam Diversified Income Y
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								28</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=NLSIX" target="_blank">NLSIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Neuberger Berman Long Short Instl
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/27/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								29</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=GSZIX" target="_blank">GSZIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Goldman Sachs Strategic Income Instl
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>08/28/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								30</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=KYN" target="_blank">KYN</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Kayne Anderson MLP Investment Company
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>11/12/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								31</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=PDVYX" target="_blank">PDVYX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Putnam Diversified Income Y
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>11/19/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								32</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=KYN" target="_blank">KYN</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Kayne Anderson MLP Investment Company
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>11/19/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								33</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=AMLP" target="_blank">AMLP</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Alerian MLP ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>11/19/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								34</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=GSZIX" target="_blank">GSZIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Goldman Sachs Strategic Income Instl
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>11/20/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								35</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEA" target="_blank">VEA</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard FTSE Developed Markets ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								36</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=BPTIX" target="_blank">BPTIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Baron Partners Instl
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								37</td>
+							<td>Self</td>
+							<td>
+                               
+                                    --
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    BPLEX - Boston Partners Long/Short Equity Inv
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>12/02/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								38</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=NLSIX" target="_blank">NLSIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Neuberger Berman Long Short Instl
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>12/02/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								39</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VHT" target="_blank">VHT</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Health Care ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								40</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VSS" target="_blank">VSS</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard FTSE All-World ex-US Sm-Cp ETF
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								41</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=SPY" target="_blank">SPY</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    SPDR S&amp;P 500 ETF
+                                
+                            </td>
+							<td>Sale (Full)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								42</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=MDY" target="_blank">MDY</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    SPDR S&amp;P MidCap 400 ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								43</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VB" target="_blank">VB</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard Small-Cap ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								44</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=QQQ" target="_blank">QQQ</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    PowerShares QQQ ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								45</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=AMLP" target="_blank">AMLP</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Alerian MLP ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								46</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKIX" target="_blank">OAKIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark International I
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								47</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKBX" target="_blank">OAKBX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark Equity &amp; Income I
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								48</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=CAMYX" target="_blank">CAMYX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Cambiar International Equity Instl
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								49</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=WAIGX" target="_blank">WAIGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Wasatch International Growth Investor
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								50</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKLX" target="_blank">OAKLX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark Select I
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								51</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=POGRX" target="_blank">POGRX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    PRIMECAP Odyssey Growth
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								52</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=DBLTX" target="_blank">DBLTX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    DoubleLine Total Return Bond I
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								53</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=HEDJ" target="_blank">HEDJ</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    WisdomTree Europe Hedged Equity ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								54</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=DXJ" target="_blank">DXJ</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    WisdomTree Japan Hedged Equity ETF
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/02/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								55</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=VEA" target="_blank">VEA</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Vanguard FTSE Developed Markets ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								56</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=BSIIX" target="_blank">BSIIX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    BlackRock Strategic Income Opps Instl
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								57</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=DBLTX" target="_blank">DBLTX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    DoubleLine Total Return Bond I
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								58</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=POGRX" target="_blank">POGRX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    PRIMECAP Odyssey Growth
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								59</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=QQQ" target="_blank">QQQ</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    PowerShares QQQ ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								60</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=SPY" target="_blank">SPY</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    SPDR S&amp;P 500 ETF
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								61</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKBX" target="_blank">OAKBX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark Equity &amp; Income I
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								62</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=PRWCX" target="_blank">PRWCX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    T. Rowe Price Capital Appreciation
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>12/04/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								63</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=PRWCX" target="_blank">PRWCX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    T. Rowe Price Capital Appreciation
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/15/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								64</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=OAKBX" target="_blank">OAKBX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    Oakmark Equity &amp; Income I
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/18/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								65</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=CIBCX" target="_blank">CIBCX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    American Funds Capital Income Bldr C
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>04/10/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								66</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=CIBFX" target="_blank">CIBFX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    American Funds Capital Income Bldr F1
+                                
+                            </td>
+							<td>Sale (Partial)</td>
+							<td>04/10/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								67</td>
+							<td>Self</td>
+							<td>
+                               
+                                    <a href="https://finance.yahoo.com/q?s=MFEGX" target="_blank">MFEGX</a>
+                                
+
+                                
+							</td>
+							<td>
+                                
+                                    MFS Growth A
+                                
+                            </td>
+							<td>Purchase</td>
+							<td>12/17/2015</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child receive any reportable gift during the reporting period?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child receive any <button data-toggle="popover" type="button" aria-haspopup="true" data-html="true" data-title="When is travel reportable? <button type='button' tabindex='0' id='jsPopoverClose' aria-label='close' class='close'><i class='fa fa-times' aria-hidden='true'><span class='sr-only'>Close</span></i></button>"data-template='<div class="popover popover__fixMedium" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'class="btn btn-link popover--textButton font-weight-bold" data-placement="auto" data-content="<p>If you are reimbursed for more than one trip from the same sponsor, and the trips added together are worth more than $350, then you must report each trip individually, even if the reimbursement for each separate trip does not equal more than $350.</p>">reportable travel</button>?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of agreements or arrangements added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Parties Involved</th>
+						<th scope="col">Type</th>
+						<th scope="col">Status and Terms</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Apr 2001
+							</td>
+							<td>
+								Medistar Corporation and Senator Orrin G. Hatch agreed to jointly share the net income of the joint venture (50% to each party)
+								<div class="muted">Hometown, USA</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to joint venture agreement dated April, 5 2001, Senator Orrin G. Hatch and Medistar Corporation agreed that Medistar Corporation will have the non-exclusive right to publish, distribute, promote the phonorecords to be produced, subject to the approval by Senator Hatch. Senator Hatch agreed to perform and oversee the creative aspects of the joint venture. The joint venture will continue on a month-to-month basis.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Mar 1997
+							</td>
+							<td>
+								ASCAP (American Society of Composers, Authors and Publishers)
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to membership in ASCAP, receives royalty payments based on the use of works of music written, jointly written, and/or produced by Senator Hatch. Amounts received are based on independent use of works and are not controlled by Senator Hatch. Royalty ratios are general ratios set by ASCAP for all members and are not controlled by Senator Hatch.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Sep 1999
+							</td>
+							<td>
+								Benson Records, Inc. c/o Provident Music Group
+								<div class="muted">Franklin, TN</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Mechanical license agreement allowing Licensee nonexclusive right and license to specific music written in part or in total by Senator Hatch. Senator Hatch receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Jan 1999
+							</td>
+							<td>
+								Many RoADS Records
+								<div class="muted">Las Vegas, NV</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Mechanical license agreement allowing Licensee nonexclusive right and license to specific music written in part or in total by Senator Hatch. Senator Hatch receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Oct 1998
+							</td>
+							<td>
+								Deseret Book
+								<div class="muted">Salt Lake City, UT</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Mechanical license agreement allowing Licensee nonexclusive right and license to specific music written in part or in total by Senator Hatch. Senator Hatch receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								Sep 2000
+							</td>
+							<td>
+								Deseret Book
+								<div class="muted">Salt Lake City, UT</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Royalty agreement wherein Licensee includes one or more specific works of music written in part or in total by Senator Hatch in a compilation of music. Senator Hatch receives royalties based on the total sales of the compilation.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								Dec 1998
+							</td>
+							<td>
+								Deseret Book
+								<div class="muted">Salt Lake City, UT</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Exclusive license for production and distribution of specific works of music written in part or in total by Senator Hatch. Royalty payments are based on total sales of the finished works of music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								Oct 1995
+							</td>
+							<td>
+								Deseret Book
+								<div class="muted">Salt Lake City, UT</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to publishing agreement, Senator Hatch receives royalty payments based on total sales of his book &quot;Higher Laws&quot;, originally published in 1995.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								Nov 1997
+							</td>
+							<td>
+								Hope Publishing Co
+								<div class="muted">Carol Stream, IL</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to publishing agreement, Senator Hatch receives royalty payments based on total sales of publications of specific works of music composed in part or in total by Senator Hatch.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								May 1999
+							</td>
+							<td>
+								Nth Degree Songs
+								<div class="muted">Franklin, TN</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing agreement, Senator Hatch receives royalties for specific music written in part or in total by Senator Hatch. Royalties are based on the total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								Feb 1997
+							</td>
+							<td>
+								Sony/ATV Tunes, LLC dba Cross Keys Publishing, Co.
+								<div class="muted">Nashville, TN</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing, representation, and agent agreement, receives royalties for specific music written in part or in total by Senator Hatch. Royalties are based on the total sales of the music covered by the agreement.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>
+								Nov 1998
+							</td>
+							<td>
+								Warner Brothers Publications U.S. Inc.
+								<div class="muted">Miami, FL</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to publishing agreement, Senator Hatch receives royalty payments based on total sales of publications of specific works of music composed in part or in total by Senator Hatch.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>
+								Feb 1998
+							</td>
+							<td>
+								Shawnee Press, Inc.
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing agreement, Senator Hatch receives royalties for specific music written in part or in total by Senator Hatch. Royalties are based on the total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								14</td>
+							<td>
+								Nov 1998
+							</td>
+							<td>
+								Warner/Chappell Music, Inc. 
+								<div class="muted">Los Angeles, CA</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Exclusive print license for production and distribution of specific works of music written in part or in total by Senator Hatch. Royalty payments are based on total sales of the finished works of music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								15</td>
+							<td>
+								Jan 2000
+							</td>
+							<td>
+								The Columbia House Company
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing agreement, Senator Hatch receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								16</td>
+							<td>
+								Jan 2000
+							</td>
+							<td>
+								Hal Leonard Corporation
+								<div class="muted">Winona, MN</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing agreement, Senator Hatch receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								17</td>
+							<td>
+								Aug 2001
+							</td>
+							<td>
+								R3 Media Corporation
+								<div class="muted">Bountiful, UT</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing agreement, Senator Hatch receives royalties for specific music written in part or in total by Senator Hatch. Royalties are based on the total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								18</td>
+							<td>
+								Jan 2000
+							</td>
+							<td>
+								BMG Music
+								<div class="muted">Lyndhurst, NJ</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing agreement, Senator Hatch receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								19</td>
+							<td>
+								Jan 2000
+							</td>
+							<td>
+								Integrated Copyright Group, Inc.
+								<div class="muted">Nashville, TN</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to licensing agreement, Senator Hatch receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								20</td>
+							<td>
+								Dec 2001
+							</td>
+							<td>
+								Basic Books, a member of Perseus Books, LLC
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to agreement dated December 14, 2001, Senator Hatch receives royalties on sale of book &quot;Square Peg&quot; in the English language, including an advance against royalties. </td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								21</td>
+							<td>
+								Jul 2004
+							</td>
+							<td>
+								Greenberg Traurig
+								<div class="muted">Miami, FL</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Pursuant to agreement dated July 30, 2004, Senator Hatch agrees to pay to the law firm Greenberg Traurig 5% of all gross income or other consideration received by him or on his behalf as a result of any contracts that Greenberg Traurig negotiates on his behalf. In addition, Senator Hatch agrees to pay Greenberg Traurig the expense they incur (e.g., postage, copying, long distance telephone) on his behalf.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								22</td>
+							<td>
+								Jan 2002
+							</td>
+							<td>
+								Prime Recordings, Inc.
+								<div class="muted">Provo, UT</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>With respect to certain musical titles co-produced with Prime Recordings, Inc., Senator Hatch paid half the initial production expenses and receives 30% of the revenues. With respect to other titles for which Senator Hatch has written lyrics, he receives royalties determined by the statutory mechanical rate set forth in Sec. 115 of U.S. Copyright Law and by total sales of the licensed music.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								23</td>
+							<td>
+								Feb 2015
+							</td>
+							<td>
+								Forbes Media LLC
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Forbes Media LLC agrees to provide Senator Hatch an online forum to publish content in exchange for the right to publish, reproduce, or distribute any such content.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								24</td>
+							<td>
+								Jan 2015
+							</td>
+							<td>
+								Warner Bros. Pictures
+								<div class="muted">Burbank, CA</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Senator Hatch receives a one-time royalty of $5,000 in exchange for a license to use of his song, &quot;Souls Along the Way,&quot; in a Warner Bros. motion picture.</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						This is not my first report.
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>

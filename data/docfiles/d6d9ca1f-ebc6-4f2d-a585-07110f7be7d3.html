@@ -1,0 +1,3362 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2018 -
+	
+		Dodson,
+	
+	
+		David
+	
+
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Candidate
+				
+					Report 
+				
+				
+				
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					Mr.
+				
+
+				
+					David
+				
+
+				
+
+				
+					Dodson
+				
+
+				
+
+				
+			</h2>
+			
+				<p class="muted">
+					State of Candidacy: WY
+					<span class="p-1">|</span> Candidacy Commenced: 01/29/2018
+				</p>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 07/20/2018 @ 7:14 PM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Salary
+								
+								
+							</td>
+							<td>
+								Standford University<br>
+								<div class="muted">Palo Alto, CA</div>
+							</td>
+							
+								<td>$155,118.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								Blue Sky Networks<br>
+								<div class="muted">San Diego, CA</div>
+							</td>
+							
+								<td>$10,000.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								Carillon Assisted Living<br>
+								<div class="muted">Raleigh, NC</div>
+							</td>
+							
+								<td>$15,000.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								American Security Operating Company<br>
+								<div class="muted">Long Island City, NY</div>
+							</td>
+							
+								<td>$13,000.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								Waste Recovery West<br>
+								<div class="muted">Portland, OR</div>
+							</td>
+							
+								<td>$4,000.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								Spouse
+
+							</td>
+							<td>
+								Other
+								<br>
+									<div class="muted">(Nonemployee compensation)</div>
+								
+							</td>
+							<td>
+								Jaket Foundation<br>
+								<div class="muted">Boston, MA</div>
+							</td>
+							
+								<td> > $1,000</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								Spouse
+
+							</td>
+							<td>
+								Other
+								<br>
+									<div class="muted">(Nonemployee compensation)</div>
+								
+							</td>
+							<td>
+								Youth Enrichment Services<br>
+								<div class="muted">Boston, MA</div>
+							</td>
+							
+								<td> > $1,000</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								Spouse
+
+							</td>
+							<td>
+								Other
+								<br>
+									<div class="muted">(Nonemployee compensation)</div>
+								
+							</td>
+							<td>
+								National Headache Foundation<br>
+								<div class="muted">Chicago, IL</div>
+							</td>
+							
+								<td> > $1,000</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong>Boston Private Bank</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong>Wells Fargo</strong><div class="muted noWrap">(Jackson, WY)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong class="marginit-right">Stifel Brokerage Account</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.1</td>
+							<td class="span4"><strong>Stifel</strong><div class="muted noWrap">(New York, NY)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.2</td>
+							<td class="span4"><strong class="marginit-right">Aledo TX ISD</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 2/15/43</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.3</td>
+							<td class="span4"><strong class="marginit-right">Chicago IL</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 01/01/32</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.4</td>
+							<td class="span4"><strong class="marginit-right">Edinburg TX</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 02/15/33</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.5</td>
+							<td class="span4"><strong class="marginit-right">Liberty NY</strong><div class="muted"><em>Rate/Coupon:</em> 5.25 <br> <em>Matures:</em> 10/01/35</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.6</td>
+							<td class="span4"><strong class="marginit-right">MA ST MET HWY</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 01/01/32</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.7</td>
+							<td class="span4"><strong class="marginit-right">MA ST SER A</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 08/01/22</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.8</td>
+							<td class="span4"><strong class="marginit-right">MA ST</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 08/01/22</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.9</td>
+							<td class="span4"><strong class="marginit-right">MA ST</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 08/01/22</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.10</td>
+							<td class="span4"><strong class="marginit-right">NM ST FIN AUTH</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 06/15/24</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.11</td>
+							<td class="span4"><strong class="marginit-right">Norwood MA</strong><div class="muted"><em>Rate/Coupon:</em> 4 <br> <em>Matures:</em> 01/15/19</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.12</td>
+							<td class="span4"><strong class="marginit-right">OH ST AIR</strong><div class="muted"><em>Rate/Coupon:</em> 5.625 <br> <em>Matures:</em> 06/01/18</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.13</td>
+							<td class="span4"><strong class="marginit-right">Palm Bch Florida</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 05/01/33</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.14</td>
+							<td class="span4"><strong class="marginit-right">Springfield IL</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 03/01/36</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.15</td>
+							<td class="span4"><strong class="marginit-right">Tampa FL</strong><div class="muted"><em>Rate/Coupon:</em> 5 <br> <em>Matures:</em> 10/01/37</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.16</td>
+							<td class="span4"><strong class="marginit-right">WV ST</strong><div class="muted"><em>Rate/Coupon:</em> 5.25 <br> <em>Matures:</em> 07/01/24</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong class="marginit-right">Loan to Childrens Trust</strong><div class="muted"><em>Debtor:</em> Dodson Childrens Trust FBO Caroline Dodson&nbsp;</div></td>
+							<td>Accounts Receivable<div class="muted">From an Individual</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">Loan to Childrens Trust</strong><div class="muted"><em>Debtor:</em> Dodson Childrens Trust FBO Hannah Dodson&nbsp;</div></td>
+							<td>Accounts Receivable<div class="muted">From an Individual</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong class="marginit-right">Loan to Childrens Trust</strong><div class="muted"><em>Debtor:</em> Dodson Childrens Trust FBO Rachel Dodson&nbsp;</div></td>
+							<td>Accounts Receivable<div class="muted">From an Individual</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong class="marginit-right">Fidelity Brokerage Account (1360)</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.1</td>
+							<td class="span4"><strong class="marginit-right">FFRHX-Fidelity Floating Rate High Income</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FMCSX" target="_blank">FMCSX</a> - Fidelity Mid-Cap Stock</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong class="marginit-right">WR Environmental WRE HLDG</strong><div class="muted"><em>Company:</em> Wind River Environmental (Marlboro, MA)&nbsp;<em>Description:</em>&nbsp;Trucking&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Proceeds from sale of company)</td>
+							<td><br/>Other $1,470,213.04</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong class="marginit-right">Futaleufu Partners LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Futaleufu Partners LLC (Jackson Hole, WY)&nbsp;<em>Description:</em>&nbsp;Family Partnership&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.1</td>
+							<td class="span4"><strong class="marginit-right">Ryegrass Property</strong><div class="muted"><em>Description:</em> Ryegrass Property (Jackson Hole, WY)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Self</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.2</td>
+							<td class="span4"><strong class="marginit-right">Actum Capital LLC</strong><div class="muted"><em>Company:</em> Actum Capital LLC (Coral Gables, FL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.3</td>
+							<td class="span4"><strong class="marginit-right">AltaLink Capital LLC</strong><div class="muted"><em>Company:</em> Alta Link Capital LLC (Provo, UT)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;<em>Filer comment:  </em>Alta Link Capital LLC is the holding company for EF Operating LLC of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.4</td>
+							<td class="span4"><strong class="marginit-right">Alta Sierra Capital LLC</strong><div class="muted"><em>Company:</em> Alta Sierra Capital LLC (Vancouver, WA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;<em>Filer comment:  </em>See additional detail under 9.41.4</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.5</td>
+							<td class="span4"><strong class="marginit-right">Altequity LLC</strong><div class="muted"><em>Company:</em> Altequity LLC (Long Island City, NY)&nbsp;<em>Description:</em>&nbsp;Alarm Installation and Monitoring&nbsp;<em>Filer comment:  </em>AltEquity is the holding company for American Security Systems, of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.6</td>
+							<td class="span4"><strong class="marginit-right">Anchor Light Partners LLC</strong><div class="muted"><em>Company:</em> Anchor Light Partners LLC (Chicago, IL)&nbsp;<em>Description:</em>&nbsp;Alarm Installation and Monitoring&nbsp;<em>Filer comment:  </em>Anchor Light Partners is the holding company of Alert Protective Services, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $25,397.66</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.7</td>
+							<td class="span4"><strong class="marginit-right">Andino Capital Partners</strong><div class="muted"><em>Company:</em> Andino Capital Partners (Bogota, Columbia)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.8</td>
+							<td class="span4"><strong class="marginit-right">Annison Capital Partners, LLC</strong><div class="muted"><em>Company:</em> Annison Capital Partners, LLC (Pheonix, AZ)&nbsp;<em>Description:</em>&nbsp;Answering Service&nbsp;<em>Filer comment:  </em>Annison Capital Partners, LLC is the holding company for Answer 1 Communications, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $48,004.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.9</td>
+							<td class="span4"><strong class="marginit-right">Aquavita Holdings</strong><div class="muted"><em>Company:</em> Aquavita Holdings (Grand Cayman, Cayman Islands)&nbsp;<em>Description:</em>&nbsp;Water Delivery&nbsp;<em>Filer comment:  </em>Aquavita Holdings, is the holding company for Aquavita Limited, of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.10</td>
+							<td class="span4"><strong class="marginit-right">Ascension Point Capital LLC</strong><div class="muted"><em>Company:</em> Ascension Point Capital LLC (Asbury Park, NJ)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.11</td>
+							<td class="span4"><strong class="marginit-right">Barah Capital Partners, LLC</strong><div class="muted"><em>Company:</em> Barah Capital Partners, LLC (Oak Park, IL)&nbsp;<em>Description:</em>&nbsp;Equipment Servicing&nbsp;<em>Filer comment:  </em>Barah Capital Partners is the holding company for Unified Dental Care, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.12</td>
+							<td class="span4"><strong class="marginit-right">Basswood Capital LLC</strong><div class="muted"><em>Company:</em> Basswood Capital LLC (Minneapolis, MN)&nbsp;<em>Description:</em>&nbsp;POS Services&nbsp;<em>Filer comment:  </em>Basswood Capital, LLC is the holding company for ProPoint Solutions, LLC, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $39,909.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.13</td>
+							<td class="span4"><strong class="marginit-right">Beacon Tree Capital LLC</strong><div class="muted"><em>Company:</em> Beacon Tree Capital LLC (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.14</td>
+							<td class="span4"><strong class="marginit-right">Big Tree Capital Partners LLC</strong><div class="muted"><em>Company:</em> Big Tree Capital Partners LLC (North Charleston, SC)&nbsp;<em>Description:</em>&nbsp;Non-Profit Software&nbsp;<em>Filer comment:  </em>Big Tree Capital Partners is the holding company for Omatic Software, LLC, of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td>None (or less than $201)<br/>Other $137.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.15</td>
+							<td class="span4"><strong class="marginit-right">BNI Holdings LLC</strong><div class="muted"><em>Company:</em> BNI Holdings LLC (Charlotte, NC)&nbsp;<em>Description:</em>&nbsp;Service Support Organization&nbsp;<em>Filer comment:  </em>BNI Holdings is the holding company for BNI Global, LLC , of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Excepted Trust, Other, (Partnership Distributions)</td>
+							<td>None (or less than $201)<br/>Other $21,769.71</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.16</td>
+							<td class="span4"><strong class="marginit-right">Brown Robin Capital</strong><div class="muted"><em>Company:</em> Brown Robin Capital (Austin, TX)&nbsp;<em>Description:</em>&nbsp;Data Storage&nbsp;<em>Filer comment:  </em>Brown Robin LLC is the holding company of OnRamp, a Lightedge Company</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Business Sale)</td>
+							<td><br/>Other $1,554,380.49</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.17</td>
+							<td class="span4"><strong class="marginit-right">Calyx Capital Partners</strong><div class="muted"><em>Company:</em> Calyx Capital Partners (Chicago, IL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.18</td>
+							<td class="span4"><strong class="marginit-right">Brass Tower Equity Partners, LLC</strong><div class="muted"><em>Company:</em> Brass Tower Equity Partners, LLC (Atlanta, GA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.19</td>
+							<td class="span4"><strong class="marginit-right">Carfree Inc</strong><div class="muted"><em>Company:</em> Carfree Inc (San Carlos, CA)&nbsp;<em>Description:</em>&nbsp;Used Car Sales Organization&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.20</td>
+							<td class="span4"><strong class="marginit-right">Carillon Assisted Living LLC</strong><div class="muted"><em>Company:</em> Carillon Assisted Living LLC (Raleigh, NC)&nbsp;<em>Description:</em>&nbsp;Assisted Living Facilities&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $29,497.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.21</td>
+							<td class="span4"><strong class="marginit-right">Carmel Hill Capital Partners, LLC</strong><div class="muted"><em>Company:</em> Carmel Hill Capital Partners, LLC (Ann Arbor, MI)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.22</td>
+							<td class="span4"><strong class="marginit-right">Cascadian Capital LLC</strong><div class="muted"><em>Company:</em> Cascadian Capital LLC (El Sobrante, CA)&nbsp;<em>Description:</em>&nbsp;Ambulance Service&nbsp;<em>Filer comment:  </em>Cascadian Capital LLC is the holding company of Falcon Critical Care Transport LLC of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.23</td>
+							<td class="span4"><strong class="marginit-right">Castle Capital Fund 01, LLC</strong><div class="muted"><em>Company:</em> Castle Capital Fund 01, LLC (Portland, OR)&nbsp;<em>Description:</em>&nbsp;Tire Recycling and Storage&nbsp;<em>Filer comment:  </em>Castle Capital Fund 01, LLC is the holding company for Castle Tire Disposal, LLC of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.24</td>
+							<td class="span4"><strong class="marginit-right">Cedar Lake Partners LLC</strong><div class="muted"><em>Company:</em> Cedar Lake Partners LLC (Scottsdale, AZ)&nbsp;<em>Description:</em>&nbsp;Software&nbsp;<em>Filer comment:  </em>Cedar Lake Partners, LLC is the holding company for Remarkable Health, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.25</td>
+							<td class="span4"><strong class="marginit-right">CG Parent LLC</strong><div class="muted"><em>Company:</em> CG Parent LLC (Longmont, CO)&nbsp;<em>Description:</em>&nbsp;Printing Services&nbsp;<em>Filer comment:  </em>CG Parent is the holding company for Circle Graphics Holdings, Inc. which in turn owns Circle Graphics, Inc. all of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $368,959.97</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.26</td>
+							<td class="span4"><strong class="marginit-right">Charlson Capital Partners LLC</strong><div class="muted"><em>Company:</em> Charlson Capital Partners LLC (Herriman, UT)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.27</td>
+							<td class="span4"><strong class="marginit-right">Clarum Capital LP</strong><div class="muted"><em>Company:</em> Clarum Capital LP (Zedec Santa Fe, Mexico)&nbsp;<em>Description:</em>&nbsp;Financial Services&nbsp;<em>Filer comment:  </em>Clarum Capital L.P. is the holding company for Alpha Holding S.A. de C.V of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.28</td>
+							<td class="span4"><strong class="marginit-right">Cloud X Partners fka Elm Equity</strong><div class="muted"><em>Company:</em> Cloud X Partners fka Elm Equity (Gig Harbor, WA)&nbsp;<em>Description:</em>&nbsp;Software Services&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.29</td>
+							<td class="span4"><strong class="marginit-right">Collins Family Ventures LLC</strong><div class="muted"><em>Company:</em> Collins Family Ventures LLC (Dallas, TX)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;<em>Filer comment:  </em>See additional details under 9.41.39</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.30</td>
+							<td class="span4"><strong class="marginit-right">Convenientmd Holdings LLC</strong><div class="muted"><em>Company:</em> Convenientmd Holdings LLC (Portsmouth, NH)&nbsp;<em>Description:</em>&nbsp;Medical Services&nbsp;<em>Filer comment:  </em>Convenientmd Holdings LLC is the parent company of ConvenientMD LLC</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.31</td>
+							<td class="span4"><strong class="marginit-right">Corsair Pacific Capital LLC</strong><div class="muted"><em>Company:</em> Corsair Pacific Capital LLC (Venice, CA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.32</td>
+							<td class="span4"><strong class="marginit-right">DarkOwl LLC</strong><div class="muted"><em>Company:</em> DarkOwl LLC (Denver, CO)&nbsp;<em>Description:</em>&nbsp;Cyber Security&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.33</td>
+							<td class="span4"><strong class="marginit-right">Fideicomiso Dendro Numero 3341</strong><div class="muted"><em>Company:</em> Dendro Capital LLC (Ciudad, Mexico)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;<em>Filer comment:  </em>See further description 9.41.35</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.34</td>
+							<td class="span4"><strong class="marginit-right">Dunmore Capital Partners, LLC</strong><div class="muted"><em>Company:</em> Dunmore Capital Partners, LLC (Chicago, IL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.35</td>
+							<td class="span4"><strong class="marginit-right">Dynamic Management Partners LLC</strong><div class="muted"><em>Company:</em> Dynamic Management Partners LLC (Henrico, VA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.36</td>
+							<td class="span4"><strong class="marginit-right">EAP Consulting Holdings, LLC</strong><div class="muted"><em>Company:</em> EAP Consulting Holdings, LLC (Marietta, GA)&nbsp;<em>Description:</em>&nbsp;Human Resources Servicing&nbsp;<em>Filer comment:  </em>EAP Consulting Holdings, LLC is the holding company for Espyr, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $370,403.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.37</td>
+							<td class="span4"><strong class="marginit-right">Elk Capital Partners LLC</strong><div class="muted"><em>Company:</em> Elk Capital Partners LLC (Chicago, IL)&nbsp;<em>Description:</em>&nbsp;Software POS Services&nbsp;<em>Filer comment:  </em>See additional details under 9.41.13</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.38</td>
+							<td class="span4"><strong class="marginit-right">Featherstone Partners LLC</strong><div class="muted"><em>Company:</em> Featherstone Partners LLC (South Jordan, UT)&nbsp;<em>Description:</em>&nbsp;Software Services&nbsp;<em>Filer comment:  </em>Featherstone Partners LLC is the holding company of Elevated Billing Solutions, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.39</td>
+							<td class="span4"><strong class="marginit-right">Fiduciam Capital LLC</strong><div class="muted"><em>Company:</em> Fiduciam Capital LLC (Peachtree, GA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.40</td>
+							<td class="span4"><strong class="marginit-right">FWH Acquisition Company LLC</strong><div class="muted"><em>Company:</em> FWH Acquisition Company LLC (Bothell, WA)&nbsp;<em>Description:</em>&nbsp;Water Heater Installation&nbsp;<em>Filer comment:  </em>FWH Acquisition Company LLC is the parent company of FAST Water Heater, of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41</td>
+							<td class="span4"><strong class="marginit-right">Futaleufu Partners III LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Futaleufu Partners III LLC (Jackson, WY)&nbsp;<em>Description:</em>&nbsp;Investment Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.1</td>
+							<td class="span4"><strong>Boston Private Bank</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.2</td>
+							<td class="span4"><strong class="marginit-right">20 South Partners LLC</strong><div class="muted"><em>Company:</em> 20 South Partners LLC (San Francisco, CA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.3</td>
+							<td class="span4"><strong class="marginit-right">Clarum Capital LP</strong><div class="muted"><em>Company:</em> Clarum Capital LP (Mexico, Mexico)&nbsp;<em>Description:</em>&nbsp;Financial Services&nbsp;<em>Filer comment:  </em>Clarum Capital LP is the holding company for Alpha Holding S.S. de C.V. of the same address</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.4</td>
+							<td class="span4"><strong class="marginit-right">Alta Sierra Capital LLC</strong><div class="muted"><em>Company:</em> Alta Sierra Capital LLC (Vancouver, WA)&nbsp;<em>Description:</em>&nbsp;Dental Services&nbsp;<em>Filer comment:  </em>Alta Sierra Capital LLC is the holiding company for Grove Dental, of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.5</td>
+							<td class="span4"><strong class="marginit-right">Anoakia Partners</strong><div class="muted"><em>Company:</em> Anoakia Partners (New York, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $22,963.27</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.6</td>
+							<td class="span4"><strong class="marginit-right">Avon Growth</strong><div class="muted"><em>Company:</em> Avon Growth Management LLC (Los Angeles, CA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.7</td>
+							<td class="span4"><strong class="marginit-right">Blue Range Capital</strong><div class="muted"><em>Company:</em> Blue Range Capital (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.8</td>
+							<td class="span4"><strong class="marginit-right">Buck Jack Capital LLC</strong><div class="muted"><em>Company:</em> Buck Jack Capital LLC (Wilmington, DE)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.9</td>
+							<td class="span4"><strong class="marginit-right">Castell Capital LLC</strong><div class="muted"><em>Company:</em> Castell Capital LLC (Mesa, AZ)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.10</td>
+							<td class="span4"><strong class="marginit-right">Clipper Capital Partners</strong><div class="muted"><em>Company:</em> Clipper Capital Partners (Nashville, TN)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.11</td>
+							<td class="span4"><strong class="marginit-right">Cresecent Way Capital LLC</strong><div class="muted"><em>Company:</em> Crescent Way Capital LLC (Ann Arbor, MI)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.12</td>
+							<td class="span4"><strong class="marginit-right">East Franklin Capital</strong><div class="muted"><em>Company:</em> East Franklin Capital (Everett, WA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.13</td>
+							<td class="span4"><strong class="marginit-right">Elk Capital Partners LLC</strong><div class="muted"><em>Company:</em> Elk Capital Partners LLC (Charlotte, NC)&nbsp;<em>Description:</em>&nbsp;Software POS Services&nbsp;<em>Filer comment:  </em>Elk Capital is the holding company for Emporos Holdings, Inc, which owns Emporos Systems Corp, all located at the same address as Elk Capital.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.14</td>
+							<td class="span4"><strong class="marginit-right">Fair Winds Capital LLC</strong><div class="muted"><em>Company:</em> Fair Winds Capital LLC (Tuxedo Park, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.15</td>
+							<td class="span4"><strong class="marginit-right">Invia Capital LLC</strong><div class="muted"><em>Company:</em> Invia Captial LLC (New York, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.16</td>
+							<td class="span4"><strong class="marginit-right">KeelBoat Capital LLC</strong><div class="muted"><em>Company:</em> KeelBoat Capital LLC (Pittsburg, PA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.17</td>
+							<td class="span4"><strong class="marginit-right">Lynwood Capital</strong><div class="muted"><em>Company:</em> Lynwood Capital (New York, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.18</td>
+							<td class="span4"><strong class="marginit-right">Mauve Capital</strong><div class="muted"><em>Company:</em> Mauve Capital (Flushing, MI)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.19</td>
+							<td class="span4"><strong class="marginit-right">MC Betelgeuse LP</strong><div class="muted"><em>Company:</em> MC Betelgeuse LP (London, UK)&nbsp;<em>Description:</em>&nbsp;Provider of Diagnostic Services&nbsp;<em>Filer comment:  </em>MC Betelgeuse LP owns 33% of LGKA I FIP, which in turn owns 100% of Meissa Holding S.S., which in turn owns 99.9% of Sullab Diagnosticos.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.20</td>
+							<td class="span4"><strong class="marginit-right">MC Rigel LP</strong><div class="muted"><em>Company:</em> MC Rigel LP (London, UK)&nbsp;<em>Description:</em>&nbsp;Provider of Diagonostic Services&nbsp;<em>Filer comment:  </em>MC Rigel LP owns 33% of LGKA I FIP, which in turn owns 100% of Meissa Holding S.S., which in turn owns 99.9% of Sullab Diagnosticos.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.21</td>
+							<td class="span4"><strong class="marginit-right">Monteagle Partners LLC</strong><div class="muted"><em>Company:</em> Monteagle Partners LLC (Nashville, TN)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.22</td>
+							<td class="span4"><strong class="marginit-right">MS Bellatrix LP</strong><div class="muted"><em>Company:</em> MS Bellatrix LP (London, UK)&nbsp;<em>Description:</em>&nbsp;Provider of Diagnostic Services&nbsp;<em>Filer comment:  </em>MC Bellatrix LP owns 33% of LGKA I FIP, which in turn owns 100% of Meissa Holding S.S., which in turn owns 99.9% of Sullab Diagnosticos.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.23</td>
+							<td class="span4"><strong class="marginit-right">New Orchard Capital LLC</strong><div class="muted"><em>Company:</em> New Orchard Capital LLC (Evanston, IL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.24</td>
+							<td class="span4"><strong class="marginit-right">NexGen Succession Partners LLC</strong><div class="muted"><em>Company:</em> NexGen Succession Partners LLC (Houston, TX)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.25</td>
+							<td class="span4"><strong class="marginit-right">Ocean Trail Partners LLC</strong><div class="muted"><em>Company:</em> Ocean Trail Partners LLC (Brighton, MA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.26</td>
+							<td class="span4"><strong class="marginit-right">Polo Capital Partners LLC</strong><div class="muted"><em>Company:</em> Polo Capital Partners LLC (Miami, FL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.27</td>
+							<td class="span4"><strong class="marginit-right">Prisma Capital LLC</strong><div class="muted"><em>Company:</em> Prisma Capital LLC (Mexico, Mexico)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.28</td>
+							<td class="span4"><strong class="marginit-right">Saltspring Capital LLC</strong><div class="muted"><em>Company:</em> Saltspring Capital LLC (Hinsdale, IL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.29</td>
+							<td class="span4"><strong class="marginit-right">Sangus Partners</strong><div class="muted"><em>Company:</em> Sangus Partners (Durham, NC)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.30</td>
+							<td class="span4"><strong class="marginit-right">Savoia Capital Partners I LLC</strong><div class="muted"><em>Company:</em> Savoia Capital Partners I LLC (Woodbridge, VA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.31</td>
+							<td class="span4"><strong class="marginit-right">Second Wave Capital Management LLC</strong><div class="muted"><em>Company:</em> Second Wave Capital Management LLC (Seal Beach, CA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.32</td>
+							<td class="span4"><strong class="marginit-right">SL Group LLC</strong><div class="muted"><em>Company:</em> SL Group LLC (New York, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.33</td>
+							<td class="span4"><strong class="marginit-right">Southern Alpha Equity Partners</strong><div class="muted"><em>Company:</em> Southern Alpha Equity Partners (Atlanta, GA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.34</td>
+							<td class="span4"><strong class="marginit-right">Springline Partners</strong><div class="muted"><em>Company:</em> Springline Partners LLC (Denver, CO)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.35</td>
+							<td class="span4"><strong class="marginit-right">Fideicomiso Dendro Numero 3341</strong><div class="muted"><em>Company:</em> Dendro Capital (Mexico City, Mexico)&nbsp;<em>Description:</em>&nbsp;Master service provider for asset backed securities&nbsp;<em>Filer comment:  </em>Fideicomiso Dendro Numero 3341 is the holding ofTecnologia en Cuentas por Cobrar, SAPI de CV and TeccServicios SAPI de CV</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.36</td>
+							<td class="span4"><strong class="marginit-right">Timberwind Capital</strong><div class="muted"><em>Company:</em> Timberwind Capital (Long Island City, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.37</td>
+							<td class="span4"><strong class="marginit-right">Towanda Capital LLC</strong><div class="muted"><em>Company:</em> Towanda Capital LLC (Knoxville, TN)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.38</td>
+							<td class="span4"><strong class="marginit-right">Trailview Partners LLC</strong><div class="muted"><em>Company:</em> Trailview Partners LLC (Chicago, IL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.39</td>
+							<td class="span4"><strong class="marginit-right">Collins Family Ventures LLC</strong><div class="muted"><em>Company:</em> Collins Family Ventures LLC (Delaware, MD)&nbsp;<em>Description:</em>&nbsp;Travel Agency&nbsp;<em>Filer comment:  </em>Collins Family Venture is the holding company of Travelmax Global LLC (Delaware), Travelmax SRL (Lima Peru), and Discover Peru group SRL (Lima, Peru)</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $163,451.59</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.40</td>
+							<td class="span4"><strong class="marginit-right">Ultima Capital Partners LLC</strong><div class="muted"><em>Company:</em> Ultima Capital Partners LLC (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Health Advisory Services&nbsp;<em>Filer comment:  </em>Ultima is the holding company of Circle Surrogacy, LLC; Universal Family Insurance LLC; Circle Egg Donation, LLC; Surrogacy Connections, LLC.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.41</td>
+							<td class="span4"><strong class="marginit-right">Volley Partners, LLC</strong><div class="muted"><em>Company:</em> Volley Partners, LLC (Detriot, MI)&nbsp;<em>Description:</em>&nbsp;Provider of training services for university faculty&nbsp;<em>Filer comment:  </em>Volley Capital Partners is the holding company of National Center for Faculty Development and Diversity, LLC of the came address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.41.42</td>
+							<td class="span4"><strong class="marginit-right">New Zephyr</strong><div class="muted"><em>Company:</em> New Zephyr (Long Island City, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.42</td>
+							<td class="span4"><strong class="marginit-right">Geminus Capital Partners, LLC</strong><div class="muted"><em>Company:</em> Geminus Capital Partners (Wilkes Barre, PA)&nbsp;<em>Description:</em>&nbsp;Used Car Warranty Services&nbsp;<em>Filer comment:  </em>Geminus Capital Partners, LLC is the holding company for Penn Warranty, LLC of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $92,952.14</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.43</td>
+							<td class="span4"><strong class="marginit-right">Glass Lake Capital, LLC</strong><div class="muted"><em>Company:</em> Glass Lake Capital, LLC (Naperville, IL)&nbsp;<em>Description:</em>&nbsp;Alarm Services&nbsp;<em>Filer comment:  </em>Glass Lake Capital, LLC is the holding company for Richmond Alarm Company, LLC of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.44</td>
+							<td class="span4"><strong class="marginit-right">Gypsum Ridge Capital LLC</strong><div class="muted"><em>Company:</em> Gypsum Ridge Capital LLC (Los Angeles, CA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.45</td>
+							<td class="span4"><strong class="marginit-right">Housatonic Equity Investors IV LP</strong><div class="muted"><em>Company:</em> Housatonic Equity Investors IV LP (San Francisco, CA)&nbsp;<em>Description:</em>&nbsp;Venture Capital&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $911,884.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.46</td>
+							<td class="span4"><strong class="marginit-right">Housatonic Equity Investors V</strong><div class="muted"><em>Company:</em> Housatonic Equity Investors V (San Francisco, CA)&nbsp;<em>Description:</em>&nbsp;Venture Capital&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $280,911.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.47</td>
+							<td class="span4"><strong class="marginit-right">Ironclad Capital LLC</strong><div class="muted"><em>Company:</em> Ironclad Capital LLC (Sarasota, FL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Sale of Investment)</td>
+							<td><br/>Other $2,497,819.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.48</td>
+							<td class="span4"><strong class="marginit-right">Kata Capital Partners LLC</strong><div class="muted"><em>Company:</em> Kata Capital Partners LLC (New York, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.49</td>
+							<td class="span4"><strong class="marginit-right">Kerwood Capital Partners LLC</strong><div class="muted"><em>Company:</em> Kerwood Capital Partners LLC (San Diego, CA)&nbsp;<em>Description:</em>&nbsp;GPS Tracking Services&nbsp;<em>Filer comment:  </em>Kerwood Capital Partners, LLC is the holding company for Blue Sky Networks, LLC of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.50</td>
+							<td class="span4"><strong class="marginit-right">Marion Equity Partners LP</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Marion Equity Partners LP (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Investment Fund&nbsp;<em>Filer comment:  </em>Marion owns positions in MRA Acqusition Holding (Quincy MA), Penn Warranty Corporation (Wilkes-Barr, PA), and Veri-Tax (Tustin, CA)</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.50.1</td>
+							<td class="span4"><strong class="marginit-right">Geminus Capital Partners LLC</strong><div class="muted"><em>Company:</em> Geminus Capital Partners (Wilkes Barre, PA)&nbsp;<em>Description:</em>&nbsp;Used Car Warranty Services&nbsp;<em>Filer comment:  </em>Same as 9.42</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $280,848.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.50.2</td>
+							<td class="span4"><strong class="marginit-right">Gordian Capital</strong><div class="muted"><em>Company:</em> Gordian Capital (Wilmington, DE)&nbsp;<em>Description:</em>&nbsp;Human Resources Outsourcing&nbsp;<em>Filer comment:  </em>Gordian Capital LLC is the holding company for Staff One of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $149,349.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.50.3</td>
+							<td class="span4"><strong class="marginit-right">SLMP Holding LP</strong><div class="muted"><em>Company:</em> SLMP Holding LP (McKinney, TX)&nbsp;<em>Description:</em>&nbsp;Medical devices&nbsp;<em>Filer comment:  </em>SLMP Holding LLC is the holding company for StatLab, a leading developer and manufacturer of diagnostic supplies for the anatomic pathology laboratory</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $5,991,399.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.50.4</td>
+							<td class="span4"><strong class="marginit-right">Veri-Tax Holdings, LLC</strong><div class="muted"><em>Company:</em> Veri-Tax Holdings, LLC (Irvine, CA)&nbsp;<em>Description:</em>&nbsp;Verification services&nbsp;<em>Filer comment:  </em>Veri-Tax Holdings LLC is the holding company for Veri-Tax of the same name and address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.50.5</td>
+							<td class="span4"><strong class="marginit-right">Blue Canyon Capital LLC</strong><div class="muted"><em>Company:</em> Blue Canyon Capital LLC (Dayton, OH)&nbsp;<em>Description:</em>&nbsp;Health care services&nbsp;<em>Filer comment:  </em>Blue Canyon Capital LLC is the holding company of VRI of the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.50.6</td>
+							<td class="span4"><strong class="marginit-right">MRA Acquisition Holdings Inc.</strong><div class="muted"><em>Company:</em> MRA Acquisition Holdings Inc. (Quincy, MA)&nbsp;<em>Description:</em>&nbsp;Health Information Management Organization&nbsp;<em>Filer comment:  </em>MRA Associates is the holding company of Medical Records Associates, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.51</td>
+							<td class="span4"><strong class="marginit-right">Meritage Entrepeneurs Fund III</strong><div class="muted"><em>Company:</em> Meritage Entrepeneurs Fund III (Denver, CO)&nbsp;<em>Description:</em>&nbsp;Venture Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.52</td>
+							<td class="span4"><strong class="marginit-right">Monroe Hill Growth Partners LLC</strong><div class="muted"><em>Company:</em> Monroe Hill Growth Partners LLC (Chapel Hill, NC)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.53</td>
+							<td class="span4"><strong class="marginit-right">NVMC Holdings LLC</strong><div class="muted"><em>Company:</em> National Video Monitoring Co. LLC (Marietta, GA)&nbsp;<em>Description:</em>&nbsp;Video Monitoring&nbsp;<em>Filer comment:  </em>NVMC Holdings LLC is the holding company of National Video Monitoring Co LLC</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.54</td>
+							<td class="span4"><strong class="marginit-right">North River Search Partners, LLC</strong><div class="muted"><em>Company:</em> North River Search Partners, LLC (Acton, MA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.55</td>
+							<td class="span4"><strong class="marginit-right">Olmo Capital</strong><div class="muted"><em>Company:</em> Olmo Capital (Hidalgo, TX)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.56</td>
+							<td class="span4"><strong class="marginit-right">Pacific Lake Partners Fund One</strong><div class="muted"><em>Company:</em> Pacific Lake Partners Fund One (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Investment Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $537,167.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.57</td>
+							<td class="span4"><strong class="marginit-right">Poplar Capital Partners LLC</strong><div class="muted"><em>Company:</em> Poplar Capital Partners LLC (Anaheim, CA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Sale of Investment)</td>
+							<td><br/>Other $626,380.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.58</td>
+							<td class="span4"><strong class="marginit-right">Principia Capital LLC</strong><div class="muted"><em>Company:</em> Principia Capital LLC (Houston, TX)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.59</td>
+							<td class="span4"><strong class="marginit-right">QMC Telecom International Holdings</strong><div class="muted"><em>Company:</em> QMC Telecom International Holdings (San Juan, PR)&nbsp;<em>Description:</em>&nbsp;Cell Phone Tower Service&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.60</td>
+							<td class="span4"><strong class="marginit-right">Quatrefoil Capital LLC</strong><div class="muted"><em>Company:</em> Quatrefoil Capital LLC (Washington, DC)&nbsp;<em>Description:</em>&nbsp;Software Services for Restaurants&nbsp;<em>Filer comment:  </em>Quatrefoil Capital LLC is the holding company for Datum Technologies, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.61</td>
+							<td class="span4"><strong class="marginit-right">Revere Capital Group LLC</strong><div class="muted"><em>Company:</em> Revere Capital Group LLC (Provo, UT)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.62</td>
+							<td class="span4"><strong class="marginit-right">Ridgeway Growth Capital</strong><div class="muted"><em>Company:</em> Ridgeway Growth Capital (Bethesda, MD)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $12,574.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.63</td>
+							<td class="span4"><strong class="marginit-right">Roland Equity Partners LLC</strong><div class="muted"><em>Company:</em> Roland Equity Partners LLC (St Petersburg, FL)&nbsp;<em>Description:</em>&nbsp;Insurance Service Support&nbsp;<em>Filer comment:  </em>Roland Equity Partners LLC is the holding company for Ethos Risk Services, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $820,743.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.64</td>
+							<td class="span4"><strong class="marginit-right">Roman Road Capital Partners</strong><div class="muted"><em>Company:</em> Roman Road Capital Partners (Seattle, WA)&nbsp;<em>Description:</em>&nbsp;Software Services - Requisition Services&nbsp;<em>Filer comment:  </em>Roman Road Capital Partners is the holding company for eRequester, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.65</td>
+							<td class="span4"><strong class="marginit-right">Seneca Creek Partners LLC</strong><div class="muted"><em>Company:</em> Seneca Creek Partners LLC (Towson, MD)&nbsp;<em>Description:</em>&nbsp;Equipment Servicing&nbsp;<em>Filer comment:  </em>Seneca Creek Partners LLC is the holding company for Krueger-Gilbert Health Physics, of the same address</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $7,008.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.66</td>
+							<td class="span4"><strong class="marginit-right">Sentinel Peak Capital</strong><div class="muted"><em>Company:</em> Sentinel Peak Capital (Glendale, AZ)&nbsp;<em>Description:</em>&nbsp;Education&nbsp;<em>Filer comment:  </em>Sentinel Peak Capital is the holding company for Eduvison, all of the same name.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.67</td>
+							<td class="span4"><strong class="marginit-right">Starting Gate Partners LLC</strong><div class="muted"><em>Company:</em> Starting Gate Partners LLC (Durham, NC)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.68</td>
+							<td class="span4"><strong class="marginit-right">Stonewall Equity Partners</strong><div class="muted"><em>Company:</em> Stonewall Equity Partners (Ashurn, VA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.69</td>
+							<td class="span4"><strong class="marginit-right">TA Strategic Partners Fund III, LP</strong><div class="muted"><em>Company:</em> TA Strategic Partners Fund III, LP (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Venture Capital&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $405,000.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.70</td>
+							<td class="span4"><strong class="marginit-right">Toma Capital Management LLC</strong><div class="muted"><em>Company:</em> Toma Capital Management LLC (Westlake Village, CA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Sale of Investment)</td>
+							<td><br/>Other $1,064,614.44</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.71</td>
+							<td class="span4"><strong class="marginit-right">Ultima Capital Partners LLC</strong><div class="muted"><em>Company:</em> Ultima Capital Partners LLC (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.72</td>
+							<td class="span4"><strong class="marginit-right">Valent Capital Partners LLC</strong><div class="muted"><em>Company:</em> Valent Capital Partners LLC (Schaumberg, IL)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.73</td>
+							<td class="span4"><strong class="marginit-right">Vector Disease Acquisition LLC</strong><div class="muted"><em>Company:</em> Vector Disease Acquisition LLC (Little Rock, AR)&nbsp;<em>Description:</em>&nbsp;Pest Control&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $28,161.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.74</td>
+							<td class="span4"><strong class="marginit-right">Volley Partners, LLC</strong><div class="muted"><em>Company:</em> Volley Partners, LLC (Detriot, MI)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;<em>Filer comment:  </em>See additional detail under 9.41.41</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.75</td>
+							<td class="span4"><strong class="marginit-right">Watermill-C&M Partners</strong><div class="muted"><em>Company:</em> Watermill-C&M Partners (Lexington, MA)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $550,297.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.76</td>
+							<td class="span4"><strong class="marginit-right">West Sands Partners LLC</strong><div class="muted"><em>Company:</em> West Sands Partners LLC (Dallas, TX)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.77</td>
+							<td class="span4"><strong class="marginit-right">Zintro Inc</strong><div class="muted"><em>Company:</em> Zintro Inc (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Web Based Expert Services&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.78</td>
+							<td class="span4"><strong class="marginit-right">Project 1920 LLC</strong><div class="muted"><em>Company:</em> Project 1920 LLC (Los Altos, CA)&nbsp;<em>Description:</em>&nbsp;Women's accessories&nbsp;<em>Filer comment:  </em>Project 1920 is the holding company for Senreve, located at the same address.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.79</td>
+							<td class="span4"><strong class="marginit-right">Stifel</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.79.1</td>
+							<td class="span4"><strong>Stifel</strong><div class="muted noWrap">(New York, NY)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.80</td>
+							<td class="span4"><strong>Boston Private Bank</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.81</td>
+							<td class="span4"><strong class="marginit-right">Novidam Capital</strong><div class="muted"><em>Company:</em> Novidam Capital (New York, NY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $28,875.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right">Futaleufu Manager LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Futaleufu Manager LLC (Jackson Hole, WY)&nbsp;<em>Description:</em>&nbsp;Management company&nbsp;<em>Filer comment:  </em>Held a GP interest in Futaleufu Partners II LLC (see Asset 13)</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.1</td>
+							<td class="span4"><strong>Boston Private Bank</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong class="marginit-right">FTF III Manager LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> FTF III Manager LLC (Jackson Hole, WY)&nbsp;<em>Description:</em>&nbsp;Management company&nbsp;<em>Filer comment:  </em>Held a GP interest in Futaleufu Partners III LLC (see Asset 9.41)</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.1</td>
+							<td class="span4"><strong>Boston Private Bank</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong class="marginit-right">FTF II Manager LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> FTF II Manager LLC (Jackson Hole, WY)&nbsp;<em>Description:</em>&nbsp;Management company&nbsp;<em>Filer comment:  </em>Held a GP interest in Futaleufu Partners II LLC (see Asset 13)</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12.1</td>
+							<td class="span4"><strong>Boston Private Bank</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13</td>
+							<td class="span4"><strong class="marginit-right">Futaleufu Partners II LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Futaleufu Partners II LLC (Jackson Hole, WY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13.1</td>
+							<td class="span4"><strong>Boston Private Bank</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13.2</td>
+							<td class="span4"><strong class="marginit-right">Various LLCs see Comment</strong><div class="muted"><em>Company:</em> see Comment (see Comment, see Comment)&nbsp;<em>Description:</em>&nbsp;see Comment&nbsp;<em>Filer comment:  </em>Assets previously listed as 9.2, 9.3, 9.4, 9.5, 9.6, 9.7, 9.11, 9.12, 9.14, 9.18, 9.17, 9.21, 9.22, 9.23, 9.24, 9.26, 9.27, 9.28 with same income/value listed</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13.3</td>
+							<td class="span4"><strong class="marginit-right">Various LLCs see Comment</strong><div class="muted"><em>Company:</em> see Comment (see Comment, see Comment)&nbsp;<em>Description:</em>&nbsp;see Comment&nbsp;<em>Filer comment:  </em>Assets previously listed as 9.29, 9.31, 9.60, 9.33, 9.34, 9.35, 9.37, 9.39, 9.43, 9.44, 9.48, 9.49, 9.52, 9.54, 9.55 9.58, 9.61 with same income/value listed</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13.4</td>
+							<td class="span4"><strong class="marginit-right">Various LLCs see Comment</strong><div class="muted"><em>Company:</em> see Comment (see Comment, see Comment)&nbsp;<em>Description:</em>&nbsp;see Comment&nbsp;<em>Filer comment:  </em>Assets previously listed as 9.62, 9.64, 9.66, 9.67, 9.68, 9.71, 9.72, 9.74, 9.76 with same income/value listed</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>14</td>
+							<td class="span4"><strong class="marginit-right">TA Strategic Partners Fund II LP</strong><div class="muted"><em>Company:</em> TA Strategic Partners Fund II LP (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Venture Capital&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $88,750.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>15</td>
+							<td class="span4"><strong class="marginit-right">Futaleufu Partners III LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Futaleufu Partners III LLC (Jackson Hole, WY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;<em>Filer comment:  </em>Same asset as Futaleufu Partners III LLC (see Asset 9.41)</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16</td>
+							<td class="span4"><strong class="marginit-right">Futaleufu Partners III LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Futaleufu Partners III LLC (Jackson Hole, WY)&nbsp;<em>Description:</em>&nbsp;Search Fund&nbsp;<em>Filer comment:  </em>Same asset as Futaleufu Partners III LLC (see Asset 9.41)</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17</td>
+							<td class="span4"><strong class="marginit-right">QMC Telecom International Holdings LLC</strong><div class="muted"><em>Company:</em> QMC Telecom International Holdings LLC (San Juan, PR)&nbsp;<em>Description:</em>&nbsp;Cell Tower Services&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>18</td>
+							<td class="span4"><strong class="marginit-right">Housatonic Equity Partners, L.P.</strong><div class="muted"><em>Company:</em> Housatonic Equity Partners, L.P. (San Francisco, CA)&nbsp;<em>Description:</em>&nbsp;Venture Capital&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $10,701.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19</td>
+							<td class="span4"><strong class="marginit-right">Housatonic Equity Investors IIA, LP</strong><div class="muted"><em>Company:</em> Housatonic Equity Investors IIA, LP (San Francisco, CA)&nbsp;<em>Description:</em>&nbsp;Venture Capital&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>20</td>
+							<td class="span4"><strong class="marginit-right">Vector Disease Acquisition LLC</strong><div class="muted"><em>Company:</em> Vector Disease Acquisition LLC (Little Rock, AK)&nbsp;<em>Description:</em>&nbsp;Pest Control&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>21</td>
+							<td class="span4"><strong class="marginit-right">NEW Asurion Corporatoin</strong><div class="muted"><em>Company:</em> Asurion (Silicon Valley, CA)&nbsp;<em>Description:</em>&nbsp;Cell phone service support&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22</td>
+							<td class="span4"><strong class="marginit-right">Carillon Assisted Living LLC</strong><div class="muted"><em>Company:</em> Carillon Assisted Living LLC (Raleigh, NC)&nbsp;<em>Description:</em>&nbsp;Assisted Living Facilities&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $8,594.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23</td>
+							<td class="span4"><strong class="marginit-right">Stifel</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23.1</td>
+							<td class="span4"><strong>Stifel</strong><div class="muted noWrap">(New York, NY)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23.2</td>
+							<td class="span4"><strong class="marginit-right">FBGRX-Fidelity Blue Chip Growth</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23.3</td>
+							<td class="span4"><strong class="marginit-right">FCNTX-Fidelity Contrafund</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23.4</td>
+							<td class="span4"><strong class="marginit-right">FMCSX-Fidelity Mid-Cap Stock</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23.5</td>
+							<td class="span4"><strong class="marginit-right">FOCPX-Fidelity OTC</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23.6</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FDVLX" target="_blank">FDVLX</a> - Fidelity Value</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24</td>
+							<td class="span4"><strong class="marginit-right">Stifel IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=BPTRX" target="_blank">BPTRX</a> - Baron Partners Retail</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=DODFX" target="_blank">DODFX</a> - Dodge & Cox International Stock</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FUSVX" target="_blank">FUSVX</a> - Fidelity 500 Index Premium</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FDSCX" target="_blank">FDSCX</a> - Fidelity Stock Selector Small Cap</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.5</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FDEQX" target="_blank">FDEQX</a> - Fidelity Disciplined Equity</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.6</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FTQGX" target="_blank">FTQGX</a> - Fidelity Focused Stock</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FSLVX" target="_blank">FSLVX</a> - Fidelity Stk Selec Lg Cp Val</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.8</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FLPSX" target="_blank">FLPSX</a> - Fidelity Low-Priced Stock</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.9</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FOCPX" target="_blank">FOCPX</a> - Fidelity OTC</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FBGRX" target="_blank">FBGRX</a> - Fidelity Blue Chip Growth</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.11</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FDVLX" target="_blank">FDVLX</a> - Fidelity Value</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24.12</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=RYVPX" target="_blank">RYVPX</a> - Royce Smaller-Companies Growth Svc</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>25</td>
+							<td class="span4"><strong class="marginit-right">Stifel IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>25.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FSTMX" target="_blank">FSTMX</a> - Fidelity Total Market Index Investor</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>26</td>
+							<td class="span4"><strong class="marginit-right">Wendy Jacobs LLC</strong><div class="muted"><em>Filer comment:  </em>Member of Development Strategy Consultants, LLC</div></td>
+							<td>Business Entity<div class="muted">Sole Proprietorship</div></td>
+							<td>Spouse</td>
+							<td>Unascertainable</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27</td>
+							<td class="span4"><strong class="marginit-right">Stifel KEOGH</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FSTVX" target="_blank">FSTVX</a> - Fidelity Total Market Index Premium</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28</td>
+							<td class="span4"><strong class="marginit-right">Zintro Inc</strong><div class="muted"><em>Company:</em> Zintro Inc (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Web Based Expert Services&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>29</td>
+							<td class="span4"><strong class="marginit-right">Charles Claflin Davis</strong><div class="muted"></div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Interest, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>30</td>
+							<td class="span4"><strong class="marginit-right">American Biosurgical</strong><div class="muted"><em>Company:</em> American Biosurgical (Norcross, GA)&nbsp;<em>Description:</em>&nbsp;Biosurgical&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Other, (Partnership Distributions)</td>
+							<td><br/>Other $12,554.00</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of liabilities added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Incurred</th>
+						<th scope="col">Debtor</th>
+						<th scope="col">Type</th>
+						<th scope="col">Points</th>
+						<th scope="col">Rate<br>(Term)</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Creditor</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								2017
+							</td>
+							<td>Self</td>
+							<td>Line of Credit
+								</td>
+							<td>
+								-</td>
+							<td>
+								2.7%<br>
+								
+														(on demand)
+								
+							</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>
+								Stifel
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>
+								No longer outstanding</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								2017
+							</td>
+							<td>Self</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								3.25%<br>
+								
+														(30 years)
+								
+							</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>
+								Stifel
+								<div class="muted">St Louis, MO</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								2018
+							</td>
+							<td>Self</td>
+							<td>Promissory Note
+								</td>
+							<td>
+								-</td>
+							<td>
+								AFR+5%%<br>
+								
+														(2 years)
+								
+							</td>
+							<td>$250,001 - $500,000</td>
+							<td>
+								Futaleufu Partners LLC
+								<div class="muted">Jackson Hole, WY</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								2018
+							</td>
+							<td>Self</td>
+							<td>Promissory Note
+								</td>
+							<td>
+								-</td>
+							<td>
+								AFR+5%%<br>
+								
+														(2 years)
+								
+							</td>
+							<td>$250,001 - $500,000</td>
+							<td>
+								Futaleufu Partners LLC
+								<div class="muted">Jackson Hole, WY</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								2017
+							</td>
+							<td>Self</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								3.125%<br>
+								
+														(30 years)
+								
+							</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>
+								Stifel
+								<div class="muted">St Louis, MO</div>
+							</td>
+							<td>
+								Liability of Futaleufu Partners, LLC, of which I am a 26.5% member.</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Jul 2007 to
+								present
+							</td>
+							<td>
+								Partner
+								
+							</td>
+							<td>
+								Futaleufu Partners, LLC
+								<div class="muted">
+									Jackson, WY
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Jun 2015 to
+								present
+							</td>
+							<td>
+								Partner
+								
+							</td>
+							<td>
+								Futaleufu Manager, LLC
+								<div class="muted">
+									jackson, WY
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Jul 2017 to
+								present
+							</td>
+							<td>
+								Partner
+								
+							</td>
+							<td>
+								Futaleufu Partners II, LLC
+								<div class="muted">
+									Jackson, Wyoming
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								May 2017 to
+								present
+							</td>
+							<td>
+								Partner
+								
+							</td>
+							<td>
+								Futaleufu Partners III, LLC
+								<div class="muted">
+									Jackson, Wyoming
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Jun 1994 to
+								Jan 2018
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								Carillon Assisted Living, LLC
+								<div class="muted">
+									Raliegh, NC
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								Mar 2017 to
+								present
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								TDR Holdings
+								<div class="muted">
+									Portland, OR
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								Oct 2016 to
+								present
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								Kerwood Capital Partners, LLC
+								<div class="muted">
+									San Diego, CA
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								Jul 2014 to
+								present
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								Aquavite Holdings
+								<div class="muted">
+									Grand Caman, Caman Islands
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								Apr 2004 to
+								present
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								Project Healthy Children, Inc.
+								<div class="muted">
+									Boston, ma
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								Dec 1993 to
+								present
+							</td>
+							<td>
+								Trustee
+								
+							</td>
+							<td>
+								Dodson Children&#39;s Trust
+								<div class="muted">
+									Jackson, MA
+								</div>
+							</td>
+							<td>
+								Trust
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								Sep 2009 to
+								Jul 2018
+							</td>
+							<td>
+								Employee
+								
+							</td>
+							<td>
+								Stanford University
+								<div class="muted">
+									Stanford, CA
+								</div>
+							</td>
+							<td>
+								Educational Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>
+								May 2015 to
+								Jan 2018
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								NVMC Holdings, LLC
+								<div class="muted">
+									Atlanta, GA
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>
+								Oct 2015 to
+								Jan 2018
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								AltEquity LLC
+								<div class="muted">
+									New York, NY
+								</div>
+							</td>
+							<td>
+								Partnership
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of compensation sources added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Source</th>
+						<th scope="col">Duties</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Stanford University
+								<div class="muted">Stanford, CA</div>
+							<td>Lecturer in Management</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Blue Sky Networks
+								<div class="muted">San Diego, CA</div>
+							<td>Board Member</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Carillon Assisted Living
+								<div class="muted">Raleigh, NC</div>
+							<td>Board Member</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								American Security Operating Company
+								<div class="muted">Long Island City, NY</div>
+							<td>Board Member</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Waste Recovery West
+								<div class="muted">Portland, OR</div>
+							<td>Board Member</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>

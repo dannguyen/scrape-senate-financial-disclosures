@@ -1,0 +1,2160 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2018 -
+	
+		Bredesen,
+	
+	
+		Philip
+	
+
+	
+		N
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Candidate
+				
+					Report 
+				
+				
+				
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					Mr.
+				
+
+				
+					Philip
+				
+
+				
+					N
+				
+
+				
+					Bredesen
+				
+
+				
+
+				
+			</h2>
+			
+				<p class="muted">
+					State of Candidacy: TN
+					<span class="p-1">|</span> Candidacy Commenced: 12/07/2017
+				</p>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 07/25/2018 @ 8:13 AM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Retirement
+								
+								
+							</td>
+							<td>
+								Metro Government of Nashville and Davidson County<br>
+								<div class="muted">Nashville, TN</div>
+							</td>
+							
+								<td>$10,950.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Retirement
+								
+								
+							</td>
+							<td>
+								State of Tennessee<br>
+								<div class="muted">Nashville, TN</div>
+							</td>
+							
+								<td>$142,596.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								Bill and Melinda Gates Foundation<br>
+								<div class="muted">Seattle, WA</div>
+							</td>
+							
+								<td>$8,000.00</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong>Bank of America</strong><div class="muted noWrap">(Nashville, TN)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong>SunTrust</strong><div class="muted noWrap">(Nashville, TN)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong>SunTrust</strong><div class="muted noWrap">(Nashville, TN)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong class="marginit-right">SunTrust Investment Account</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Joint</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.1</td>
+							<td class="span4"><strong class="marginit-right">US Treasury Notes</strong><div class="muted"><em>Rate/Coupon:</em> None <br> <em>Matures:</em> None</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">US Treasury/Agency Security</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong>Capstar Bank</strong><div class="muted noWrap">(Nashville, TN)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Interest, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong>Capstar Bank</strong><div class="muted noWrap">(Nashville, TN)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong>Pinnacle Bank</strong><div class="muted noWrap">(Nashville, TN)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong class="marginit-right">Deutsche Government Cash Institutional Shares  999010GC1</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Interest, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=JNJ" target="_blank">JNJ</a> - Johnson & Johnson</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Dividends, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=OKE" target="_blank">OKE</a> - ONEOK, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Dividends, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PG" target="_blank">PG</a> - The Procter & Gamble Company</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Dividends, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong class="marginit-right">SXL - Sunoco Logistics Partners</strong><div class="muted"><em>Filer comment:  </em>Merged into ETP - Energy Transfer Partners on 4/28/17</div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Interest, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=ETP" target="_blank">ETP</a> - Energy Transfer Partners, L.P.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>14</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PEG" target="_blank">PEG</a> - Public Service Enterprise Group Incorporated</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Dividends, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>15</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=SLB" target="_blank">SLB</a> - Schlumberger Limited</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Dividends, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=EPD" target="_blank">EPD</a> - Enterprise Products Partners L.P.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Dividends, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=BID" target="_blank">BID</a> - Sotheby's</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>18</td>
+							<td class="span4"><strong class="marginit-right">Listerine Royalties</strong><div class="muted"><em>Description</em>: Johnson and Johnson -- JNJ&nbsp;(New Brunswick, NJ)&nbsp;</div></td>
+							<td>Other Securities</td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Capital Trust Commodity Related Securities Portfolio</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>20</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Capital Trust Emerging Markets</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>21</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Capital Trust Growth</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Capital Trust International Equity</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Capital Trust Value Equity</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Special Opportunities Fund 2009 LP</strong><div class="muted"><em>Description</em>: Hirtle Callaghan Private Equity Fund&nbsp;(West Conshohocken, PA)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>25</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Special Opportunities Fund LP Closed End Series 1 Onshore</strong><div class="muted"><em>Description</em>: Hirtle Callaghan Private Equity Fund&nbsp;(West Conshohocken, PA)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>26</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Special Opportunities Closed End Series 2 Onshore</strong><div class="muted"><em>Description</em>: Hirtle Callaghan Private Equity Fund&nbsp;(West Conshohocken, PA)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Tax Advantaged Yield</strong><div class="muted"><em>Company:</em> Hirtle Callaghan (West Conshohocken, PA)&nbsp;<em>Filer comment:  </em>Audit holdback.</div></td>
+							<td>Accounts Receivable<div class="muted">From a Business</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Absolute Return Fund LP  CUSIP H99018766</strong><div class="muted"><em>Description</em>: Investment fund&nbsp;(West Conshohocken, PA)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Hedge Fund</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>29</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Trading Partners LP  CUSIP 433933102</strong><div class="muted"><em>Description</em>: Investment fund&nbsp;(West Conshohocken, PA)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Hedge Fund</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>30</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Private Equity Fund V Onshore</strong><div class="muted"><em>Description</em>: Hirtle Callaghan Private Equity Fund&nbsp;(West Conshohocken, PA)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>31</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Private Equity Fund IX (A) LP</strong><div class="muted"><em>Description</em>: Hirtle Callaghan Private Equity Fund&nbsp;(West Conshohocken, PA)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>32</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Private Equity Fund IV LP</strong><div class="muted"><em>Description</em>: Hirtle Callaghan Private Equity Fund&nbsp;(West Conshohocken, PA)&nbsp;<em>Filer comment:  </em>Asset was sold at a loss prior to 6/30/18</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>33</td>
+							<td class="span4"><strong class="marginit-right">Metro Government of Nashville and Davidson County Retirement Plan</strong><div class="muted"><em>Filer comment:  </em>Defined benefit retirement for service as Mayor 1991-99</div></td>
+							<td>Retirement Plans<div class="muted">Defined Benefit Pension Plan</div></td>
+							<td>Self</td>
+							<td>Unascertainable</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>34</td>
+							<td class="span4"><strong class="marginit-right">State of Tennessee Retirement Plan</strong><div class="muted"><em>Filer comment:  </em>Defined benefit retirement plan from service as Governor 2003-2011</div></td>
+							<td>Retirement Plans<div class="muted">Defined Benefit Pension Plan</div></td>
+							<td>Self</td>
+							<td>Unascertainable</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>35</td>
+							<td class="span4"><strong class="marginit-right">Vanguard Brokerage Account</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Joint</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>35.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VBIAX" target="_blank">VBIAX</a> - Vanguard Balanced Index Adm</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>35.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VCSH" target="_blank">VCSH</a> - Vanguard Short-Term Corporate Bond ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>35.3</td>
+							<td class="span4"><strong class="marginit-right">VMFXX-Vanguard Money Market Reserves</strong><div class="muted"><em>Filer comment:  </em>Asset amount varies substantially over time.  This is the total paid in dividends during the reporting period.</div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>35.4</td>
+							<td class="span4"><strong class="marginit-right">US Treasury Notes</strong><div class="muted"><em>Rate/Coupon:</em> None <br> <em>Matures:</em> None</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">US Treasury/Agency Security</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>36</td>
+							<td class="span4"><strong class="marginit-right">Silicon Ranch Corporation</strong><div class="muted"><em>Company:</em> Silicon Ranch Corporation (Nashville, TN)&nbsp;<em>Description:</em>&nbsp;Develop and own solar electrical generation arrays&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Joint</td>
+							<td>$25,000,001 - $50,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>37</td>
+							<td class="span4"><strong class="marginit-right">SR Finco, LLC</strong><div class="muted"><em>Company:</em> SR Finco, LLC (Nashville, TN)&nbsp;<em>Filer comment:  </em>This is a note payable to us.  Interest is at 9.500% payable quarterly, principal due 12/31/2020 with a debtor's option to extend to 12/31/2021.</div></td>
+							<td>Accounts Receivable<div class="muted">From a Business</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Interest, </td>
+							<td>$1,000,001 - $5,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>38</td>
+							<td class="span4"><strong class="marginit-right">Silicon Ranch Corporation</strong><div class="muted"><em>Company:</em> Silicon Ranch Corporation (Nashville, TN)&nbsp;<em>Filer comment:  </em>This is a note payable to us.  Interest is at 10.000% payable quarterly, principal is due 12/31/2020.</div></td>
+							<td>Accounts Receivable<div class="muted">From a Business</div></td>
+							<td>Joint</td>
+							<td>$5,000,001 - $25,000,000</td>
+							<td>Interest, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>39</td>
+							<td class="span4"><strong class="marginit-right">Qualifacts Systems</strong><div class="muted"><em>Company:</em> Qualifacts Systems (Nashville, TN)&nbsp;<em>Filer comment:  </em>This was a note to us.  Interest at 9.000% due 7/22/2019.  It was fully paid in 2017.</div></td>
+							<td>Accounts Receivable<div class="muted">From a Business</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>40</td>
+							<td class="span4"><strong class="marginit-right">OneokPartners LP</strong><div class="muted"><em>Company:</em> Oneok (Tulsa, OK)&nbsp;<em>Description:</em>&nbsp;Gas Utility&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Partnership (LP)</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,000,001 - $5,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41</td>
+							<td class="span4"><strong class="marginit-right">Hirtle Callaghan Special Opportunities - Tax Advantaged Yield</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Filer comment:  </em>Hedge Fund; West Conshohocken, PA</div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Joint</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.1</td>
+							<td class="span4"><strong class="marginit-right">Allentown PA Commercial & Indl Dev Auth Txbl-Exec Academy Chrt Sch Ser B</strong><div class="muted"><em>Rate/Coupon:</em> 8.000% <br> <em>Matures:</em> 7-1-27</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.2</td>
+							<td class="span4"><strong class="marginit-right">Bay Cnty MI Public Sch Academy COPS Refunding Bonds</strong><div class="muted"><em>Rate/Coupon:</em> 7.125% <br> <em>Matures:</em> 1-15-46</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.3</td>
+							<td class="span4"><strong class="marginit-right">Butler Cnty OH Port Auth Econ Dev Lease Revenue-Maple Knoll Cmntys Inc.</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 7-1-43</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.4</td>
+							<td class="span4"><strong class="marginit-right">CA Sch Fin Auth Sch Fac Rev Magnolia Science Academy Resda Proj</strong><div class="muted"><em>Rate/Coupon:</em> 6.000% <br> <em>Matures:</em> 7-1-34</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.5</td>
+							<td class="span4"><strong class="marginit-right">CA Sch Fin Auth Sch Fac Rev Magnolia Science Academy Resda Proj</strong><div class="muted"><em>Rate/Coupon:</em> 6.250% <br> <em>Matures:</em> 7-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.6</td>
+							<td class="span4"><strong class="marginit-right">CA ST Sch Fin Auth Chrt Sch Rev Magnolia A1 PUT Bond 20 yr. Reset 6% FLOR</strong><div class="muted"><em>Rate/Coupon:</em> 5.250% <br> <em>Matures:</em> 7-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.7</td>
+							<td class="span4"><strong class="marginit-right">Chester Community Charter</strong><div class="muted"><em>Rate/Coupon:</em> 6.000% <br> <em>Matures:</em> 6-30-18</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.8</td>
+							<td class="span4"><strong class="marginit-right">Colorado St Edu & Cult Fac Auth Rev Ref Charte School Salida De Sol</strong><div class="muted"><em>Rate/Coupon:</em> 6.000% <br> <em>Matures:</em> 6-1-45</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.9</td>
+							<td class="span4"><strong class="marginit-right">Colorado St. Edu & Cult Fac Auth Banning Lewis  A-1 PUT Bond 9/19/21</strong><div class="muted"><em>Rate/Coupon:</em> 5.000% <br> <em>Matures:</em> 12-15-46</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.10</td>
+							<td class="span4"><strong class="marginit-right">Colorado St. Edu & Cult Fac Auth Banning Lewis B-3 </strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 12-15-46</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.11</td>
+							<td class="span4"><strong class="marginit-right">Colorado St. Edu & Cultural Banning Lewis Ranch Academy PUT Bond 9/19/21</strong><div class="muted"><em>Rate/Coupon:</em> 5.070% <br> <em>Matures:</em> 12-15-46</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.12</td>
+							<td class="span4"><strong class="marginit-right">Dekalb Cnty Newton Cnty Swinett Cnty GA JT Dev Charter-Dekalb Academy</strong><div class="muted"><em>Rate/Coupon:</em> 7.500% <br> <em>Matures:</em> 7-1-41</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.13</td>
+							<td class="span4"><strong class="marginit-right">Delaware Cnty PA Indl Dev Auth Chrt Sch Revenue  Chester Cmnty Charter A</strong><div class="muted"><em>Rate/Coupon:</em> 5.250% <br> <em>Matures:</em> 8-15-30</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.14</td>
+							<td class="span4"><strong class="marginit-right">FLA ST Dev Fin Corp Edu Fac Rev Taxable Renaissance Charter Sch B</strong><div class="muted"><em>Rate/Coupon:</em> 7.875% <br> <em>Matures:</em> 6-15-24</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.15</td>
+							<td class="span4"><strong class="marginit-right">FLA ST Dev Fin Corp Edu Fac Rev Taxable Renaissance Charter Sch Proj Ser B</strong><div class="muted"><em>Rate/Coupon:</em> 7.250% <br> <em>Matures:</em> 6-15-25</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.16</td>
+							<td class="span4"><strong class="marginit-right">Florida St. Dev Fin Corp Edu Facs Rev Henderson Hammonk Chrt Sch Proj A</strong><div class="muted"><em>Rate/Coupon:</em> 7.200% <br> <em>Matures:</em> 6-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.17</td>
+							<td class="span4"><strong class="marginit-right">Florida St. Dev Fin Corp Edu FL Chrt FDNT Inc Proj Series A</strong><div class="muted"><em>Rate/Coupon:</em> 5.125% <br> <em>Matures:</em> 6-15-26</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.18</td>
+							<td class="span4"><strong class="marginit-right">Florida St. Dev Fin Corp Eductnl Fac Rev Renaissance Charter Sch-a</strong><div class="muted"><em>Rate/Coupon:</em> 6.000% <br> <em>Matures:</em> 9-15-30</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.19</td>
+							<td class="span4"><strong class="marginit-right">Franklin Cnty OH Hlth Care Facs Revenue Ref 1st Cmnty VLG</strong><div class="muted"><em>Rate/Coupon:</em> 4.750% <br> <em>Matures:</em> 7-1-25</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.20</td>
+							<td class="span4"><strong class="marginit-right">Franklin Cnty OH Hlth Care Facs Revenue Ref 1st Cmnty VLG</strong><div class="muted"><em>Rate/Coupon:</em> 5.625% <br> <em>Matures:</em> 7-1-25</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.21</td>
+							<td class="span4"><strong class="marginit-right">Frederick Cnty Auth Residential Care Fac Rev VLG Orchard Ridge Ser A6</strong><div class="muted"><em>Rate/Coupon:</em> 5.640% <br> <em>Matures:</em> 7-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.22</td>
+							<td class="span4"><strong class="marginit-right">Frederick Cnty VA Econ Dev Auth Residential Care Fac Re Var Series A</strong><div class="muted"><em>Rate/Coupon:</em> 6.380% <br> <em>Matures:</em> 7-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.23</td>
+							<td class="span4"><strong class="marginit-right">Frederick Cnty VA Econ Dev Auth Residential Care Fac Re VLG Orchard 2024</strong><div class="muted"><em>Rate/Coupon:</em> 6.570% <br> <em>Matures:</em> 7-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.24</td>
+							<td class="span4"><strong class="marginit-right">Frederick Cnty VA Econ Dev Auth Residential VLG Orchard Ridge Ser A-7</strong><div class="muted"><em>Rate/Coupon:</em> 5.950% <br> <em>Matures:</em> 7-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.25</td>
+							<td class="span4"><strong class="marginit-right">Frederick Cnty VA INDL Dev Auth Res Care Fac REV ADJ-VLG Orchard</strong><div class="muted"><em>Rate/Coupon:</em> 7.190% <br> <em>Matures:</em> 7-1-46</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.26</td>
+							<td class="span4"><strong class="marginit-right">Geauga Cnty OH Revenue Variable S Franklin Circle Proj Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 8.000% <br> <em>Matures:</em> 7-1-47</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.27</td>
+							<td class="span4"><strong class="marginit-right">Godfrey IL Revenue UTD Methodist VLG-Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 11-15-35</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.28</td>
+							<td class="span4"><strong class="marginit-right">Indianapolis IN MF HSG Revenue Ritter Affordable Asstd Living Project</strong><div class="muted"><em>Rate/Coupon:</em> 6.900% <br> <em>Matures:</em> 12-1-33</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.29</td>
+							<td class="span4"><strong class="marginit-right">Illinois Fin Auth Rev Greenfillds Fields Geneva Proj (IL)</strong><div class="muted"><em>Rate/Coupon:</em> 7.100% <br> <em>Matures:</em> 11-1-52</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.30</td>
+							<td class="span4"><strong class="marginit-right">Kinney Cnty Tex Pub Fac Corp Proj Rev</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 11-1-25</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.31</td>
+							<td class="span4"><strong class="marginit-right">La Paz Cnty AZ Indl Dev Auth FAC Lease Revenue TXBL-Magnolia Sch</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 8-1-27</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.32</td>
+							<td class="span4"><strong class="marginit-right">Lawrence Cnty PA INDL Dev Auth Hlth & Hsg Facs Revenue Shenango Presby</strong><div class="muted"><em>Rate/Coupon:</em> 5.625% <br> <em>Matures:</em> 11-15-37</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.33</td>
+							<td class="span4"><strong class="marginit-right">Manatee Cnty FLA HSG Fin Auth Multi Family Rev Sr-Wtrs Edge Bradenton</strong><div class="muted"><em>Rate/Coupon:</em> 6.000% <br> <em>Matures:</em> 3-1-38</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.34</td>
+							<td class="span4"><strong class="marginit-right">Maricopa Cnty AZ Indl Dev Chrt Rev Heritage Academy Proj Series A 1</strong><div class="muted"><em>Rate/Coupon:</em> 5.250% <br> <em>Matures:</em> 7-1-27</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.35</td>
+							<td class="span4"><strong class="marginit-right">MMPI NY Proton</strong><div class="muted"><em>Rate/Coupon:</em> 9.000% <br> <em>Matures:</em> 7-19-21</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.36</td>
+							<td class="span4"><strong class="marginit-right">New Hope TX Cultural Edu Fac Corp First Mtge Presbyterian VLG SER A12</strong><div class="muted"><em>Rate/Coupon:</em> 5.420% <br> <em>Matures:</em> 10-1-24</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.37</td>
+							<td class="span4"><strong class="marginit-right">New Hope TX Cultural Edu Facs Fin Corp First Mtge Rev Preby VLG Proj B-2</strong><div class="muted"><em>Rate/Coupon:</em> 4.800% <br> <em>Matures:</em> 10-1-24</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.38</td>
+							<td class="span4"><strong class="marginit-right">New Hope TX Cultural Edu Facs Fin Corp First Mtge Rev Preby VLG Proj B-2</strong><div class="muted"><em>Rate/Coupon:</em> 6.500% <br> <em>Matures:</em> 10-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.39</td>
+							<td class="span4"><strong class="marginit-right">New Hope TX Cultural Edu Facs Fin Corp First Mtge Rev Preby VLG Proj B-3</strong><div class="muted"><em>Rate/Coupon:</em> 5.170% <br> <em>Matures:</em> 10-1-24</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.40</td>
+							<td class="span4"><strong class="marginit-right">New Hope TX Cultural Edu Facs Fin Corp First Mtge Rev Preby VLG Proj B-3</strong><div class="muted"><em>Rate/Coupon:</em> 6.500% <br> <em>Matures:</em> 10-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.41</td>
+							<td class="span4"><strong class="marginit-right">New Hope TX Cultural Edu First Mtge Rev Adj Presbtrn - Put Bond 10/1/22</strong><div class="muted"><em>Rate/Coupon:</em> 5.790% <br> <em>Matures:</em> 10-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.42</td>
+							<td class="span4"><strong class="marginit-right">New Hope TX Edu Fac First Mtge Rev Adj Presb VLG c2-Put Bond 10/01/24</strong><div class="muted"><em>Rate/Coupon:</em> 5.710% <br> <em>Matures:</em> 10-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.43</td>
+							<td class="span4"><strong class="marginit-right">New Jersey ST Econ Dev Auth Ref United Methodist Homes Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 9-1-47</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.44</td>
+							<td class="span4"><strong class="marginit-right">New Jersey ST Econ Dev Auth Ref United Methodist Homes Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 3.750% <br> <em>Matures:</em> 7-1-24</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.45</td>
+							<td class="span4"><strong class="marginit-right">NJ EDA Masonic FDN BBB+</strong><div class="muted"><em>Rate/Coupon:</em> 3.650% <br> <em>Matures:</em> 6-1-22</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.46</td>
+							<td class="span4"><strong class="marginit-right">PFA Glenwood Springs CO - 2 Rivs Charter School </strong><div class="muted"><em>Rate/Coupon:</em> 5.200% <br> <em>Matures:</em> 12-01-23</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.47</td>
+							<td class="span4"><strong class="marginit-right">PFA MN Rev Var-Presbytern Svcs BD Prog-PHS Apple Vly 7/1/2021 Put Bond</strong><div class="muted"><em>Rate/Coupon:</em> 4.650% <br> <em>Matures:</em> 7-1-51</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.48</td>
+							<td class="span4"><strong class="marginit-right">PFA MN Rev Var-Presbytern Svcs BD Prog-PHS Apple Vly 7/1/2021 Put Bond</strong><div class="muted"><em>Rate/Coupon:</em> 4.850% <br> <em>Matures:</em> 7-1-51</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.49</td>
+							<td class="span4"><strong class="marginit-right">Philadelphia PA Auth Del Senior Living Rev Fac Wesley Enhanced Ser B</strong><div class="muted"><em>Rate/Coupon:</em> 6.000% <br> <em>Matures:</em> 7-1-27</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.50</td>
+							<td class="span4"><strong class="marginit-right">Phoenix AZ Indl Dev Auth Edu Revenue Fac -Pointe Educational SVS Rtng: BBB-</strong><div class="muted"><em>Rate/Coupon:</em> 5.200% <br> <em>Matures:</em> 7-1-36</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.51</td>
+							<td class="span4"><strong class="marginit-right">Phoenix AZ Indl Dev Auth Edu Revenue Ref - Basis Sch BB</strong><div class="muted"><em>Rate/Coupon:</em> 4.000% <br> <em>Matures:</em> 7-1-25</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.52</td>
+							<td class="span4"><strong class="marginit-right">Phoenix AZ Indl Dev Auth Edu Revenue Ref - Basis Sch BB</strong><div class="muted"><em>Rate/Coupon:</em> 5.000% <br> <em>Matures:</em> 7-1-35</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.53</td>
+							<td class="span4"><strong class="marginit-right">Pima Cnty Ariz Indl Dev Auth Ed Rev Ref Academy of Tucson</strong><div class="muted"><em>Rate/Coupon:</em> 7.300% <br> <em>Matures:</em> 7-1-40</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.54</td>
+							<td class="span4"><strong class="marginit-right">Pima Cnty AZ Indl Dev Auth Charter School Rev Odyssey Prep - Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 8.000% <br> <em>Matures:</em> 5-1-40</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.55</td>
+							<td class="span4"><strong class="marginit-right">Pima Cnty AZ Indl Dev Auth Edu Revenue Basis Tucson North Proj</strong><div class="muted"><em>Rate/Coupon:</em> 7.550% <br> <em>Matures:</em> 7-1-42</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.56</td>
+							<td class="span4"><strong class="marginit-right">Prince Georges Cnty MD Chrt Sch Rev Chesapeake Lighthouse Chrt Sch Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 6.500% <br> <em>Matures:</em> 8-1-35</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.57</td>
+							<td class="span4"><strong class="marginit-right">Prince Georges Cnty MD Chrt Sch Rev Chesapeake Lighthouse Obl Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 8-1-45</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.58</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth Chrt Sch Rev Jefferson Academy UT Ser A Put Bond 7/15/28</strong><div class="muted"><em>Rate/Coupon:</em> 5.200% <br> <em>Matures:</em> 7-15-47</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.59</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth Global Village Academy Proj-Ser A/ BB+</strong><div class="muted"><em>Rate/Coupon:</em> 7.500% <br> <em>Matures:</em> 12-15-40</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.60</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth Var Natl Church Residences WatersEdge Bradenton II Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 3.350% <br> <em>Matures:</em> 3-1-39</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.61</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth WI Chrt Sch Rev - Ser A Renaissance Charter </strong><div class="muted"><em>Rate/Coupon:</em> 5.500% <br> <em>Matures:</em> 6-1-21</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.62</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth WI Chrt Sch Rev Global Village Academy Proj</strong><div class="muted"><em>Rate/Coupon:</em> 5.870% <br> <em>Matures:</em> 12-15-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.63</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth WI Chrt Sch Rev Highville Chrt Sch Proj - CT</strong><div class="muted"><em>Rate/Coupon:</em> 6.800% <br> <em>Matures:</em> 7-1-34</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.64</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth WI Chrt Sch Rev Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 6.620% <br> <em>Matures:</em> 12-15-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.65</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth WI Chrt Sch Revenue - Pacific Heritage Schools Proj - Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 5.300% <br> <em>Matures:</em> 9-15-47</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.66</td>
+							<td class="span4"><strong class="marginit-right">Public Fin Auth WI Chrt Sch Revenue Senior Vertex LLC Projs Ser A-1</strong><div class="muted"><em>Rate/Coupon:</em> 6.400% <br> <em>Matures:</em> 5-1-19</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.67</td>
+							<td class="span4"><strong class="marginit-right">Red River TX Hlth Facs Dev Corp Retirement Fac Rev </strong><div class="muted"><em>Rate/Coupon:</em> 8.000% <br> <em>Matures:</em> 11-15-49</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.68</td>
+							<td class="span4"><strong class="marginit-right">Rockville MD Mayor & Council Eco Rev Ntl Lutheran Home Series A-2</strong><div class="muted"><em>Rate/Coupon:</em> 6.500% <br> <em>Matures:</em> 2-1-42</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.69</td>
+							<td class="span4"><strong class="marginit-right">Senoia GA Dev Auth Chrt Sch Revenue Coweta Chrt Academy - Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 7.125% <br> <em>Matures:</em> 6-1-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.70</td>
+							<td class="span4"><strong class="marginit-right">South Carolina Jobs-Economic Dev Auth Economic Dev Rev Put Bond</strong><div class="muted"><em>Rate/Coupon:</em> 5.230% <br> <em>Matures:</em> 7-1-46</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.71</td>
+							<td class="span4"><strong class="marginit-right">South Carolina ST Jobs Econ Dev Auth Econ Dev Presby B-2 Put Bond 7/1/26</strong><div class="muted"><em>Rate/Coupon:</em> 5.510% <br> <em>Matures:</em> 7-1-46</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.72</td>
+							<td class="span4"><strong class="marginit-right">South Carolina St. Jobs Econ Dev Revenue York Preparatory Academy Proj A</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 11-1-33</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.73</td>
+							<td class="span4"><strong class="marginit-right">Texas State Pub Fin Auth Charter School Fin Corp Rev-Nova Academy / BBB-</strong><div class="muted"><em>Rate/Coupon:</em> 6.375% <br> <em>Matures:</em> 8-15-34</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.74</td>
+							<td class="span4"><strong class="marginit-right">Trillium Academy Michigan CTFS</strong><div class="muted"><em>Rate/Coupon:</em> 6.500% <br> <em>Matures:</em> 9-1-35</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.75</td>
+							<td class="span4"><strong class="marginit-right">Umatilla FL Rev Adj Lakeview Terrace Sr Living Proj Ser B Put Bond</strong><div class="muted"><em>Rate/Coupon:</em> 5.825% <br> <em>Matures:</em> 7-1-42</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.76</td>
+							<td class="span4"><strong class="marginit-right">Umatilla FL Revenue Lakeview Terrace Senior Living Program Series A </strong><div class="muted"><em>Rate/Coupon:</em> 8.560% <br> <em>Matures:</em> 7-1-42</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.77</td>
+							<td class="span4"><strong class="marginit-right">Umatilla FL Revenue Lakeview Terrace Senior Living Program Series A </strong><div class="muted"><em>Rate/Coupon:</em> 6.650% <br> <em>Matures:</em> 7-1-42</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.78</td>
+							<td class="span4"><strong class="marginit-right">Umatilla FL Revenue Lakeview Terrace Senior Living Program Series A </strong><div class="muted"><em>Rate/Coupon:</em> 6.720% <br> <em>Matures:</em> 7-1-32</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.79</td>
+							<td class="span4"><strong class="marginit-right">Universal Academy MI Public Sch Academy Revenue Ser A</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 12-1-33</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.80</td>
+							<td class="span4"><strong class="marginit-right">Washington Cnty PA IND Student HSG Rev Ref-Student Assn Reset 6/30/27</strong><div class="muted"><em>Rate/Coupon:</em> 5.400% <br> <em>Matures:</em> 6-30-44</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.81</td>
+							<td class="span4"><strong class="marginit-right">Washington ST HSG Fin Coms Var Wesley Homes Des Moines Ser B1 Put Bond</strong><div class="muted"><em>Rate/Coupon:</em> 5.000% <br> <em>Matures:</em> 7-1-49</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.82</td>
+							<td class="span4"><strong class="marginit-right">Washington ST HSG Fin Wesley Homes Bradley Pk Proj Series A-2 Put</strong><div class="muted"><em>Rate/Coupon:</em> 5.450% <br> <em>Matures:</em> 7-1-49</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.83</td>
+							<td class="span4"><strong class="marginit-right">Washington ST HSG Fin Wesley Homes Des Moines Proj Series B4 PUT 7/1/26</strong><div class="muted"><em>Rate/Coupon:</em> 5.000% <br> <em>Matures:</em> 7-1-49</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.84</td>
+							<td class="span4"><strong class="marginit-right">WI ST Hlth & Edu Facs Auth Rev Presby Hms Germantwn Series A1 PUT 7.1.22</strong><div class="muted"><em>Rate/Coupon:</em> 4.910% <br> <em>Matures:</em> 7-1-52</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.85</td>
+							<td class="span4"><strong class="marginit-right">WI ST Hlth & Edu Facs Auth Rev Presby Hms Germantwn Series A2 PUT 7.1.22</strong><div class="muted"><em>Rate/Coupon:</em> 4.850% <br> <em>Matures:</em> 7-1-52</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.86</td>
+							<td class="span4"><strong class="marginit-right">WISC ST Health & Edu Fac Auth Presby Hms Germantown Inc. </strong><div class="muted"><em>Rate/Coupon:</em> 4.870% <br> <em>Matures:</em> 7-1-52</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>41.87</td>
+							<td class="span4"><strong class="marginit-right">Yuma AZ Indl Dev Auth Charter Desert View Academy Project</strong><div class="muted"><em>Rate/Coupon:</em> 7.000% <br> <em>Matures:</em> 11-15-45</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Feb 2011 to
+								present
+							</td>
+							<td>
+								Director
+								
+							</td>
+							<td>
+								Silicon Ranch Corporation
+								<div class="muted">
+									Nashville, TN
+								</div>
+							</td>
+							<td>
+								Corporation
+								
+							</td>
+							<td>Board Chairman</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Jul 2015 to
+								present
+							</td>
+							<td>
+								Trustee
+								
+							</td>
+							<td>
+								American Academy of Arts and Sciences
+								<div class="muted">
+									Cambridge, MA
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Nov 2015 to
+								present
+							</td>
+							<td>
+								Other
+								(Advisory Board)
+							</td>
+							<td>
+								Bill and Melinda Gates Foundation
+								<div class="muted">
+									Seattle, WA
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>Have been on leave without compensation from the time of my announcement for Senate to the present.  Will resign when elected.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Oct 2012 to
+								Jun 2016
+							</td>
+							<td>
+								Other
+								(Advisory Board)
+							</td>
+							<td>
+								Peterson Center on Health Care
+								<div class="muted">
+									New York, NY
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of agreements or arrangements added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Parties Involved</th>
+						<th scope="col">Type</th>
+						<th scope="col">Status and Terms</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Dec 2017
+							</td>
+							<td>
+								Bill and Melinda Gates Foundation
+								<div class="muted">Seattle, WA</div>
+							</td>
+							<td>Leave of absence
+								
+							</td>
+							<td>I am an advisory board member and we agreed that once I had announced my intention to run for the Senate, I should take an unpaid leave of absence from the board.  If I am elected, I will resign from the board with no further compensation; if not elected, I may return to the board and receive the standard honorarium from the point at which I reassumed my duties with the board.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Jan 2011
+							</td>
+							<td>
+								State of Tennessee
+								<div class="muted">Nashville, TN</div>
+							</td>
+							<td>Continuing participation in an employee benefit plan
+								
+							</td>
+							<td>I was eligible to participate in the existing Tennessee State Retirement System defined benefit plan when I left office, and elected to do so.  The retirement payments will continue until my death and if my wife survives me, she is entitled to a reduced benefit during her lifetime.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Sep 1999
+							</td>
+							<td>
+								Metropolitan Government of Nashville and Davidson County
+								<div class="muted">Nashville, TN</div>
+							</td>
+							<td>Continuing participation in an employee benefit plan
+								
+							</td>
+							<td>Upon leaving the office of Mayor in September 1999 I was eligible to participate in Metro&#39;s defined benefit retirement plan, and I did so; this provides a small monthly retirement payment during my lifetime.  I was eligible to continue participating in Metro&#39;s health insurance plan and I did so.  Since becoming eligible for Medicare, that Metro insurance has taken the form of a supplemental plan to Medicare.</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of compensation sources added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Source</th>
+						<th scope="col">Duties</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Bill and Melinda Gates Foundation
+								<div class="muted">Seattle, WA</div>
+							<td>Advisory board member, attended two meetings per year.</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>

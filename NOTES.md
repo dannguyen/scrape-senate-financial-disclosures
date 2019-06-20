@@ -2,9 +2,9 @@
 
 ## TODOS
 
-- parse the raw state-indexes.json into CSV
-- download every individual form
-- figureout why my all state count is 100 less than the site's default open search
+- [x] parse the raw state-indexes.json into CSV
+- [ ] download every individual form
+- [ ] figureout why my all state count is 100 less than the site's default open search
 
 
 ## Problem with successfully posting to the form
