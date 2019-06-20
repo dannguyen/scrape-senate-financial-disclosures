@@ -1,0 +1,6943 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2018 -
+	
+		Cochran,
+	
+	
+		Thad
+	
+
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Termination
+				
+					Report for
+				
+				
+				04/01/2018
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					The Honorable
+				
+
+				
+					Thad
+				
+
+				
+
+				
+					Cochran
+				
+
+				
+
+				
+					
+						(Former Senator)
+					
+				
+			</h2>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 05/01/2018 @ 3:39 PM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Retirement
+								
+								
+							</td>
+							<td>
+								Raymond James IRA Distribution<br>
+								<div class="muted">St. Petersburg, Florida</div>
+							</td>
+							
+								<td>$4,307.50</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong>Trustmark National Bank</strong><div class="muted noWrap">(Jackson, MS)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong>Bank of New Albany</strong><div class="muted noWrap">(New Albany, MS)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong class="marginit-right">Raymond James - Hattiesburg</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.1</td>
+							<td class="span4"><strong>JP Morgan</strong><div class="muted noWrap">(New York, NY)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=DHR" target="_blank">DHR</a> - Danaher Corp. (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=KBR" target="_blank">KBR</a> - KBR, Inc. (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.4</td>
+							<td class="span4"><strong class="marginit-right">BX-The Blackstone Group L.P. (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.5</td>
+							<td class="span4"><strong class="marginit-right">Bunge Limited Finance Corp. Notes </strong><div class="muted"><em>Rate/Coupon:</em> 8.5 <br> <em>Matures:</em> 06/15/2019</div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Corporate Bond</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.6</td>
+							<td class="span4"><strong class="marginit-right">RF-PA-Regions Financial Corporation D (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PDS" target="_blank">PDS</a> - Precision Drilling Corporation (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.8</td>
+							<td class="span4"><strong class="marginit-right">T-AT&T, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.9</td>
+							<td class="span4"><strong class="marginit-right">IP-International Paper Company</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.10</td>
+							<td class="span4"><strong class="marginit-right">MRK-Merck & Co. Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.11</td>
+							<td class="span4"><strong class="marginit-right">TEVA-Teva Pharmaceutical Industries Limited</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.12</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=AHT" target="_blank">AHT</a> - Ashford Hospitality Trust, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.13</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CG" target="_blank">CG</a> - The Carlyle Group LP</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.14</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=OAKIX" target="_blank">OAKIX</a> - Oakmark International I</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.15</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=WSHFX" target="_blank">WSHFX</a> - American Funds Washington Mutual F1</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.16</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=RQI" target="_blank">RQI</a> - Cohen & Steers Quality Income Realty Fund, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.17</td>
+							<td class="span4"><strong class="marginit-right">ABT-Abbott Laboratories</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.18</td>
+							<td class="span4"><strong class="marginit-right">CF-CF Industries Holdings, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.19</td>
+							<td class="span4"><strong class="marginit-right">DG-Dollar General Corporation</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.20</td>
+							<td class="span4"><strong class="marginit-right">FTV-Fortive Corporation</strong><div class="muted"><em>Filer comment:  </em>July 2016 spin-off from Danaher Corp.</div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.21</td>
+							<td class="span4"><strong class="marginit-right">HIG-The Hartford Financial Services Group, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.22</td>
+							<td class="span4"><strong class="marginit-right">MKC-McCormick & Company, Incorporated</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.23</td>
+							<td class="span4"><strong class="marginit-right">MET-MetLife, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.24</td>
+							<td class="span4"><strong class="marginit-right">MOS-The Mosaic Company</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.25</td>
+							<td class="span4"><strong class="marginit-right">SLM-SLM Corporation</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.26</td>
+							<td class="span4"><strong class="marginit-right">MDT-Medtronic plc</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.27</td>
+							<td class="span4"><strong class="marginit-right">ETP-Energy Transfer Partners, L.P.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.28</td>
+							<td class="span4"><strong class="marginit-right">MAA-Mid-America Apartment Communities, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.29</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=QCP" target="_blank">QCP</a> - Quality Care Properties, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.30</td>
+							<td class="span4"><strong class="marginit-right">Sunoco Logistics Partners LP (SXL)</strong><div class="muted"><em>Filer comment:  </em>Acquired by Energy Transfer Partners, 4/28/17.  Ticker symbol changed to ETP.</div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.31</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=SUN" target="_blank">SUN</a> - Sunoco LP</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.32</td>
+							<td class="span4"><strong class="marginit-right">WY-Weyerhaeuser Co.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.33</td>
+							<td class="span4"><strong class="marginit-right">SMGIX-Columbia Contrarian Core Z</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.34</td>
+							<td class="span4"><strong class="marginit-right">CCIZX-Columbia Seligman Comms & Info Z</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.35</td>
+							<td class="span4"><strong class="marginit-right">MTCIX-MFS Technology I</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.36</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=WMFFX" target="_blank">WMFFX</a> - American Funds Washington Mutual F2</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.37</td>
+							<td class="span4"><strong class="marginit-right">FSD-First Trust High Income Long/Short Fund</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.38</td>
+							<td class="span4"><strong class="marginit-right">NHF-NexPoint Credit Strategies Fund</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.39</td>
+							<td class="span4"><strong class="marginit-right">IWM-iShares Russell 2000 ETF</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.40</td>
+							<td class="span4"><strong class="marginit-right">GNMA Remic Trust 2016-21</strong><div class="muted"><em>Rate/Coupon:</em> None <br> <em>Matures:</em> None</div><div class="muted"><em>Filer comment:  </em>3.000%, due 02/20/2046</div></td>
+							<td>Government Securities<div class="muted">US Treasury/Agency Security</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.41</td>
+							<td class="span4"><strong class="marginit-right">EPD-Enterprise Products Partners L.P.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.42</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=D" target="_blank">D</a> - Dominion Energy, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.43</td>
+							<td class="span4"><strong class="marginit-right">VOYA-Voya Financial, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.44</td>
+							<td class="span4"><strong class="marginit-right">BABY-Natus Medical Incorporated</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.45</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=BMY" target="_blank">BMY</a> - Bristol-Myers Squibb Company</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.46</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CELG" target="_blank">CELG</a> - Celgene Corporation</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.47</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CCE" target="_blank">CCE</a> - Coca-Cola European Partners plc</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.48</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FLIR" target="_blank">FLIR</a> - FLIR Systems, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.49</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=ICHR" target="_blank">ICHR</a> - Ichor Holdings, Ltd.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.50</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IYH" target="_blank">IYH</a> - iShares U.S. Healthcare ETF</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.51</td>
+							<td class="span4"><strong class="marginit-right">OI-Owens-Illinois, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.52</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=ABBV" target="_blank">ABBV</a> - AbbVie Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.53</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=AXE" target="_blank">AXE</a> - Anixter International Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.54</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CLF" target="_blank">CLF</a> - Cleveland-Cliffs Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.55</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CVA" target="_blank">CVA</a> - Covanta Holding Corporation</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.56</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=OAK" target="_blank">OAK</a> - Oaktree Capital Group, LLC</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.57</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=STE" target="_blank">STE</a> - STERIS plc</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.58</td>
+							<td class="span4"><strong class="marginit-right">TRGP-Targa Resources Corp.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.59</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=WCC" target="_blank">WCC</a> - WESCO International, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.60</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=AIG" target="_blank">AIG</a> - American International Group, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.61</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=DWDP" target="_blank">DWDP</a> - DowDuPont Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.62</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FTSI" target="_blank">FTSI</a> - FTS International, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.63</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=HRC" target="_blank">HRC</a> - Hill-Rom Holdings, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.64</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IQV" target="_blank">IQV</a> - IQVIA Holdings Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.65</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=ORI" target="_blank">ORI</a> - Old Republic International Corporation</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.66</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=WRK" target="_blank">WRK</a> - WestRock Company</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.67</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=ZTS" target="_blank">ZTS</a> - Zoetis Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.68</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=DLPH" target="_blank">DLPH</a> - Delphi Technologies PLC</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.69</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=APTV" target="_blank">APTV</a> - Aptiv PLC</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.70</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CNHI" target="_blank">CNHI</a> - CNH Industrial N.V.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.71</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CMLPSX" target="_blank">CMLPSX</a> - Guggenheim Defined Portfolios,</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.72</td>
+							<td class="span4"><strong class="marginit-right">Unit Trust - Guggenheim Financials Portfolio Cusip: 40173A286</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.73</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=STWD" target="_blank">STWD</a> - Starwood Property Trust, Inc.</strong><div class="muted"><em>Description:</em> Hotels (Various, Various)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">REIT</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.74</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FDUS" target="_blank">FDUS</a> - Fidus Investment Corporation</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.75</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=TTP" target="_blank">TTP</a> - Tortoise Pipeline & Energy Fund, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3.76</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=RMBFX" target="_blank">RMBFX</a> - RMB Mendon Financial Long/Short A</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong class="marginit-right">Raymond James-Jackson</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.1</td>
+							<td class="span4"><strong>Raymond James Bank NA</strong><div class="muted noWrap">(Washington, DC)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=BAC" target="_blank">BAC</a> - Bank of America Corporation (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=COP" target="_blank">COP</a> - ConocoPhillips (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.4</td>
+							<td class="span4"><strong class="marginit-right">JNJ-Johnson & Johnson (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.5</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PG" target="_blank">PG</a> - The Procter & Gamble Company (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.6</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=ACEIX" target="_blank">ACEIX</a> - Invesco Equity and Income A (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VGRAX" target="_blank">VGRAX</a> - Invesco Mid Cap Growth A (NASDAQ)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.8</td>
+							<td class="span4"><strong class="marginit-right">Mississippi DEV BK SPL OBLIG SWR BDS, WEST Rankin UTL Ser 2008</strong><div class="muted"><em>Rate/Coupon:</em> 4.5500 <br> <em>Matures:</em> 01/01/2026</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.9</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=F" target="_blank">F</a> - Ford Motor Company</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PFE" target="_blank">PFE</a> - Pfizer Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.11</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=V" target="_blank">V</a> - Visa Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">Morgan Stanley Ridgeland</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.1</td>
+							<td class="span4"><strong>Morgan Stanley Private Bank NA</strong><div class="muted noWrap">(Ridgeland, Mississippi)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=MPO" target="_blank">MPO</a> - Midstates Petroleum Company, Inc. (NYSE)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NML" target="_blank">NML</a> - Neuberger Berman MLP Income Fun (AMEX)</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong class="marginit-right">Rose Clayton Cochran Rev. Trust</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.1</td>
+							<td class="span4"><strong class="marginit-right">3/10 interest in 19.91 Acres </strong><div class="muted"><em>Description:</em> 13/4/3 Parcel 200 (Ripley, Mississippi)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.2</td>
+							<td class="span4"><strong>Renasant Bank</strong><div class="muted noWrap">(Tupelo, Mississippi)</div><div class="muted"><div class="muted"><em>Type: </em>Brokerage Sweep Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong class="marginit-right">Clayton Family LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Clayton Family LLC (Tupelo, Mississippi)&nbsp;<em>Description:</em>&nbsp;Holds Real Property&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.1</td>
+							<td class="span4"><strong>Renasant Trust MDA</strong><div class="muted noWrap">(Tupelo, Mississippi)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.2</td>
+							<td class="span4"><strong class="marginit-right">4/10 Interest in 19.91 Acres</strong><div class="muted"><em>Description:</em> 13/4/3 Parcel 200 (Ripley, Mississippi)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong class="marginit-right">Rose Clayton Cochran Custody</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Description</em>: Custody Account&nbsp;(Tupelo, Mississippi)&nbsp;</div></td>
+							<td>Other Securities</td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.1</td>
+							<td class="span4"><strong>Renasant Trust MDA</strong><div class="muted noWrap">(Tupelo, Mississippi)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.2</td>
+							<td class="span4"><strong class="marginit-right">Bank of New Albany</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Dividends, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong class="marginit-right">Hugh Clayton Trust</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.1</td>
+							<td class="span4"><strong>Renasant Trust MDA</strong><div class="muted noWrap">(Tupelo, Mississippi)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.2</td>
+							<td class="span4"><strong class="marginit-right">Bank of New Albany</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Dividends, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.3</td>
+							<td class="span4"><strong class="marginit-right">3/10 interest in 19.91 Acres </strong><div class="muted"><em>Description:</em> 13/4/3 Parcel 200 (Ripley, Mississippi)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right">Cathryn Rose Clayton Family Trust</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.1</td>
+							<td class="span4"><strong>Renasant Trust MDA</strong><div class="muted noWrap">(Tupelo, Mississippi)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.2</td>
+							<td class="span4"><strong class="marginit-right">Parking Lot E Jefferson/E Walnut</strong><div class="muted"><em>Description:</em> Parking Lot (Ripley, Mississippi)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.3</td>
+							<td class="span4"><strong class="marginit-right">Clayton Family LLC 13.8%</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Clayton Family LLC (Tupelo, Mississippi)&nbsp;<em>Description:</em>&nbsp;Holds Real Property&nbsp;<em>Filer comment:  </em>See item 7 above for underlying assets of Clayton Family LLC.</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong class="marginit-right">Raymond James Rollover IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Filer comment:  </em>IRA Rollover from Watkins & Eager Retirement Trust, the Van Guard Group</div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=QAI" target="_blank">QAI</a> - IQ Hedge Multi-Strategy Tracker ETF (NYSEArca)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=AGG" target="_blank">AGG</a> - iShares Core US Aggregate Bond (NYSEArca)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IWD" target="_blank">IWD</a> - iShares Russell 1000 Value (NYSEArca)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=JNK" target="_blank">JNK</a> - SPDR Barclays High Yield Bond ETF (NYSEArca)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.5</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=SDY" target="_blank">SDY</a> - SPDR S&P Dividend ETF (NYSEArca)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.6</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=FLRN" target="_blank">FLRN</a> - SPDR Barclays Investment Grd Fl Rt ETF (NYSEArca)</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=CIU" target="_blank">CIU</a> - iShares Intermediate Credit Bond</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.8</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IJH" target="_blank">IJH</a> - iShares Core S&P Mid-Cap ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.9</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IJR" target="_blank">IJR</a> - iShares Core S&P Small-Cap ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IEFA" target="_blank">IEFA</a> - iShares Core MSCI EAFE ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.11</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IEMG" target="_blank">IEMG</a> - iShares Core MSCI Emerging Markets ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.12</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VOO" target="_blank">VOO</a> - Vanguard 500 Index Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.13</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=SPIB" target="_blank">SPIB</a> - SPDR® Portfolio Intermediate Term Corporate Bond E</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong>US Senate Federal Credit Union</strong><div class="muted noWrap">(Washington, DC)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13</td>
+							<td class="span4"><strong class="marginit-right">Reception Rental Space in DC Residence</strong><div class="muted"><em>Description:</em> Reception Rental Space (Washington, DC)&nbsp;<em>Filer comment:  </em>Asset value listed is for the entire residential property.</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>14</td>
+							<td class="span4"><strong class="marginit-right">Rental Property in Gulfport</strong><div class="muted"><em>Description:</em> Rental Property (Gulfport, MS)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>$250,001 - $500,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>15</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=ABICX" target="_blank">ABICX</a> - AB International Value C</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16</td>
+							<td class="span4"><strong class="marginit-right">Bed and Breakfast in DC Residence</strong><div class="muted"><em>Description:</em> Bed and Breakfast (Washington, DC)&nbsp;<em>Filer comment:  </em>Asset value is for the entire property.</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				In this section, electronically filed periodic transaction report (PTR) transactions are displayed for you.  Have you filed any paper-based PTRs in this period?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of transactions added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Transaction Date</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Ticker</th>
+						<th scope="col">Asset Name</th>
+						<th scope="col">Type</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Comment</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>1</td>
+							<td>
+								01/04/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IWM
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Russell 2000
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>2</td>
+							<td>
+								01/04/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IJJ
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Trust - iShares S&amp;P Mid-Cap 400 Value ETF
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>3</td>
+							<td>
+								01/06/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    HIG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    The Hartford Financial Services Group, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>4</td>
+							<td>
+								01/09/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    OAK
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Oaktree Capital Group, LLC
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>5</td>
+							<td>
+								01/09/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    The Carlyle Group LP
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>6</td>
+							<td>
+								01/09/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    T
+                                
+                                
+                            </td>
+							<td>
+								
+                                    AT&amp;T Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>7</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IJR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Core S&amp;P Small-Cap
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>8</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CF
+                                
+                                
+                            </td>
+							<td>
+								
+                                    CF Industries Holdings, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>9</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MDY
+                                
+                                
+                            </td>
+							<td>
+								
+                                    SPDR S&amp;P MidCap 400 ETF
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>10</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CIU
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Trust - iShares Intermediate Credit Bond E
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>11</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IWF
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Russell 1000 Growth
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>12</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IWM
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Russell 2000
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>13</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    IWD-iShares Russell 1000 Value
+                                
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>14</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    EFA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Trust - iShares MSCI EAFE ETF
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>15</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    EEM
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares, Inc. - iShares MSCI Emerging Markets ETF
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>16</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    VOO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Vanguard 500 ETF
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>17</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SPIB
+                                
+                                
+                            </td>
+							<td>
+								
+                                    SPDR® Portfolio Intermediate Term Corporate Bond E
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>18</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IEFA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Core MSCI EAFE
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>19</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IEMG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares, Inc. - iShares Core MSCI Emerging Markets
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>20</td>
+							<td>
+								01/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IJH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Trust - iShares Core S&amp;P Mid-Cap ETF
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>21</td>
+							<td>
+								01/25/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IYH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares US Healthcare
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>22</td>
+							<td>
+								01/25/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MOS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    The Mosaic Company
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>23</td>
+							<td>
+								01/30/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MET
+                                
+                                
+                            </td>
+							<td>
+								
+                                    MetLife, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>24</td>
+							<td>
+								01/30/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    NUAN
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Nuance Communications, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>25</td>
+							<td>
+								02/01/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    EVHC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Envision Healthcare Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>26</td>
+							<td>
+								02/03/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BABY
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Natus Medical Incorporated
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>27</td>
+							<td>
+								02/03/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    RMBFX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    RMB Mendon Financial Long/Short A
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>28</td>
+							<td>
+								02/06/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    D
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Dominion Resources, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>29</td>
+							<td>
+								02/06/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    International Paper Company
+                                
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>30</td>
+							<td>
+								02/15/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    GNMA Remic Trust 2015-144 KQ  2.5% due 10/20/2045
+                                
+								
+									
+										<div class="muted">
+											<em>Company:</em> GNMA
+											
+										</div>
+									
+
+									
+										<div class="muted">
+											<em>Description:</em>&nbsp;Mortgage backed security.
+										</div>
+									
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is not really a sale, it is  return of capital but over $1000.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>31</td>
+							<td>
+								02/15/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ABBV
+                                
+                                
+                            </td>
+							<td>
+								
+                                    ABBV-AbbVie Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>32</td>
+							<td>
+								02/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SEE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Sealed Air Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>33</td>
+							<td>
+								02/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FLS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Flowserve Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>34</td>
+							<td>
+								02/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    HCP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    HCP-HCP, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>35</td>
+							<td>
+								02/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    PDCO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    PDCO-Patterson Companies, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>36</td>
+							<td>
+								02/23/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    APA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Apache Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>37</td>
+							<td>
+								02/28/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Dollar General Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>38</td>
+							<td>
+								02/28/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TSCO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Tractor Supply Company
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>39</td>
+							<td>
+								03/03/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    EVHC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Envision Healthcare Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>40</td>
+							<td>
+								03/07/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IYH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares US Healthcare
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>41</td>
+							<td>
+								03/08/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DBD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Diebold Nixdorf, Incorporated
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>42</td>
+							<td>
+								03/08/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>43</td>
+							<td>
+								03/10/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IYH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares US Healthcare
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>44</td>
+							<td>
+								03/10/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ALXN
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Alexion Pharmaceuticals, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>45</td>
+							<td>
+								03/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    D
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Dominion Resources, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>46</td>
+							<td>
+								03/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>47</td>
+							<td>
+								03/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DBD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Diebold Nixdorf, Incorporated
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>48</td>
+							<td>
+								03/14/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TEVA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Teva Pharmaceutical Industries Limited
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>49</td>
+							<td>
+								03/15/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ALXN
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Alexion Pharmaceuticals, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>50</td>
+							<td>
+								03/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TEVA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Teva Pharmaceutical Industries Limited
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>51</td>
+							<td>
+								03/20/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    GNMA REMIC Trust 2015-144KQ  2.5% due 10/20/2045
+                                
+								
+									
+										<div class="muted">
+											<em>Company:</em> GNMA
+											
+										</div>
+									
+
+									
+										<div class="muted">
+											<em>Description:</em>&nbsp;Mortgage
+										</div>
+									
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is NOT a sale but a return of principle - over $1000.00.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>52</td>
+							<td>
+								03/20/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ALXN
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Alexion Pharmaceuticals, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>53</td>
+							<td>
+								03/23/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ALXN
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Alexion Pharmaceuticals, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>54</td>
+							<td>
+								03/24/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IWM
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares Russell 2000
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>55</td>
+							<td>
+								03/24/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IJJ
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares S&amp;P Mid-Cap 400 Value
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>56</td>
+							<td>
+								03/29/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    PE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Parsley Energy
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>57</td>
+							<td>
+								03/29/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    VIAB
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Viacom, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>58</td>
+							<td>
+								03/29/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IJJ
+                                
+                                
+                            </td>
+							<td>
+								
+                                    iShares S&amp;P Mid-Cap 400 Value
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>59</td>
+							<td>
+								04/04/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>60</td>
+							<td>
+								04/06/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BGS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    B&amp;G Foods, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>61</td>
+							<td>
+								04/06/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SUN
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Sunoco LP
+                                
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>62</td>
+							<td>
+								04/07/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SEP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Spectra Energy Partners, LP
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>63</td>
+							<td>
+								04/07/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FDUS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Fidus Investment Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>64</td>
+							<td>
+								04/07/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CNHI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    CNH Industrial N.V.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>65</td>
+							<td>
+								04/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    KO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    The Coca-Cola Company
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>66</td>
+							<td>
+								04/14/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    PDCO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Patterson Companies, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>67</td>
+							<td>
+								04/18/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MDLZ
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Mondelez International, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>68</td>
+							<td>
+								04/19/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    KKR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    KKR &amp; Co. L.P.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>69</td>
+							<td>
+								04/20/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    GNMA REMIC Trust 2015-144 KQ  2.5% due 10/20/2045
+                                
+								
+									
+										<div class="muted">
+											<em>Company:</em> GNMA
+											
+										</div>
+									
+
+									
+										<div class="muted">
+											<em>Description:</em>&nbsp;CMO
+										</div>
+									
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is NOT a sale - it is return of principal but over $1000.00.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>70</td>
+							<td>
+								04/20/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TCPC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    TCP Capital Corp.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>71</td>
+							<td>
+								04/24/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    AIG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    American International Group, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>72</td>
+							<td>
+								04/25/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    OI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Owens-Illinois, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>73</td>
+							<td>
+								04/26/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Equity, L.P.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>74</td>
+							<td>
+								05/01/2017
+							</td>
+							<td>Spouse</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Exchange</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								The Senator received 600 shares of the new ETP for his old shares prior to merger with Sunoco Logist</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>75</td>
+							<td>
+								05/01/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Exchange</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								The Senator received 1000 ETP for the 1000 Sunoco Logisitics that he held.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>76</td>
+							<td>
+								05/04/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    VIAB
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Viacom, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>77</td>
+							<td>
+								05/08/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    PE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Parsley Energy, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>78</td>
+							<td>
+								05/10/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Nextpoint Credit Rights
+                                
+								
+									
+										<div class="muted">
+											<em>Company:</em> Nextpoint Credit
+											
+										</div>
+									
+
+									
+										<div class="muted">
+											<em>Description:</em>&nbsp;Investment Advisors
+										</div>
+									
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is NOT a purchase - it is a distribution of rights.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>79</td>
+							<td>
+								05/16/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ABT
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Abbott Laboratories
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>80</td>
+							<td>
+								05/16/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CCE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Coca-Cola European Partners Plc
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>81</td>
+							<td>
+								05/19/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Nexpoint Credit
+                                
+								
+									
+										<div class="muted">
+											<em>Company:</em> Nexpoint Credit
+											
+										</div>
+									
+
+									
+										<div class="muted">
+											<em>Description:</em>&nbsp;Financial Advisor
+										</div>
+									
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This NOT a SELL.  It is in fact an exercise of the rights awarded earlier in the month.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>82</td>
+							<td>
+								05/22/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Equity, L.P.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>83</td>
+							<td>
+								05/24/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MET
+                                
+                                
+                            </td>
+							<td>
+								
+                                    MetLife, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>84</td>
+							<td>
+								05/25/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SLM
+                                
+                                
+                            </td>
+							<td>
+								
+                                    SLM Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>85</td>
+							<td>
+								05/26/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MET
+                                
+                                
+                            </td>
+							<td>
+								
+                                    MetLife, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>86</td>
+							<td>
+								05/30/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TEVA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Teva Pharmaceutical Industries Limited
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>87</td>
+							<td>
+								06/02/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CELG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Celgene Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>88</td>
+							<td>
+								06/09/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SEP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Spectra Energy Partners, LP
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>89</td>
+							<td>
+								06/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ZTS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Zoetis Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>90</td>
+							<td>
+								06/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ICHR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Ichor Holdings, Ltd.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>91</td>
+							<td>
+								06/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MDLZ
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Mondelez International, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>92</td>
+							<td>
+								06/14/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>93</td>
+							<td>
+								06/16/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FTV
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Fortive Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>94</td>
+							<td>
+								06/16/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BGS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    B&amp;G Foods, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>95</td>
+							<td>
+								06/19/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MWA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Mueller Water Products, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>96</td>
+							<td>
+								06/20/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>97</td>
+							<td>
+								06/21/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MKC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    McCormick &amp; Company, Incorporated
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>98</td>
+							<td>
+								06/22/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    STE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Steris Plc
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>99</td>
+							<td>
+								06/28/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    VOYA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Voya Financial, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>100</td>
+							<td>
+								06/29/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SMGIX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Columbia Contrarian Core Z
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>101</td>
+							<td>
+								06/30/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    AIG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    American International Group, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>102</td>
+							<td>
+								07/03/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Regions Financial Corp Depositary Shares 6.375% Pfd.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>103</td>
+							<td>
+								07/03/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BMY
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Bristol-Myers Squibb Company
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>104</td>
+							<td>
+								07/10/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FLIR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    FLIR Systems, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>105</td>
+							<td>
+								07/14/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DBD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Diebold Nixdorf, Incorporated
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>106</td>
+							<td>
+								07/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ABDC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Alcentra Capital Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>107</td>
+							<td>
+								07/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    XPO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    XPO Logistics, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>108</td>
+							<td>
+								07/20/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CCE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Coca-Cola European Partners plc
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>109</td>
+							<td>
+								07/24/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    OI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Owens-Illinois, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>110</td>
+							<td>
+								08/01/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FLIR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    FLIR Systems, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>111</td>
+							<td>
+								08/02/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ATH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Athene Holding Ltd.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>112</td>
+							<td>
+								08/04/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CVA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Covanta Holding Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>113</td>
+							<td>
+								08/07/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BHF
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Brighthouse Financial, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is not really a purchase.  It is a spinoff from MET.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>114</td>
+							<td>
+								08/09/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BHF
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Brighthouse Financial, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>115</td>
+							<td>
+								08/09/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    XPO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    XPO Logistics, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>116</td>
+							<td>
+								08/16/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    VOYA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Voya Financial, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>117</td>
+							<td>
+								08/16/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    KO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    The Coca-Cola Company
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>118</td>
+							<td>
+								08/22/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MDT
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Medtronic plc
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>119</td>
+							<td>
+								08/23/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MWA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Mueller Water Products, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>120</td>
+							<td>
+								08/30/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    EXXI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy XXI Gulf Coast, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is not a sale.  It is disposal of a worthless security.  EXXIQOLD  The value is &quot;0&quot;.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>121</td>
+							<td>
+								09/07/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DWDP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    DowDuPont Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>122</td>
+							<td>
+								09/12/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DWDP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    DowDuPont Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>123</td>
+							<td>
+								09/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CAH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Cardinal Health, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>124</td>
+							<td>
+								09/13/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BMY
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Bristol-Myers Squibb Company
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>125</td>
+							<td>
+								09/22/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MDT
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Medtronic plc
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>126</td>
+							<td>
+								09/27/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    KO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    The Coca-Cola Company
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>127</td>
+							<td>
+								10/09/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CAH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Cardinal Health, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>128</td>
+							<td>
+								10/17/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    WCC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    WESCO International, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>129</td>
+							<td>
+								10/20/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CELG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Celgene Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>130</td>
+							<td>
+								10/23/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    WRK
+                                
+                                
+                            </td>
+							<td>
+								
+                                    WestRock Company
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>131</td>
+							<td>
+								10/27/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TRGP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Targa Resources Corp.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>132</td>
+							<td>
+								10/30/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ORI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Old Republic International Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>133</td>
+							<td>
+								11/03/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CMLPSX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Guggenheim Defined Portfolios,
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>134</td>
+							<td>
+								11/03/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ATH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Athene Holding Ltd.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>135</td>
+							<td>
+								11/14/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ICHR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Ichor Holdings, Ltd.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>136</td>
+							<td>
+								11/15/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FDUS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Fidus Investment Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>137</td>
+							<td>
+								11/15/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TCPC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    TCP Capital Corp.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>138</td>
+							<td>
+								11/15/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    PDCO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Patterson Companies, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>139</td>
+							<td>
+								11/22/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SEP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Spectra Energy Partners, LP
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>140</td>
+							<td>
+								11/24/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DLPH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Aptiv PLC
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>141</td>
+							<td>
+								11/29/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    AIG
+                                
+                                
+                            </td>
+							<td>
+								
+                                    American International Group, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>142</td>
+							<td>
+								11/29/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ISD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Prudential Short Duration High Yield Fund, Inc.
+                                
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>143</td>
+							<td>
+								11/29/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MAA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Mid-America Apartment Communities, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>144</td>
+							<td>
+								11/30/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    AXE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Anixter International Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>145</td>
+							<td>
+								12/05/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DLPH
+                                
+                                
+                                    <br/>
+                                    APTV
+                                
+                            </td>
+							<td>
+								
+                                    Delphi Technologies PLC (Exchanged)
+                                    <br/>
+                                    Aptiv PLC Received
+                                
+								
+							</td>
+							<td>Exchange</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>146</td>
+							<td>
+								12/05/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    DLPH
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Delphi Technologies PLC
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is NOT a purchase, it is a spinoff from the old DLPH.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>147</td>
+							<td>
+								12/11/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CCIZX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Columbia Seligman Comms &amp; Info Inst
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is a capital gain reinvestment.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>148</td>
+							<td>
+								12/12/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SMGIX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Columbia Contrarian Core Inst
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								This is a capital gain reinvestment.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>149</td>
+							<td>
+								12/14/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    SEP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Spectra Energy Partners, LP
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>150</td>
+							<td>
+								12/18/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    OI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Owens-Illinois, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>151</td>
+							<td>
+								12/18/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FSD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    First Trust High Income Long/Short Fund
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>152</td>
+							<td>
+								12/18/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ETP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Energy Transfer Partners, L.P.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>153</td>
+							<td>
+								12/18/2017
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    MTCIX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    MFS Technology I
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>154</td>
+							<td>
+								01/03/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    STE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Steris Plc
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>155</td>
+							<td>
+								01/05/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    OAK
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Oaktree Capital Group, LLC
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>156</td>
+							<td>
+								01/15/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    UNVR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Univar Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>157</td>
+							<td>
+								01/15/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    AL
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Air Lease Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>158</td>
+							<td>
+								01/16/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    AXE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Anixter International Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>159</td>
+							<td>
+								01/17/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TTP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Tortoise Pipeline &amp; Energy Fund, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>160</td>
+							<td>
+								01/24/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    WCC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    WESCO International, Inc.
+                                
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>161</td>
+							<td>
+								01/30/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TRGP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Targa Resources Corp.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>162</td>
+							<td>
+								01/30/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ISD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Prudential Short Duration High Yield Fund, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>163</td>
+							<td>
+								02/02/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    BX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    The Blackstone Group L.P.
+                                
+								
+							</td>
+							<td>Sale (Partial)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>164</td>
+							<td>
+								02/05/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    AL
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Air Lease Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>165</td>
+							<td>
+								02/07/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CLF
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Cleveland-Cliffs Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>166</td>
+							<td>
+								02/08/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    UNVR
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Univar Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>167</td>
+							<td>
+								02/12/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TEVA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Teva Pharmaceutical Industries Limited
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>168</td>
+							<td>
+								02/12/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    HRC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Hill-Rom Holdings, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>169</td>
+							<td>
+								02/14/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    PDCO
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Patterson Companies, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>170</td>
+							<td>
+								02/20/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    IQV
+                                
+                                
+                            </td>
+							<td>
+								
+                                    IQVIA Holdings Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>171</td>
+							<td>
+								02/20/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CLF
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Cleveland-Cliffs Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>172</td>
+							<td>
+								02/23/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    D
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Dominion Energy, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>173</td>
+							<td>
+								02/27/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FTSI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    FTS International, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>174</td>
+							<td>
+								02/27/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CVA
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Covanta Holding Corporation
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>175</td>
+							<td>
+								03/01/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    WY
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Weyerhaeuser Company
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>176</td>
+							<td>
+								03/02/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    GE
+                                
+                                
+                            </td>
+							<td>
+								
+                                    General Electric Company
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>177</td>
+							<td>
+								03/02/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    WCC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    WESCO International, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>178</td>
+							<td>
+								03/02/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    FDUS
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Fidus Investment Corporation
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>179</td>
+							<td>
+								03/09/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    TRGP
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Targa Resources Corp.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>180</td>
+							<td>
+								03/12/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    --
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Unit Trust - Guggenheim Financials Portfolio Cusip:  40173A286
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>181</td>
+							<td>
+								03/16/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    EPD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Enterprise Products Partners L.P.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>182</td>
+							<td>
+								03/16/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    D
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Dominion Energy, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>183</td>
+							<td>
+								03/20/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    WCC
+                                
+                                
+                            </td>
+							<td>
+								
+                                    WESCO International, Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>184</td>
+							<td>
+								03/26/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CCIZX
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Columbia Seligman Comms &amp; Info Inst
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>185</td>
+							<td>
+								03/26/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    ABBV
+                                
+                                
+                            </td>
+							<td>
+								
+                                    AbbVie Inc.
+                                
+								
+							</td>
+							<td>Sale (Full)</td>
+							<td>$15,001 - $50,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>186</td>
+							<td>
+								03/26/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    STWD
+                                
+                                
+                            </td>
+							<td>
+								
+                                    Starwood Property Trust, Inc.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>187</td>
+							<td>
+								03/26/2018
+							</td>
+							<td>Self</td>
+							<td>
+							    
+                                    CNHI
+                                
+                                
+                            </td>
+							<td>
+								
+                                    CNH Industrial N.V.
+                                
+								
+							</td>
+							<td>Purchase</td>
+							<td>$1,001 - $15,000</td>
+							<td>
+								--</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child buy, sell, or exchange an asset that exceeded $1,000?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child receive any reportable gift during the reporting period?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child receive any <button data-toggle="popover" type="button" aria-haspopup="true" data-html="true" data-title="When is travel reportable? <button type='button' tabindex='0' id='jsPopoverClose' aria-label='close' class='close'><i class='fa fa-times' aria-hidden='true'><span class='sr-only'>Close</span></i></button>"data-template='<div class="popover popover__fixMedium" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'class="btn btn-link popover--textButton font-weight-bold" data-placement="auto" data-content="<p>If you are reimbursed for more than one trip from the same sponsor, and the trips added together are worth more than $350, then you must report each trip individually, even if the reimbursement for each separate trip does not equal more than $350.</p>">reportable travel</button>?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of liabilities added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Incurred</th>
+						<th scope="col">Debtor</th>
+						<th scope="col">Type</th>
+						<th scope="col">Points</th>
+						<th scope="col">Rate<br>(Term)</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Creditor</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								2012
+							</td>
+							<td>Spouse</td>
+							<td>Mortgage
+								</td>
+							<td>
+								0</td>
+							<td>
+								4%<br>
+								
+														(30 years)
+								
+							</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>
+								US Bank
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								2006
+							</td>
+							<td>Spouse</td>
+							<td>Mortgage
+								</td>
+							<td>
+								0</td>
+							<td>
+								4.375%<br>
+								
+														(30 Years)
+								
+							</td>
+							<td>$250,001 - $500,000</td>
+							<td>
+								Nationstar Mortgage
+								<div class="muted">Dallas, TX</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Jan 2005 to
+								present
+							</td>
+							<td>
+								Other
+								(Ex Officio Member of Board of Trustees)
+							</td>
+							<td>
+								John F. Kennedy Center for the Performing Arts
+								<div class="muted">
+									Washington, DC
+								</div>
+							</td>
+							<td>
+								Other
+								(Federal Trust)
+							</td>
+							<td></td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						This is not my first report.
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>
