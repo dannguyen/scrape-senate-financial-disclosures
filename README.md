@@ -7,7 +7,7 @@
 Parse the extracted JSON data:
 
 ```
-$ python senate_findisc parse_raw
+$ python efdsenate parse_raw
 ```
 
 
@@ -60,5 +60,12 @@ cat data/parsed/state-indexes.csv \
     | csvgrep -c doc_type -i -r 'Amendment' \
     | csvgrep -c filer_type -r '^Senator' \
     |   csvcut -c state,last_name,first_name,date,doc_type
+
+```
+
+
+
+```
+ cat data/parsed/state-indexes.csv | csvgrep -c doc_type -r 'Periodic|Financial' | csvgrep -c doc_filetype -m 'paper' | csvcut -c last_name,first_name,date | ack '(.+?),(\d{4})' --output '$2  $1' | sort | uniq -c
 
 ```

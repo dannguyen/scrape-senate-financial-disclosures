@@ -1,4 +1,4 @@
-from senate_findisc.raw_parser import classify_doc_meta
+from efdsenate.raw_parser import classify_doc_meta
 import pytest
 
 
