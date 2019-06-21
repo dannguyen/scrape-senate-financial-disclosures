@@ -1316,17 +1316,17 @@
     "06/05/2013"
   ],
   [
-    "JOHN F",
-    "REED",
-    "Senator",
-    "<a href=\"/search/view/paper/5C38357B-2B72-4B8E-901B-CB5A9D8E2899/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2013"
-  ],
-  [
     "SHELDON",
     "WHITEHOUSE",
     "Senator",
     "<a href=\"/search/view/paper/E546FC25-E5C6-4DD2-8465-4C0D3C770523/\" target=\"_blank\">Periodic Transaction Report for 05/15/2013</a>",
+    "05/15/2013"
+  ],
+  [
+    "JOHN F",
+    "REED",
+    "Senator",
+    "<a href=\"/search/view/paper/5C38357B-2B72-4B8E-901B-CB5A9D8E2899/\" target=\"_blank\">Annual Report</a>",
     "05/15/2013"
   ],
   [
@@ -1340,14 +1340,14 @@
     "JOHN F",
     "REED",
     "Senator",
-    "<a href=\"/search/view/paper/0548963D-9EE7-4973-ADDC-1B6D20453F77/\" target=\"_blank\">Periodic Transaction Report for 04/10/2013</a>",
+    "<a href=\"/search/view/paper/9BB64ADE-F2D8-44D9-AD60-BA443C2632D0/\" target=\"_blank\">Periodic Transaction Report for 04/10/2013</a>",
     "04/10/2013"
   ],
   [
     "JOHN F",
     "REED",
     "Senator",
-    "<a href=\"/search/view/paper/9BB64ADE-F2D8-44D9-AD60-BA443C2632D0/\" target=\"_blank\">Periodic Transaction Report for 04/10/2013</a>",
+    "<a href=\"/search/view/paper/0548963D-9EE7-4973-ADDC-1B6D20453F77/\" target=\"_blank\">Periodic Transaction Report for 04/10/2013</a>",
     "04/10/2013"
   ],
   [
@@ -1396,13 +1396,6 @@
     "JOHN F",
     "REED",
     "Senator",
-    "<a href=\"/search/view/paper/7C02CAC4-6CFC-4F56-B41C-D487D1F9AA10/\" target=\"_blank\">Periodic Transaction Report for 01/23/2013 (Amendment)</a>",
-    "01/23/2013"
-  ],
-  [
-    "JOHN F",
-    "REED",
-    "Senator",
     "<a href=\"/search/view/paper/E0AD44BB-0300-466A-9D37-DF991DA7CAEF/\" target=\"_blank\">Periodic Transaction Report for 01/23/2013 (Amendment)</a>",
     "01/23/2013"
   ],
@@ -1410,14 +1403,21 @@
     "JOHN F",
     "REED",
     "Senator",
-    "<a href=\"/search/view/paper/005C1940-0F77-446D-A7E2-4FB8DF292205/\" target=\"_blank\">Periodic Transaction Report for 12/27/2012</a>",
-    "12/27/2012"
+    "<a href=\"/search/view/paper/7C02CAC4-6CFC-4F56-B41C-D487D1F9AA10/\" target=\"_blank\">Periodic Transaction Report for 01/23/2013 (Amendment)</a>",
+    "01/23/2013"
   ],
   [
     "JOHN F",
     "REED",
     "Senator",
     "<a href=\"/search/view/paper/2BD22E85-BA32-40E4-945B-37028CE116B5/\" target=\"_blank\">Periodic Transaction Report for 12/27/2012</a>",
+    "12/27/2012"
+  ],
+  [
+    "JOHN F",
+    "REED",
+    "Senator",
+    "<a href=\"/search/view/paper/005C1940-0F77-446D-A7E2-4FB8DF292205/\" target=\"_blank\">Periodic Transaction Report for 12/27/2012</a>",
     "12/27/2012"
   ],
   [

@@ -1,4 +1,4 @@
-from efdsenate.raw_parser import classify_doc_meta
+from efdsenate.scraping.raw_parser import classify_doc_meta
 import pytest
 
 

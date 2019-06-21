@@ -40,3 +40,31 @@ csrf tokens
 Cookie: csrftoken=vWbNZ8NFH2iFSMQmtnU7sfKCX2o0PGab8hPKgoafS5OZDI86abdKtMSZmduWnyOR
 Cookie: csrftoken=vWbNZ8NFH2iFSMQmtnU7sfKCX2o0PGab8hPKgoafS5OZDI86abdKtMSZmduWnyOR
 
+
+
+
+## Data issues
+
+Joni Ernst's paper reports are missing GIFs:
+
+```
+759.  ERNST JONI 2013-10-03 Report Due Date Extension
+     getting image:  https://efdsearch.senate.gov/media/2013/0/005/041/005041284.gif
+     404 for this image...oh well
+759  - (paper) Wrote 11640 chars to: data/docfiles/A0CF0AA2-F0D7-4783-A170-A00EE174C608/index.html
+----
+760.  ERNST JONI 2013-10-31 Annual Report (Amendment)
+     getting image:  https://efdsearch.senate.gov/media/2013/0/005/042/005042123.gif
+     404 for this image...oh well
+     getting image:  https://efdsearch.senate.gov/media/2013/0/005/042/005042124.gif
+     404 for this image...oh well
+     getting image:  https://efdsearch.senate.gov/media/2013/0/005/042/005042125.gif
+     404 for this image...oh well
+     getting image:  https://efdsearch.senate.gov/media/2013/0/005/042/005042126.gif
+     404 for this image...oh well
+     getting image:  https://efdsearch.senate.gov/media/2013/0/005/042/005042127.gif
+     404 for this image...oh well
+     getting image:  https://efdsearch.senate.gov/media/2013/0/005/042/005042128.gif
+     404 for this image...oh well
+760  - (paper) Wrote 24530 chars to: data/docfiles/E19DA6E1-D945-465B-913A-7FDCDC5DD38F/index.html
+```

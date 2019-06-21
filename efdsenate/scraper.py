@@ -1,84 +1,164 @@
-# from datetime import date
+"""
+a collection of public-facing methods mostly meant to be used by the CLI
+"""
+import csv
 import json
-from lxml.html import fromstring as hparse
 from pathlib import Path
-import requests
+import re
+from sys import stderr, stdout
 from urllib.parse import urljoin
 
-from constants import DEFAULT_SEARCHDATA_PARAMS, DEFAULT_SEARCHDATA_HEADERS, DEFAULT_USER_AGENT
 
-URL_HOMEPAGE = 'https://efdsearch.senate.gov/search/home/'
-URL_SEARCH = 'https://efdsearch.senate.gov/search/'
-URL_DATASEARCH = 'https://efdsearch.senate.gov/search/report/data/'
+from constants import DATA_PATH, BASE_DOMAIN
+from constants import US_STATES
+from constants import hparse
 
-
-def _agree_to_form(session):
-    res_g = session.get(URL_HOMEPAGE)
-    formvals = {'prohibition_agreement': 1,
-                'csrfmiddlewaretoken': _extract_csrftoken(res_g.text)}
-    session.headers['Referer'] = 'https://efdsearch.senate.gov/search/home/'
-    p = session.post(URL_HOMEPAGE, formvals)
-    return session, p
-
-def _extract_csrftoken(html):
-    doc = hparse(html)
-    return doc.xpath("//input[@name='csrfmiddlewaretoken']/@value")[0]
-
-def init_scraper():
-    s = requests.Session()
-    s.headers['User-Agent'] = DEFAULT_USER_AGENT
-    s, search_resp = _agree_to_form(s)
-    s.headers['Referer'] = URL_SEARCH
-    s.headers['DNT'] = '1'
-    s.headers['Host'] = 'efdsearch.senate.gov'
-    s.headers['Origin'] = 'https://efdsearch.senate.gov'
-    s.headers['Upgrade-Insecure-Requests'] = '1'
-    s.headers['Pragma'] = 'no-cache'
-    s.headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
-
-    return s, search_resp
-
-
-def scrape_by_state(state):
-    records = []
-    responses = []
-
-    s, _rx = init_scraper()
-    qheaders = DEFAULT_SEARCHDATA_HEADERS.copy()
-    qheaders['Cookie'] = _rx.request.headers['Cookie']
-    qheaders['X-CSRFToken'] = s.cookies.get('csrftoken')
-
-    qparams = DEFAULT_SEARCHDATA_PARAMS.copy()
-    qparams['senator_state'] = qparams['candidate_state'] = state
-
-    rbody = None
-    while len(responses) == 0 or len(records) < rbody['recordsTotal']:
-        resp = s.post(URL_DATASEARCH, data=qparams, headers=qheaders)
-        responses.append(resp)
-
-        rbody = resp.json()
-        records.extend(rbody['data'])
-
-        i = int(qparams['start'][0])
-        qparams['start'] = [str(i+100)]
-#        print(i, len(records), 'out of:', rbody['recordsTotal'])
-
-
-    return s, responses, records
+from scraping.fetcher import scrape_by_state, init_scraper
+from scraping.raw_parser import parse_raw_records, PARSED_HEADERS
 
 
 
+STASHED_DIR = DATA_PATH / 'stashed'
+PARSED_DIR = DATA_PATH / 'parsed'
+DOCFILES_DIR = DATA_PATH / 'docfiles'
+
+
+def fetch_doc_files():
+    """
+     brute force scrape of all associated files given a doc_url, including
+     the html, gifs (if it's a paper form), and (TODO) attachments
+    """
+
+    scraper, _x = init_scraper()
+    records = list(csv.DictReader(open(PARSED_DIR / 'state-indexes.csv')))
+    # records = [r for r in records if 'view/paper' in r['doc_url']] # TEMPTHING
+    records = [r for r in records if r['doc_id']]
+    for n, r in enumerate(records):
+#        print('{}. '.format(n), r['last_name'], r['first_name'], r['date'], r['doc_title'])
+
+
+        url = r['doc_url']
+        id = r['doc_id']
+
+        if 'view/paper' not in url:
+            destname = DOCFILES_DIR / (id + '.html')
+            if not destname.exists():
+                print('{}. '.format(n), r['last_name'], r['first_name'], r['date'], r['doc_title'])
+                resp = scraper.get(url)
+                if resp.status_code == 200:
+                    destname.parent.mkdir(parents=True, exist_ok=True)
+                    destname.write_text(resp.text)
+                    print(n, ' - Wrote', len(resp.text), 'chars to:', destname)
+                else:
+                    print("\tDid not get status code 200; Got status code {} for URL: {}".format(resp.status_code, resp.url))
+
+        else:
+            # it's paper time!
+#            print("\t\t\t\t....paper!")
+            destname = DOCFILES_DIR / id / 'index.html'
+            destdir = destname.parent
+            destdir.mkdir(parents=True, exist_ok=True)
+
+            if not destname.exists():
+                # print(destname)
+                print('{}. '.format(n), r['last_name'], r['first_name'], r['date'], r['doc_title'])
+                resp = scraper.get(url)
+
+
+                if resp.status_code == 200:
+                    doc = hparse(resp.text)
+                    imgs = doc.cssselect('img.filingImage')
+                    img_counter = 0
+
+                    try:
+                        for img in imgs:
+                            href = img.attrib['src']
+                            img_url = urljoin(BASE_DOMAIN, href)
+                            print("\t getting image: ", img_url)
+                            ix = scraper.get(img_url)
+                            if ix.status_code == 200:
+                                dest_imgname = destdir / Path(href).name
+                                print("\t saving to: ", dest_imgname)
+                                dest_imgname.write_bytes(ix.content)
+                            elif ix.status_code == 404:
+                                print("\t 404 for this image...oh well")
+                            else:
+                                raise IOError("\tDid not get status code 200/404; Got status code {} for URL: {}".format(ix.status_code, img_url))
+                    except Exception as err:
+                        print("Failed when trying to get images for {}: {}/{}".format(destname,
+                            img_counter, len(imgs)))
+                        print(err)
+                    else:
+                        destname.write_text(resp.text)
+                        print(n, ' - (paper) Wrote', len(resp.text), 'chars to:', destname)
+                        print('----')
+
+                    # now for the image extraction
 
 
 
-"""
-from urllib.parse import parse_qs
-
-from efdsenate.scraper import _extract_csrftoken, _agree_to_form
-from efdsenate.scraper import *
-s, r = scrape_by_state('IA')
-
-sx, rx = init_scraper()
 
 
-"""
+def fetch_state_index(state_initials):
+    scraper, responses, records = scrape_by_state(state_initials)
+
+    stderr.write(state_initials + "\n")
+
+    stdout.write(json.dumps(records, indent=2))
+
+    stderr.write('Responses: {}\n'.format(len(responses)))
+    stderr.write('Records: {}\n'.format(len(records)))
+
+
+def parse_and_stash_state_indexes():
+    allrecs = []
+    srcdir = STASHED_DIR / 'state-indexes'
+    srcfiles = srcdir.glob('*.json')
+    for s in srcfiles:
+        print(s)
+        rawrecs = json.loads(s.read_text())
+        recs = parse_raw_records(rawrecs)
+        for r in recs:
+            r['state'] = s.stem
+            allrecs.append(r)
+
+    allrecs = sorted(allrecs,
+                     key=lambda r: [r['state'], r['last_name'], r['first_name'],
+                            r['date'], r['doc_type'], r['amendment_number'], r['extension_number']
+                        ])
+
+    destpath = PARSED_DIR / 'state-indexes.csv'
+    destpath.parent.mkdir(parents=True, exist_ok=True)
+    with destpath.open('w') as w:
+        c = csv.DictWriter(w, fieldnames=PARSED_HEADERS)
+        c.writeheader()
+        c.writerows(allrecs)
+
+    print("Wrote", len(allrecs), 'records to:\n', destpath)
+
+def fetch_and_stash_allstates():
+    allrecs = []
+    outdir = STASHED_DIR / 'state-indexes'
+
+    for state in US_STATES:
+        stderr.write("\n{}\n--\n".format(state))
+        scraper, responses, records = scrape_by_state(state)
+
+        stderr.write('- Records: {}\n'.format(len(records)))
+
+        allrecs.extend(records)
+
+        outpath = outdir / "{}.json".format(state)
+        print(outpath)
+
+        outpath.parent.mkdir(parents=True, exist_ok=True)
+        outpath.write_text(json.dumps(records, indent=2))
+
+    stderr.write("\n=================\n")
+    stderr.write('- Total records: {}\n'.format(len(allrecs)))
+
+#####################
+if __name__ == '__main__':
+    main()
+
+
