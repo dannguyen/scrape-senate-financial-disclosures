@@ -1,6 +1,7 @@
 from datetime import datetime
 import re
 
+from helpers import cleantext
 from scraping.raw_extractor import _extract_doc_title, _extract_doc_url
 from scraping.raw_extractor import _extract_doc_id, _extract_related_date
 
@@ -31,7 +32,7 @@ FDREPORT_SUBTYPES= {
 
 
 def classify_doc_meta(title, url):
-    title = _cleantext(title)
+    title = cleantext(title)
     d = {'doc_type': None,
          'doc_subtype': None,
          'amendment_number': None,
@@ -107,12 +108,10 @@ def _subclassify_fdreport(title):
 
 
 
-def _cleantext(txt):
-    return re.sub(r'\s+', ' ', txt).strip()
 
 
 def parse_single_raw_record(record):
-    d = {k: _cleantext(foo(record)) for k, foo in PARSED_HEADERS.items()}
+    d = {k: cleantext(foo(record)) for k, foo in PARSED_HEADERS.items()}
     d.update(classify_doc_meta(d['doc_title'], d['doc_url']))
     for k, v in d.items():
         d[k] = str(v) if v else ''

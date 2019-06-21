@@ -9,18 +9,15 @@ from sys import stderr, stdout
 from urllib.parse import urljoin
 
 
-from constants import DATA_PATH, BASE_DOMAIN
-from constants import US_STATES
-from constants import hparse
+from constants import US_STATES, BASE_DOMAIN
+import filer
+from filer import STASHED_DIR, PARSED_DIR, DOCFILES_DIR
+from helpers import hparse
 
 from scraping.fetcher import scrape_by_state, init_scraper
 from scraping.raw_parser import parse_raw_records, PARSED_HEADERS
+from scraping.raw_extractor import  _extract_image_urls_from_paper_file
 
-
-
-STASHED_DIR = DATA_PATH / 'stashed'
-PARSED_DIR = DATA_PATH / 'parsed'
-DOCFILES_DIR = DATA_PATH / 'docfiles'
 
 
 def fetch_doc_files():
@@ -41,7 +38,7 @@ def fetch_doc_files():
         id = r['doc_id']
 
         if 'view/paper' not in url:
-            destname = DOCFILES_DIR / (id + '.html')
+            destname = filer.docfile_index_path(id, 'html')
             if not destname.exists():
                 print('{}. '.format(n), r['last_name'], r['first_name'], r['date'], r['doc_title'])
                 resp = scraper.get(url)
@@ -55,7 +52,7 @@ def fetch_doc_files():
         else:
             # it's paper time!
 #            print("\t\t\t\t....paper!")
-            destname = DOCFILES_DIR / id / 'index.html'
+            destname = filer.docfile_index_path(id, 'paper')
             destdir = destname.parent
             destdir.mkdir(parents=True, exist_ok=True)
 
@@ -66,8 +63,8 @@ def fetch_doc_files():
 
 
                 if resp.status_code == 200:
-                    doc = hparse(resp.text)
-                    imgs = doc.cssselect('img.filingImage')
+
+                    imgs = _extract_image_urls_from_paper_file(resp.text)
                     img_counter = 0
 
                     try:
@@ -110,6 +107,34 @@ def fetch_state_index(state_initials):
     stderr.write('Records: {}\n'.format(len(records)))
 
 
+
+
+
+
+def fetch_and_stash_allstates():
+    allrecs = []
+    outdir = STASHED_DIR / 'state-indexes'
+
+    for state in US_STATES:
+        stderr.write("\n{}\n--\n".format(state))
+        scraper, responses, records = scrape_by_state(state)
+
+        stderr.write('- Records: {}\n'.format(len(records)))
+
+        allrecs.extend(records)
+
+        outpath = outdir / "{}.json".format(state)
+        print(outpath)
+
+        outpath.parent.mkdir(parents=True, exist_ok=True)
+        outpath.write_text(json.dumps(records, indent=2))
+
+    stderr.write("\n=================\n")
+    stderr.write('- Total records: {}\n'.format(len(allrecs)))
+
+
+
+
 def parse_and_stash_state_indexes():
     allrecs = []
     srcdir = STASHED_DIR / 'state-indexes'
@@ -135,30 +160,4 @@ def parse_and_stash_state_indexes():
         c.writerows(allrecs)
 
     print("Wrote", len(allrecs), 'records to:\n', destpath)
-
-def fetch_and_stash_allstates():
-    allrecs = []
-    outdir = STASHED_DIR / 'state-indexes'
-
-    for state in US_STATES:
-        stderr.write("\n{}\n--\n".format(state))
-        scraper, responses, records = scrape_by_state(state)
-
-        stderr.write('- Records: {}\n'.format(len(records)))
-
-        allrecs.extend(records)
-
-        outpath = outdir / "{}.json".format(state)
-        print(outpath)
-
-        outpath.parent.mkdir(parents=True, exist_ok=True)
-        outpath.write_text(json.dumps(records, indent=2))
-
-    stderr.write("\n=================\n")
-    stderr.write('- Total records: {}\n'.format(len(allrecs)))
-
-#####################
-if __name__ == '__main__':
-    main()
-
 

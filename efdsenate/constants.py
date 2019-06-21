@@ -1,15 +1,7 @@
 from pathlib import Path
-import lxml
-
-
-
-def hparse(html):
-    return lxml.html.fromstring(html)
-
 
 BASE_DOMAIN = 'https://efdsearch.senate.gov'
 
-DATA_PATH = Path('data')
 
 
 DEFAULT_USER_AGENT = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
@@ -38,56 +30,6 @@ DEFAULT_SEARCH_PARAMS = {
      'last_name': '',
     }
 
-# DEFAULT_SEARCHDATA_PARAMS = {
-#     'draw': ['1'],
-#  'columns[0][data]': ['0'],
-#  'columns[0][name]': [''],
-#  'columns[0][searchable]': ['true'],
-#  'columns[0][orderable]': ['true'],
-#  'columns[0][search][value]': [''],
-#  'columns[0][search][regex]': ['false'],
-#  'columns[1][data]': ['1'],
-#  'columns[1][name]': [''],
-#  'columns[1][searchable]': ['true'],
-#  'columns[1][orderable]': ['true'],
-#  'columns[1][search][value]': [''],
-#  'columns[1][search][regex]': ['false'],
-#  'columns[2][data]': ['2'],
-#  'columns[2][name]': [''],
-#  'columns[2][searchable]': ['true'],
-#  'columns[2][orderable]': ['true'],
-#  'columns[2][search][value]': [''],
-#  'columns[2][search][regex]': ['false'],
-#  'columns[3][data]': ['3'],
-#  'columns[3][name]': [''],
-#  'columns[3][searchable]': ['true'],
-#  'columns[3][orderable]': ['true'],
-#  'columns[3][search][value]': [''],
-#  'columns[3][search][regex]': ['false'],
-#  'columns[4][data]': ['4'],
-#  'columns[4][name]': [''],
-#  'columns[4][searchable]': ['true'],
-#  'columns[4][orderable]': ['true'],
-#  'columns[4][search][value]': [''],
-#  'columns[4][search][regex]': ['false'],
-#  'order[0][column]': ['1'],
-#  'order[0][dir]': ['asc'],
-#  'order[1][column]': ['0'],
-#  'order[1][dir]': ['asc'],
-#  'start': ['0'],
-#  'length': ['100'],
-#  'search[value]': [''],
-#  'search[regex]': ['false'],
-#  'report_types': ['[]'],
-#  'filer_types': ['[]'],
-#  'submitted_start_date': ['01/01/2012 00:00:00'],
-#  'submitted_end_date': [''],
-#  'candidate_state': ['IA'],
-#  'senator_state': ['IA'],
-#  'office_id': [''],
-#  'first_name': [''],
-#  'last_name': ['']
-#  }
 
 DEFAULT_SEARCHDATA_PARAMS = {
  'draw': ['1'],

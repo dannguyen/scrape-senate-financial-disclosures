@@ -1,7 +1,7 @@
 import re
 from urllib.parse import urljoin
 
-from constants import hparse
+from helpers import hparse
 
 def _extract_related_date(title):
     # if there's a full date , we go for that first
@@ -32,3 +32,19 @@ def _extract_doc_url(htmlstr):
 def _extract_doc_title(htmlstr):
     return hparse(htmlstr).cssselect('a')[0].text
 
+
+def _extract_image_urls_from_paper_file(html):
+    doc = hparse(html)
+    imgs = doc.cssselect('img.filingImage')
+    return imgs
+
+# def _extract_attachments_from_html_file(html):
+#     """
+#     TODO: not a lot of attachments overall, and many old files are inaccessable.
+
+#     Not sure if this regex captures them all...
+#     rg 'electronic-financial-disclosure.s3.amazonaws.com' data/docfiles
+#     """
+#     doc = hparse(html)
+#     # urls = doc.cssselect(TODO)
+#     # return urls
