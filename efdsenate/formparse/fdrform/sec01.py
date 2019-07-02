@@ -2,27 +2,19 @@
 ###  1
 #########################
 from helpers import cleantext
+from formparse.fdrform.utils import parse_section
 
 
 def parsec_01(sec):
-    """
-    Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
-    """
+    data = {}
 
-    d = {}
-    p = sec.cssselect('p')[0]
-    r = list(p)[0]
-
-    """
-    Did any individual or organization pay you or your spouse more than $200 or
-    donate any amount to a charity on your behalf, for an article, speech,
-    or appearance?
-    """
-    d['prompt'] = cleantext(p.text)
-    d['response'] = cleantext(r.text)
-    return d
-
-
+    data['title'] = sec.cssselect('h3')[0].text
+    _p = sec.cssselect('p')[0]
+    _r = list(_p)[0]
+    data['prompt'] = cleantext(_p.text)
+    data['response'] = cleantext(_r.text)
+    data['records'] = extract_table(sec)
+    return data
 
 
 

@@ -2,6 +2,10 @@
 
 ## TODOS
 
+- [ ] Write custom parser for Assets table, e.g. parse out "company" and "description"
+    - [ ] Write manual extraction of every Assets table html
+- [ ] Write cli task to download *after* a given day
+- [ ] timestamp the docfiles collected so far
 - [x] parse the raw state-indexes.json into CSV
 - [ ] download every individual form
 - [ ] figureout why my all state count is 100 less than the site's default open search

@@ -1,0 +1,3009 @@
+{
+  "parts": [
+    {
+      "title": "Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria",
+      "prompt": "Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?",
+      "response": "No",
+      "records": []
+    },
+    {
+      "title": "Part 2. Earned and Non-Investment Income",
+      "prompt": "Did you or your spouse have reportable earned income or non-investment income?",
+      "response": "No",
+      "records": []
+    },
+    {
+      "title": "Part 3. Assets",
+      "prompt": "Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?",
+      "response": "Yes",
+      "records": [
+        {
+          "id": "1",
+          "asset": "Corker Development CorporationCompany: Corker Development Corporation (Chattanooga, TN) Description: Partnership interest in Limited Partnerships",
+          "asset_type": "Business EntityGeneral Partnership",
+          "owner": "Self",
+          "value": "$500,001 - $1,000,000",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "1.1",
+          "asset": "Raymond James - Wealth Preservation Advisors(Chattanooga, TN)Type: Brokerage Sweep Account,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$1,001 - $15,000",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "2",
+          "asset": "Corker Properties X, L.P.Company: Corker Properties X, L.P. (Chattanooga, TN) Description: Rental Real Estate",
+          "asset_type": "Business EntityLimited Partnership (LP)",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "2.1",
+          "asset": "The Volunteer BuidlingDescription: 832 Georgia Avenue (Chattanooga, TN) Filer comment: This property's value includes the commercial building, side lots, parking garage, and rear parking lot.",
+          "asset_type": "Real EstateCommercial",
+          "owner": "Self",
+          "value": "$5,000,001 - $25,000,000",
+          "income_type": "Rent/Royalties,",
+          "income": "$1,000,001 - $5,000,000"
+        },
+        {
+          "id": "2.2",
+          "asset": "Raymond James - Wealth Preservation Advisors(Chattanooga, TN)Type: Checking,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$500,001 - $1,000,000",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "2.3",
+          "asset": "Goodhew, LLCDescription: Business Entity - Apparel Manufacture (socks) (Chattanooga, TN)",
+          "asset_type": "Other Securities",
+          "owner": "Self",
+          "value": "$100,001 - $250,000",
+          "income_type": "Other, (Business Income (K-1))",
+          "income": "$50,001 - $100,000Other $51,725.00"
+        },
+        {
+          "id": "2.4",
+          "asset": "Sweetgreen - Preferred StockDescription: Sweetgreen - Fast Casual Restaurant Franchise (Washington, D.C.)",
+          "asset_type": "Other Securities",
+          "owner": "Self",
+          "value": "$50,001 - $100,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "3",
+          "asset": "Cumberland Trust and Investment CompanyDescription: Trust Services (Nashville, TN)",
+          "asset_type": "Other Securities",
+          "owner": "Self",
+          "value": "$15,001 - $50,000",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "4",
+          "asset": "LandDescription: Dorothy Burchfield Butler Family Limited Partnership (Sevieville, TN)",
+          "asset_type": "Real EstateUnimproved Land",
+          "owner": "Spouse",
+          "value": "$500,001 - $1,000,000",
+          "income_type": "Rent/Royalties,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "5",
+          "asset": "LandDescription: Dorothy Burchfield Butler Management Company (Sevierville, TN)",
+          "asset_type": "Real EstateUnimproved Land",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Rent/Royalties,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "6",
+          "asset": "Dorothy Burchfield Butler EstateDescription: Estate of Dorothy Burchfield (Chattanooga, TN)",
+          "asset_type": "Other Securities",
+          "owner": "Spouse",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "6.1",
+          "asset": "Tennessee State Bank(Sevierville, TN)Type: Checking,",
+          "asset_type": "Bank Deposit",
+          "owner": "Spouse",
+          "value": "$100,001 - $250,000",
+          "income_type": "Interest,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "7",
+          "asset": "Whole Life InsuranceProvider: Northwestern Mutual",
+          "asset_type": "Life InsuranceWhole",
+          "owner": "Self",
+          "value": "$50,001 - $100,000",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "8",
+          "asset": "City of Chattanooga, TN Pension Plan",
+          "asset_type": "Retirement PlansDefined Benefit Pension Plan",
+          "owner": "Self",
+          "value": "$100,001 - $250,000",
+          "income_type": "Dividends,",
+          "income": "$15,001 - $50,000"
+        },
+        {
+          "id": "9",
+          "asset": "Raymond James - Wealth Preservation Adviosrs",
+          "asset_type": "Brokerage/Managed Account",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "9.1",
+          "asset": "OHYFX - JPMorgan High Yield Select (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$5,001 - $15,000"
+        },
+        {
+          "id": "9.2",
+          "asset": "OOSYX - Oppenheimer Senior Floating Rate Y (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "9.3",
+          "asset": "THOPX - Thompson Bond (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$5,001 - $15,000"
+        },
+        {
+          "id": "9.4",
+          "asset": "IWO - iShares Russell 2000 Growth (NYSEArca)",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "9.5",
+          "asset": "IJJ - iShares S&P Mid-Cap 400 Value (NYSEArca)",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "9.6",
+          "asset": "IJS - iShares S&P Small-Cap 600 Value (NYSEArca)",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "9.7",
+          "asset": "SCHV - Schwab US Large-Cap Value ETF (NYSEArca)",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "9.8",
+          "asset": "XLE - Energy Select Sector SPDR ETF (NYSEArca)",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "9.9",
+          "asset": "Georgia State Housing and Financial Revenue - Cusip 373539S30Rate/Coupon: 3.55 Matures: 12/01/2025",
+          "asset_type": "Government SecuritiesMunicipal Security",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Interest,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "9.10",
+          "asset": "Lee County Florida School Board - Cusip 523494MH2Rate/Coupon: 3.75 Matures: 08/01/2027",
+          "asset_type": "Government SecuritiesMunicipal Security",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Interest,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "9.11",
+          "asset": "Mississippi Development Bond - Cusip 60534TVQ5Rate/Coupon: 3.25 Matures: 10/01/2024",
+          "asset_type": "Government SecuritiesMunicipal Security",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Interest,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "9.12",
+          "asset": "Oyster Bay New York Public Impact - Cusip 692160KP8Rate/Coupon: 4 Matures: 03/01/2028",
+          "asset_type": "Government SecuritiesMunicipal Security",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Interest,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "9.13",
+          "asset": "Poughkeepsie Town New York Library Purpose - Cusip 738663Y72Rate/Coupon: 3 Matures: 12/15/19",
+          "asset_type": "Government SecuritiesMunicipal Security",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Interest,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "9.14",
+          "asset": "St. Landry Parish Louisiana Revenue Bonds - Cusip 791023AK0Rate/Coupon: 3 Matures: 03/01/2023",
+          "asset_type": "Government SecuritiesMunicipal Security",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Interest,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "9.15",
+          "asset": "CBL - CBL & Associates Properties",
+          "asset_type": "Corporate SecuritiesStock",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$5,001 - $15,000"
+        },
+        {
+          "id": "9.16",
+          "asset": "MASFX - Litman Gregory Masters Alt Strats Instl",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "9.17",
+          "asset": "IVW - iShares S&P 500 Growth",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "9.18",
+          "asset": "LALDX - Lord Abbett Short Duration Income A",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$5,001 - $15,000"
+        },
+        {
+          "id": "9.19",
+          "asset": "BSIIX - BlackRock Strategic Income Opps Instl",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "9.20",
+          "asset": "BHYIX - BlackRock High Yield Bond Instl",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "9.21",
+          "asset": "AMLP - Alerian MLP ETF",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$5,001 - $15,000"
+        },
+        {
+          "id": "9.22",
+          "asset": "MLPOX - Oppenheimer SteelPath MLP Alpha Y",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$5,001 - $15,000"
+        },
+        {
+          "id": "9.23",
+          "asset": "BNDX - Vanguard Total Intl Bd Idx ETF",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "9.24",
+          "asset": "Raymond James - Wealth Preservation Advisors(Chattanooga, TN)Type: Brokerage Sweep Account,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$500,001 - $1,000,000",
+          "income_type": "Interest,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "9.25",
+          "asset": "WLL - Whiting Petroleum Corp.",
+          "asset_type": "Corporate SecuritiesStock",
+          "owner": "Self",
+          "value": "$500,001 - $1,000,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "9.26",
+          "asset": "OAS - Oasis Petroleum Inc.",
+          "asset_type": "Corporate SecuritiesStock",
+          "owner": "Self",
+          "value": "$500,001 - $1,000,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "9.27",
+          "asset": "QQQ - PowerShares QQQ ETF",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Dividends,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "9.28",
+          "asset": "SPY - SPDR S&P 500 ETF",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Dividends,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "9.29",
+          "asset": "DIA - SPDR Dow Jones Industrial Average ETF",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Dividends,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "9.30",
+          "asset": "IJK - iShares S&P Mid-Cap 400 Growth",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "10",
+          "asset": "Raymond James - Wealth Preservation Advisors",
+          "asset_type": "Retirement PlansIRA",
+          "owner": "Spouse",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "10.1",
+          "asset": "ABRYX - Invesco Balanced-Risk Allc Y (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "10.2",
+          "asset": "BREFX - Baron Real Estate Retail (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.3",
+          "asset": "CDOZX - Columbia Dividend Opportunity Z (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.4",
+          "asset": "OAKIX - Oakmark International I (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "10.5",
+          "asset": "HWIAX - Hotchkis & Wiley Capital Income A (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.6",
+          "asset": "WHIAX - Ivy High Income A (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "10.7",
+          "asset": "NEFFX - American Funds New Economy F2 (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "10.8",
+          "asset": "OOSYX - Oppenheimer Senior Floating Rate Y (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.9",
+          "asset": "PMCPX - Principal MidCap P (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.10",
+          "asset": "HDPSX - Hodges Small Cap Retail (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Capital Gains,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.11",
+          "asset": "PNRZX - Prudential Jennison Natural Resources Z (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.12",
+          "asset": "THOPX - Thompson Bond (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.13",
+          "asset": "QAI - IQ Hedge Multi-Strategy Tracker ETF (NYSEArca)",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "10.14",
+          "asset": "AQMNX - AQR Managed Futures Strategy N (NASDAQ)",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Spouse",
+          "value": "$1,001 - $15,000",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "10.15",
+          "asset": "Raymond James - Wealth Preservation Advisors(Chattanooga, TN)Type: Brokerage Sweep Account,",
+          "asset_type": "Bank Deposit",
+          "owner": "Spouse",
+          "value": "None (or less than $1,001)",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "11",
+          "asset": "Pensco IRA",
+          "asset_type": "Retirement PlansIRA",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "11.1",
+          "asset": "Pensco(Denver, CO)Type: Brokerage Sweep Account,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$1,001 - $15,000",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "11.2",
+          "asset": "Covenant Apartment Fund VIII, LPCompany: Covenant Apartment Fund VIII, LP (Nashville, TN) Description: Commerical Real Estate/Apartment Development",
+          "asset_type": "Business EntityLimited Partnership (LP)",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Excepted Investment Fund,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "12",
+          "asset": "Minnesota Life - Variable Adjustable Life Insurance",
+          "asset_type": "Life InsuranceVariable",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "12.1",
+          "asset": "Ivy Growth Subaccount",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "$100,001 - $250,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "12.2",
+          "asset": "SFT Advantage Index 500 - Subaccount",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "$50,001 - $100,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "12.3",
+          "asset": "Ivy VIP International Core - Subaccount",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "$15,001 - $50,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "12.4",
+          "asset": "SFT Ivy Small Growth",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "$15,001 - $50,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "12.5",
+          "asset": "Ivy VIP Value",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "$50,001 - $100,000",
+          "income_type": "None,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "13",
+          "asset": "NLL Holdings, LLCCompany: NLL, LLC (Dover, DE) Description: Commercial real estate projects",
+          "asset_type": "Business EntityLimited Liability Company (LLC)",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Interest,",
+          "income": "$100,001 - $1,000,000"
+        },
+        {
+          "id": "14",
+          "asset": "Third Floor Grantor Trust",
+          "asset_type": "TrustGeneral Trust",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "14.1",
+          "asset": "McGowin Park, LLCCompany: McGowin Park, LLC (Chattanooga, TN) Description: Commercial Real Estate Project Filer comment: Third Floor Grantor Trust is a 13.73% member of McGowin Park, LLC",
+          "asset_type": "Business EntityLimited Liability Company (LLC)",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "14.1.1",
+          "asset": "McGowin Park Shopping CenterDescription: Interstate 65 & Highway 90 (Mobile, AL)",
+          "asset_type": "Real EstateCommercial",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Rent/Royalties,",
+          "income": "$100,001 - $1,000,000"
+        },
+        {
+          "id": "14.2",
+          "asset": "1150, LLCCompany: 1150, LLC (Chattanooga, TN) Description: Commercial Real Estate",
+          "asset_type": "Business EntityLimited Liability Company (LLC)",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "14.2.1",
+          "asset": "1150 Hixson Pike, Chattanooga, TN 37402Description: Commercial Real Estate (Chattanooga, TN)",
+          "asset_type": "Real EstateCommercial",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Rent/Royalties,",
+          "income": "$100,001 - $1,000,000"
+        },
+        {
+          "id": "14.2.2",
+          "asset": "CapitalMark Bank (now Pinnacle Bank)(Chattanooga, TN)Type: Checking,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$50,001 - $100,000",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "14.3",
+          "asset": "McGowin Park Incentive Manager, LLCCompany: McGowin Park Incentive Manager, LLC (Chattanooga, TN) Description: Entity formed to become a member of McGowin Park Incentive, LLC Filer comment: Third Floor Grantor Trust is a 13.73% member in McGowin Park Incentive Manager, LLC",
+          "asset_type": "Business EntityLimited Liability Company (LLC)",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "14.3.1",
+          "asset": "McGowin Park Incentive, LLCCompany: McGowin Park Incentive, LLC (Chattanooga, TN) Description: Entity to hold specific assets that were transferred out of McGowin Park, LLC Filer comment: McGowin Park Incentive Manager, LLC is a 92% owner in McGowin Park Incentive, LLC",
+          "asset_type": "Business EntityLimited Liability Company (LLC)",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "14.3.1.1",
+          "asset": "City of Mobile Limited Obligation Project Revenue WarrantDescription: Project Revenue Warrant (Mobile, AL)",
+          "asset_type": "Other Securities",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Other, (Project Sales Tax Revenue)",
+          "income": "Other $40,349.31"
+        },
+        {
+          "id": "14.3.1.2",
+          "asset": "Mobile County Limited Obligation Project Revenue WarrantDescription: Project Revenue Warrant (Mobile, AL)",
+          "asset_type": "Other Securities",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Other, (Project Sales Tax Revenue)",
+          "income": "Other $40,349.31"
+        },
+        {
+          "id": "15",
+          "asset": "Raymond James - Wealth Preservation Advisors Traditional IRA",
+          "asset_type": "Retirement PlansIRA",
+          "owner": "Self",
+          "value": "",
+          "income_type": "",
+          "income": ""
+        },
+        {
+          "id": "15.1",
+          "asset": "BREFX - Baron Real Estate Retail",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends, Capital Gains,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "15.2",
+          "asset": "CDOZX - Columbia Dividend Opportunity Z",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "15.3",
+          "asset": "OOSYX - Oppenheimer Senior Floating Rate Y",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "15.4",
+          "asset": "BSIIX - BlackRock Strategic Income Opps Instl",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "15.5",
+          "asset": "BHYIX - BlackRock High Yield Bond Instl",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "15.6",
+          "asset": "AMLP - Alerian MLP ETF",
+          "asset_type": "Mutual FundsExchange Traded Fund/Note",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "15.7",
+          "asset": "TGBAX - Templeton Global Bond Adv",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "15.8",
+          "asset": "MLPOX - Oppenheimer SteelPath MLP Alpha Y",
+          "asset_type": "Mutual FundsMutual Fund",
+          "owner": "Self",
+          "value": "None (or less than $1,001)",
+          "income_type": "Dividends,",
+          "income": "$2,501 - $5,000"
+        },
+        {
+          "id": "15.9",
+          "asset": "Raymond James - Wealth Preservation Advisors(Chattanooga, TN)Type: Brokerage Sweep Account,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$1,000,001 - $5,000,000",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "16",
+          "asset": "Raymond James - Wealth Preservation Advisors(Chattanooga, TN)Type: Checking,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$250,001 - $500,000",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        },
+        {
+          "id": "17",
+          "asset": "Raymond James - Wealth Preservation Advisors(Chattanooga, TN)Type: Brokerage Sweep Account,",
+          "asset_type": "Bank Deposit",
+          "owner": "Self",
+          "value": "$5,000,001 - $25,000,000",
+          "income_type": "Interest,",
+          "income": "$1,001 - $2,500"
+        },
+        {
+          "id": "18",
+          "asset": "Chestnut Development Partners II, LPCompany: Chestnut Development Partners (Chattanooga, TN) Description: Commercial Real Estate Partnership",
+          "asset_type": "Business EntityLimited Partnership (LP)",
+          "owner": "Self",
+          "value": "$100,001 - $250,000",
+          "income_type": "Excepted Investment Fund,",
+          "income": "$201 - $1,000"
+        },
+        {
+          "id": "19",
+          "asset": "Sun Trust Bank(Chattanooga, TN)Type: Checking,",
+          "asset_type": "Bank Deposit",
+          "owner": "Joint",
+          "value": "$50,001 - $100,000",
+          "income_type": "Interest,",
+          "income": "None (or less than $201)"
+        }
+      ]
+    },
+    {
+      "title": "Part 4a. Periodic Transaction Report Summary",
+      "prompt": "In this section, electronically filed periodic transaction report (PTR) transactions are displayed for you. Have you filed any paper-based PTRs in this period?",
+      "response": "No",
+      "records": [
+        {
+          "id": "",
+          "#": "1",
+          "transaction_date": "07/15/2015",
+          "owner": "Self",
+          "ticker": "MAC",
+          "asset_name": "The Macerich Company (NYSE)",
+          "type": "Purchase",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "2",
+          "transaction_date": "08/12/2015",
+          "owner": "Self",
+          "ticker": "MAC",
+          "asset_name": "The Macerich Company (NYSE)",
+          "type": "Sale (Full)",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "3",
+          "transaction_date": "08/21/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Poughkeepsie Town NY Build America - CUSIP 738663Y72 Rate/Coupon: 3 Matures: 12/15/19",
+          "type": "Sale (Full)",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "4",
+          "transaction_date": "08/21/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "St. Landry Parish LA Sales Tax Rev - CUSIP 791023AK0 Rate/Coupon: 3 Matures: 03/01/2023",
+          "type": "Sale (Full)",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "5",
+          "transaction_date": "08/21/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Oyster Bay NY Pub IMPT Bonds - CUSIP 692160KP8 Rate/Coupon: 4 Matures: 03/01/2028",
+          "type": "Sale (Full)",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "6",
+          "transaction_date": "08/21/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Mississippi Development Horn Lake - CUSIP 60534TVQ5 Rate/Coupon: 3.25 Matures: 10/01/2024",
+          "type": "Sale (Full)",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "7",
+          "transaction_date": "08/21/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Lee County FL School Board - CUSIP 523494MH2 Rate/Coupon: 3.75 Matures: 08/01/2027",
+          "type": "Sale (Full)",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "8",
+          "transaction_date": "08/21/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Georgia State Housing and Financial - CUSIP 373539S30 Rate/Coupon: 3.55 Matures: 12/01/2025",
+          "type": "Sale (Full)",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "9",
+          "transaction_date": "08/24/2015",
+          "owner": "Self",
+          "ticker": "CBL",
+          "asset_name": "CBL & Associates Properties Inc. (NYSE)",
+          "type": "Purchase",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "10",
+          "transaction_date": "08/24/2015",
+          "owner": "Self",
+          "ticker": "MAC",
+          "asset_name": "The Macerich Company (NYSE)",
+          "type": "Purchase",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "11",
+          "transaction_date": "08/24/2015",
+          "owner": "Self",
+          "ticker": "MAC",
+          "asset_name": "The Macerich Company (NYSE)",
+          "type": "Purchase",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "12",
+          "transaction_date": "08/24/2015",
+          "owner": "Self",
+          "ticker": "CHK",
+          "asset_name": "Chesapeake Energy Corporation (NYSE)",
+          "type": "Purchase",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "13",
+          "transaction_date": "08/25/2015",
+          "owner": "Self",
+          "ticker": "CHK",
+          "asset_name": "Chesapeake Energy Corporation (NYSE)",
+          "type": "Sale (Full)",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "14",
+          "transaction_date": "09/03/2015",
+          "owner": "Self",
+          "ticker": "MAC",
+          "asset_name": "The Macerich Company (NYSE)",
+          "type": "Sale (Partial)",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "15",
+          "transaction_date": "09/16/2015",
+          "owner": "Self",
+          "ticker": "MAC",
+          "asset_name": "The Macerich Company (NYSE)",
+          "type": "Sale (Full)",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "16",
+          "transaction_date": "10/09/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "CBL & Associates Properties Inc - CBL",
+          "type": "Sale (Full)",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "17",
+          "transaction_date": "11/12/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Chesapeake Energy Corporation - CHK",
+          "type": "Purchase",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "18",
+          "transaction_date": "11/13/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Macerich Company REIT - MAC",
+          "type": "Purchase",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "19",
+          "transaction_date": "12/17/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "CHK - Chesapeake Energy Corporation",
+          "type": "Sale (Full)",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "20",
+          "transaction_date": "12/17/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "MAC - Macerich Company",
+          "type": "Sale (Full)",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "21",
+          "transaction_date": "12/21/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Chesapeake Energy Corp - CHK",
+          "type": "Purchase",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "22",
+          "transaction_date": "12/23/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Chipotle Mexican Grill - CMG",
+          "type": "Purchase",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "23",
+          "transaction_date": "12/30/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Chipotle Mexican Grill - CMG",
+          "type": "Sale (Full)",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "24",
+          "transaction_date": "12/31/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Chesapeake Energy Corp - CHK",
+          "type": "Sale (Full)",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "25",
+          "transaction_date": "12/31/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Oasis Pete Inc. - OAS",
+          "type": "Purchase",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "26",
+          "transaction_date": "12/31/2015",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Whiting Pete Corp. - WLL",
+          "type": "Purchase",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        }
+      ]
+    },
+    {
+      "title": "Part 4b. Transactions",
+      "prompt": "Did you, your spouse, or dependent child buy, sell, or exchange an asset that exceeded $1,000?",
+      "response": "Yes",
+      "records": [
+        {
+          "id": "",
+          "#": "1",
+          "owner": "Self",
+          "ticker": "SPY",
+          "asset_name": "SPDR S&P 500 ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/18/2015",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "2",
+          "owner": "Self",
+          "ticker": "QQQ",
+          "asset_name": "PowerShares QQQ ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/18/2015",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "3",
+          "owner": "Self",
+          "ticker": "DIA",
+          "asset_name": "SPDR Dow Jones Industrial Average ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/18/2015",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "4",
+          "owner": "Self",
+          "ticker": "MASFX",
+          "asset_name": "Litman Gregory Masters Alt Strats Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "5",
+          "owner": "Self",
+          "ticker": "WMCNX",
+          "asset_name": "William Blair Macro Allocation N",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "6",
+          "owner": "Self",
+          "ticker": "DHLSX",
+          "asset_name": "Diamond Hill Long-Short I",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "7",
+          "owner": "Self",
+          "ticker": "CLLIX",
+          "asset_name": "Collins Alternative Solutions Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "8",
+          "owner": "Self",
+          "ticker": "MLPOX",
+          "asset_name": "Oppenheimer SteelPath MLP Alpha Y",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "9",
+          "owner": "Self",
+          "ticker": "ABRYX",
+          "asset_name": "Invesco Balanced-Risk Allc Y",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "10",
+          "owner": "Self",
+          "ticker": "AEPFX",
+          "asset_name": "American Funds Europacific Growth F2",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "11",
+          "owner": "Self",
+          "ticker": "SCHV",
+          "asset_name": "Schwab US Large-Cap Value ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "12",
+          "owner": "Self",
+          "ticker": "IVW",
+          "asset_name": "iShares S&P 500 Growth",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "13",
+          "owner": "Self",
+          "ticker": "IJK",
+          "asset_name": "iShares S&P Mid-Cap 400 Growth",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "14",
+          "owner": "Self",
+          "ticker": "IJJ",
+          "asset_name": "iShares S&P Mid-Cap 400 Value",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "15",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "16",
+          "owner": "Self",
+          "ticker": "JCRAX",
+          "asset_name": "ALPS|CorCmdty Mgmt CompleteCmdty Strat A",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "17",
+          "owner": "Self",
+          "ticker": "OAKIX",
+          "asset_name": "Oakmark International I",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "18",
+          "owner": "Self",
+          "ticker": "IJJ",
+          "asset_name": "iShares S&P Mid-Cap 400 Value",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "19",
+          "owner": "Self",
+          "ticker": "IJK",
+          "asset_name": "iShares S&P Mid-Cap 400 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "20",
+          "owner": "Self",
+          "ticker": "SCHV",
+          "asset_name": "Schwab US Large-Cap Value ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "21",
+          "owner": "Self",
+          "ticker": "IVW",
+          "asset_name": "iShares S&P 500 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "22",
+          "owner": "Self",
+          "ticker": "JCRAX",
+          "asset_name": "ALPS|CorCmdty Mgmt CompleteCmdty Strat A",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "23",
+          "owner": "Self",
+          "ticker": "SCHV",
+          "asset_name": "Schwab US Large-Cap Value ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/16/2015",
+          "amount": "$15,001 - $50,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "24",
+          "owner": "Self",
+          "ticker": "IVW",
+          "asset_name": "iShares S&P 500 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/16/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "25",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/16/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "26",
+          "owner": "Self",
+          "ticker": "JCRAX",
+          "asset_name": "ALPS|CorCmdty Mgmt CompleteCmdty Strat A",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/16/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "27",
+          "owner": "Self",
+          "ticker": "QAI",
+          "asset_name": "IQ Hedge Multi-Strategy Tracker ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "28",
+          "owner": "Self",
+          "ticker": "IJJ",
+          "asset_name": "iShares S&P Mid-Cap 400 Value",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "29",
+          "owner": "Self",
+          "ticker": "XLE",
+          "asset_name": "Energy Select Sector SPDR ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "30",
+          "owner": "Self",
+          "ticker": "SCHV",
+          "asset_name": "Schwab US Large-Cap Value ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "31",
+          "owner": "Self",
+          "ticker": "IVW",
+          "asset_name": "iShares S&P 500 Growth",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "32",
+          "owner": "Self",
+          "ticker": "DBC",
+          "asset_name": "PowerShares DB Commodity Tracking ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "33",
+          "owner": "Self",
+          "ticker": "IJK",
+          "asset_name": "iShares S&P Mid-Cap 400 Growth",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "34",
+          "owner": "Self",
+          "ticker": "MLPN",
+          "asset_name": "Credit Suisse X-Links CushgMLPInfrasETN",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "35",
+          "owner": "Self",
+          "ticker": "AMLP",
+          "asset_name": "Alerian MLP ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "36",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "37",
+          "owner": "Self",
+          "ticker": "IAU",
+          "asset_name": "iShares Gold Trust",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "38",
+          "owner": "Self",
+          "ticker": "THOPX",
+          "asset_name": "Thompson Bond",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "39",
+          "owner": "Self",
+          "ticker": "OOSYX",
+          "asset_name": "Oppenheimer Senior Floating Rate Y",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "40",
+          "owner": "Self",
+          "ticker": "LALDX",
+          "asset_name": "Lord Abbett Short Duration Income A",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "41",
+          "owner": "Self",
+          "ticker": "BNDX",
+          "asset_name": "Vanguard Total Intl Bd Idx ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "42",
+          "owner": "Self",
+          "ticker": "AQMNX",
+          "asset_name": "AQR Managed Futures Strategy N",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "43",
+          "owner": "Self",
+          "ticker": "VIPSX",
+          "asset_name": "Vanguard Inflation-Protected Secs Inv",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "44",
+          "owner": "Self",
+          "ticker": "OHYFX",
+          "asset_name": "JPMorgan High Yield Select",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "45",
+          "owner": "Self",
+          "ticker": "BSIIX",
+          "asset_name": "BlackRock Strategic Income Opps Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "46",
+          "owner": "Self",
+          "ticker": "BHYIX",
+          "asset_name": "BlackRock High Yield Bond Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "47",
+          "owner": "Self",
+          "ticker": "BICPX",
+          "asset_name": "BlackRock 20/80 Target Allocation Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "48",
+          "owner": "Self",
+          "ticker": "MLPN",
+          "asset_name": "Credit Suisse X-Links CushgMLPInfrasETN",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/31/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "49",
+          "owner": "Self",
+          "ticker": "MLPN",
+          "asset_name": "Credit Suisse X-Links CushgMLPInfrasETN",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/29/2015",
+          "amount": "$1,001 - $15,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "50",
+          "owner": "Self",
+          "ticker": "DHLSX",
+          "asset_name": "Diamond Hill Long-Short I",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "51",
+          "owner": "Self",
+          "ticker": "AEPFX",
+          "asset_name": "American Funds Europacific Growth F2",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "52",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "53",
+          "owner": "Self",
+          "ticker": "IJK",
+          "asset_name": "iShares S&P Mid-Cap 400 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "54",
+          "owner": "Self",
+          "ticker": "IJJ",
+          "asset_name": "iShares S&P Mid-Cap 400 Value",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "55",
+          "owner": "Self",
+          "ticker": "SCHV",
+          "asset_name": "Schwab US Large-Cap Value ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "56",
+          "owner": "Self",
+          "ticker": "IVW",
+          "asset_name": "iShares S&P 500 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "57",
+          "owner": "Self",
+          "ticker": "VIPSX",
+          "asset_name": "Vanguard Inflation-Protected Secs Inv",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "58",
+          "owner": "Self",
+          "ticker": "OAKIX",
+          "asset_name": "Oakmark International I",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "59",
+          "owner": "Self",
+          "ticker": "MASFX",
+          "asset_name": "Litman Gregory Masters Alt Strats Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/08/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "60",
+          "owner": "Self",
+          "ticker": "BREFX",
+          "asset_name": "Baron Real Estate Retail",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "06/08/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "61",
+          "owner": "Self",
+          "ticker": "HIEMX",
+          "asset_name": "Virtus Emerging Markets Opportunities I",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "62",
+          "owner": "Self",
+          "ticker": "PMCPX",
+          "asset_name": "Principal MidCap P",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "63",
+          "owner": "Self",
+          "ticker": "NEFFX",
+          "asset_name": "American Funds New Economy F2",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "64",
+          "owner": "Self",
+          "ticker": "AEPFX",
+          "asset_name": "American Funds Europacific Growth F2",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "65",
+          "owner": "Self",
+          "ticker": "HWAIX",
+          "asset_name": "Hotchkis & Wiley Value Opps Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "66",
+          "owner": "Self",
+          "ticker": "SCHF",
+          "asset_name": "Schwab International Equity ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "67",
+          "owner": "Self",
+          "ticker": "SCHV",
+          "asset_name": "Schwab US Large-Cap Value ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$500,001 - $1,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "68",
+          "owner": "Self",
+          "ticker": "DXJ",
+          "asset_name": "WisdomTree Japan Hedged Equity ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "69",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "70",
+          "owner": "Self",
+          "ticker": "IVW",
+          "asset_name": "iShares S&P 500 Growth",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "71",
+          "owner": "Self",
+          "ticker": "IJS",
+          "asset_name": "iShares S&P Small-Cap 600 Value",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "72",
+          "owner": "Self",
+          "ticker": "IJJ",
+          "asset_name": "iShares S&P Mid-Cap 400 Value",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "73",
+          "owner": "Self",
+          "ticker": "IJK",
+          "asset_name": "iShares S&P Mid-Cap 400 Growth",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "74",
+          "owner": "Self",
+          "ticker": "IWO",
+          "asset_name": "iShares Russell 2000 Growth",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "75",
+          "owner": "Self",
+          "ticker": "EEM",
+          "asset_name": "iShares MSCI Emerging Markets",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "76",
+          "owner": "Self",
+          "ticker": "HDPSX",
+          "asset_name": "Hodges Small Cap Retail",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "77",
+          "owner": "Self",
+          "ticker": "TIQIX",
+          "asset_name": "Touchstone Sustainability & Imp Eq Y",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "03/12/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "78",
+          "owner": "Self",
+          "ticker": "IVW",
+          "asset_name": "iShares S&P 500 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "79",
+          "owner": "Self",
+          "ticker": "ABRYX",
+          "asset_name": "Invesco Balanced-Risk Allc Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "80",
+          "owner": "Self",
+          "ticker": "BICPX",
+          "asset_name": "BlackRock 20/80 Target Allocation Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "81",
+          "owner": "Self",
+          "ticker": "LALDX",
+          "asset_name": "Lord Abbett Short Duration Income A",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "82",
+          "owner": "Self",
+          "ticker": "AEPFX",
+          "asset_name": "American Funds Europacific Growth F2",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "83",
+          "owner": "Self",
+          "ticker": "DHLSX",
+          "asset_name": "Diamond Hill Long-Short I",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "84",
+          "owner": "Self",
+          "ticker": "WMCNX",
+          "asset_name": "William Blair Macro Allocation N",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "85",
+          "owner": "Self",
+          "ticker": "CLLIX",
+          "asset_name": "Collins Alternative Solutions Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "86",
+          "owner": "Self",
+          "ticker": "MLPOX",
+          "asset_name": "Oppenheimer SteelPath MLP Alpha Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "87",
+          "owner": "Self",
+          "ticker": "QAI",
+          "asset_name": "IQ Hedge Multi-Strategy Tracker ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "88",
+          "owner": "Self",
+          "ticker": "AMLP",
+          "asset_name": "Alerian MLP ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "89",
+          "owner": "Self",
+          "ticker": "DBC",
+          "asset_name": "PowerShares DB Commodity Tracking ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "90",
+          "owner": "Self",
+          "ticker": "SCHF",
+          "asset_name": "Schwab International Equity ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "91",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "92",
+          "owner": "Self",
+          "ticker": "IJS",
+          "asset_name": "iShares S&P Small-Cap 600 Value",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$15,001 - $50,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "93",
+          "owner": "Self",
+          "ticker": "IWO",
+          "asset_name": "iShares Russell 2000 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$15,001 - $50,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "94",
+          "owner": "Self",
+          "ticker": "IJJ",
+          "asset_name": "iShares S&P Mid-Cap 400 Value",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "95",
+          "owner": "Self",
+          "ticker": "IJK",
+          "asset_name": "iShares S&P Mid-Cap 400 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "96",
+          "owner": "Self",
+          "ticker": "AQMNX",
+          "asset_name": "AQR Managed Futures Strategy N",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "97",
+          "owner": "Self",
+          "ticker": "JCRAX",
+          "asset_name": "ALPS|CorCmdty Mgmt CompleteCmdty Strat A",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "98",
+          "owner": "Self",
+          "ticker": "MLPOX",
+          "asset_name": "Oppenheimer SteelPath MLP Alpha Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "99",
+          "owner": "Self",
+          "ticker": "OOSYX",
+          "asset_name": "Oppenheimer Senior Floating Rate Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "100",
+          "owner": "Self",
+          "ticker": "LALDX",
+          "asset_name": "Lord Abbett Short Duration Income A",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "101",
+          "owner": "Self",
+          "ticker": "THOPX",
+          "asset_name": "Thompson Bond",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "102",
+          "owner": "Self",
+          "ticker": "AMLP",
+          "asset_name": "Alerian MLP ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "103",
+          "owner": "Self",
+          "ticker": "BNDX",
+          "asset_name": "Vanguard Total Intl Bd Idx ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "104",
+          "owner": "Self",
+          "ticker": "BSIIX",
+          "asset_name": "BlackRock Strategic Income Opps Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "105",
+          "owner": "Self",
+          "ticker": "ABRYX",
+          "asset_name": "Invesco Balanced-Risk Allc Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "106",
+          "owner": "Self",
+          "ticker": "BICPX",
+          "asset_name": "BlackRock 20/80 Target Allocation Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "107",
+          "owner": "Self",
+          "ticker": "AEPFX",
+          "asset_name": "American Funds Europacific Growth F2",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "108",
+          "owner": "Self",
+          "ticker": "NEFFX",
+          "asset_name": "American Funds New Economy F2",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "109",
+          "owner": "Self",
+          "ticker": "WMCNX",
+          "asset_name": "William Blair Macro Allocation N",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "110",
+          "owner": "Self",
+          "ticker": "CLLIX",
+          "asset_name": "Collins Alternative Solutions Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "111",
+          "owner": "Self",
+          "ticker": "QAI",
+          "asset_name": "IQ Hedge Multi-Strategy Tracker ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "112",
+          "owner": "Self",
+          "ticker": "DBC",
+          "asset_name": "PowerShares DB Commodity Tracking ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$15,001 - $50,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "113",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "114",
+          "owner": "Self",
+          "ticker": "IJJ",
+          "asset_name": "iShares S&P Mid-Cap 400 Value",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$1,001 - $15,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "115",
+          "owner": "Self",
+          "ticker": "IJK",
+          "asset_name": "iShares S&P Mid-Cap 400 Growth",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "116",
+          "owner": "Self",
+          "ticker": "SCHV",
+          "asset_name": "Schwab US Large-Cap Value ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "117",
+          "owner": "Self",
+          "ticker": "BHYIX",
+          "asset_name": "BlackRock High Yield Bond Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "118",
+          "owner": "Self",
+          "ticker": "DHLSX",
+          "asset_name": "Diamond Hill Long-Short I",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "119",
+          "owner": "Self",
+          "ticker": "MLPOX",
+          "asset_name": "Oppenheimer SteelPath MLP Alpha Y",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "120",
+          "owner": "Self",
+          "ticker": "NEFFX",
+          "asset_name": "American Funds New Economy F2",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "121",
+          "owner": "Self",
+          "ticker": "AEPFX",
+          "asset_name": "American Funds Europacific Growth F2",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "122",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "123",
+          "owner": "Self",
+          "ticker": "OAKIX",
+          "asset_name": "Oakmark International I",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "124",
+          "owner": "Self",
+          "ticker": "CDOZX",
+          "asset_name": "Columbia Dividend Opportunity Z",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "125",
+          "owner": "Self",
+          "ticker": "BREFX",
+          "asset_name": "Baron Real Estate Retail",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "10/14/2015",
+          "amount": "$15,001 - $50,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "126",
+          "owner": "Self",
+          "ticker": "AMLP",
+          "asset_name": "Alerian MLP ETF",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "127",
+          "owner": "Self",
+          "ticker": "MLPN",
+          "asset_name": "Credit Suisse X-Links CushgMLPInfrasETN",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/24/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "128",
+          "owner": "Self",
+          "ticker": "TGBAX",
+          "asset_name": "Templeton Global Bond Adv",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "129",
+          "owner": "Self",
+          "ticker": "OOSYX",
+          "asset_name": "Oppenheimer Senior Floating Rate Y",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "130",
+          "owner": "Self",
+          "ticker": "BHYIX",
+          "asset_name": "BlackRock High Yield Bond Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "131",
+          "owner": "Self",
+          "ticker": "BSIIX",
+          "asset_name": "BlackRock Strategic Income Opps Instl",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "08/21/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "132",
+          "owner": "Self",
+          "ticker": "BHYIX",
+          "asset_name": "BlackRock High Yield Bond Instl",
+          "transaction_type": "Sale (Partial)",
+          "transaction_date": "08/20/2015",
+          "amount": "$15,001 - $50,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "133",
+          "owner": "Self",
+          "ticker": "TIQIX",
+          "asset_name": "Touchstone Sustainability & Imp Eq Y",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "134",
+          "owner": "Self",
+          "ticker": "NEFFX",
+          "asset_name": "American Funds New Economy F2",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "135",
+          "owner": "Self",
+          "ticker": "HIEMX",
+          "asset_name": "Virtus Emerging Markets Opportunities I",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "136",
+          "owner": "Self",
+          "ticker": "CDOZX",
+          "asset_name": "Columbia Dividend Opportunity Z",
+          "transaction_type": "Sale (Full)",
+          "transaction_date": "04/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "137",
+          "owner": "Self",
+          "ticker": "DHLSX",
+          "asset_name": "Diamond Hill Long-Short I",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "138",
+          "owner": "Self",
+          "ticker": "NEFFX",
+          "asset_name": "American Funds New Economy F2",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "139",
+          "owner": "Self",
+          "ticker": "AEPFX",
+          "asset_name": "American Funds Europacific Growth F2",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2015",
+          "amount": "$15,001 - $50,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "140",
+          "owner": "Self",
+          "ticker": "EFA",
+          "asset_name": "iShares MSCI EAFE",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "141",
+          "owner": "Self",
+          "ticker": "CDOZX",
+          "asset_name": "Columbia Dividend Opportunity Z",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "142",
+          "owner": "Self",
+          "ticker": "OAKIX",
+          "asset_name": "Oakmark International I",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "143",
+          "owner": "Self",
+          "ticker": "MLPN",
+          "asset_name": "Credit Suisse X-Links CushgMLPInfrasETN",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/30/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "144",
+          "owner": "Self",
+          "ticker": "AMLP",
+          "asset_name": "Alerian MLP ETF",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$250,001 - $500,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "145",
+          "owner": "Self",
+          "ticker": "TGBAX",
+          "asset_name": "Templeton Global Bond Adv",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "146",
+          "owner": "Self",
+          "ticker": "OOSYX",
+          "asset_name": "Oppenheimer Senior Floating Rate Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "147",
+          "owner": "Self",
+          "ticker": "HIEMX",
+          "asset_name": "Virtus Emerging Markets Opportunities I",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "148",
+          "owner": "Self",
+          "ticker": "TIQIX",
+          "asset_name": "Touchstone Sustainability & Imp Eq Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "149",
+          "owner": "Self",
+          "ticker": "NEFFX",
+          "asset_name": "American Funds New Economy F2",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "150",
+          "owner": "Self",
+          "ticker": "BREFX",
+          "asset_name": "Baron Real Estate Retail",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$50,001 - $100,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "151",
+          "owner": "Self",
+          "ticker": "BSIIX",
+          "asset_name": "BlackRock Strategic Income Opps Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "152",
+          "owner": "Self",
+          "ticker": "BHYIX",
+          "asset_name": "BlackRock High Yield Bond Instl",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "153",
+          "owner": "Self",
+          "ticker": "CDOZX",
+          "asset_name": "Columbia Dividend Opportunity Z",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/02/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "154",
+          "owner": "Self",
+          "ticker": "MLPOX",
+          "asset_name": "Oppenheimer SteelPath MLP Alpha Y",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/28/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "155",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Chestnut Development Partners II, LP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/31/2015",
+          "amount": "$100,001 - $250,000",
+          "comment": "--"
+        },
+        {
+          "id": "",
+          "#": "156",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Commercial Property: 1150 Hixson Pike, Chattanooga, TN 37405",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/07/2015",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "This property was purchased and is owned by 1150,LLC which The Third Floor Grantor Trust is a member"
+        },
+        {
+          "id": "",
+          "#": "157",
+          "owner": "Self",
+          "ticker": "--",
+          "asset_name": "Covenant Apartment Fund VIII, LP",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/27/2015",
+          "amount": "$1,000,001 - $5,000,000",
+          "comment": "--"
+        }
+      ]
+    },
+    {
+      "title": "Part 5. Gifts",
+      "prompt": "Did you, your spouse, or dependent child receive any reportable gift during the reporting period?",
+      "response": "No",
+      "records": []
+    },
+    {
+      "title": "Part 6. Travel",
+      "prompt": "Did you, your spouse, or dependent child receive any",
+      "response": "reportable travel",
+      "records": []
+    },
+    {
+      "title": "Part 7. Liabilities",
+      "prompt": "Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?",
+      "response": "Yes",
+      "records": [
+        {
+          "id": "",
+          "#": "1",
+          "incurred": "2015",
+          "debtor": "Self",
+          "type": "Line of Credit",
+          "points": "-",
+          "rate": "1.95% (revolving line)",
+          "amount": "$1,000,001 - $5,000,000",
+          "creditor": "Raymond James Bank St. Petersburg, FL",
+          "comments": "Securities Based Lending Account"
+        }
+      ]
+    },
+    {
+      "title": "Part 8. Positions",
+      "prompt": "Did you hold any outside positions during the reporting period?",
+      "response": "Yes",
+      "records": [
+        {
+          "id": "",
+          "#": "1",
+          "position_dates": "Apr 2005 to present",
+          "position_held": "Officer",
+          "entity": "Corker Development Corporation Chattanooga, TN",
+          "entity_type": "Corporation",
+          "comments": ""
+        },
+        {
+          "id": "",
+          "#": "2",
+          "position_dates": "Dec 1997 to present",
+          "position_held": "Director",
+          "entity": "Corker Properties X, LP Chattanooga, TN",
+          "entity_type": "Other (Tennessee Limited Partnership)",
+          "comments": ""
+        },
+        {
+          "id": "",
+          "#": "3",
+          "position_dates": "Aug 2006 to present",
+          "position_held": "Trustee",
+          "entity": "Emily Corker 2006 Trust Chattanooga, TN",
+          "entity_type": "Other (Trust)",
+          "comments": ""
+        },
+        {
+          "id": "",
+          "#": "4",
+          "position_dates": "Aug 2006 to present",
+          "position_held": "Trustee",
+          "entity": "Julia Corker 2006 Trust Chattanooga, TN",
+          "entity_type": "Other (Trust)",
+          "comments": ""
+        },
+        {
+          "id": "",
+          "#": "5",
+          "position_dates": "Jun 2014 to present",
+          "position_held": "Other (Member)",
+          "entity": "NLL, LLC Dover, DE",
+          "entity_type": "Corporation",
+          "comments": ""
+        },
+        {
+          "id": "",
+          "#": "6",
+          "position_dates": "Jan 2015 to present",
+          "position_held": "Other (Member)",
+          "entity": "1150, LLC Chattanooga, TN",
+          "entity_type": "Corporation",
+          "comments": ""
+        }
+      ]
+    },
+    {
+      "title": "Part 9. Agreements",
+      "prompt": "Did you have any reportable agreement or arrangement with an outside entity?",
+      "response": "No",
+      "records": []
+    },
+    {
+      "title": "Part 10. Compensation",
+      "prompt": "",
+      "response": "If this is your first report, or you are a candidate",
+      "records": []
+    }
+  ]
+}
