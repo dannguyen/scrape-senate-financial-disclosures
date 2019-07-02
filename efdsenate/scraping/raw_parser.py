@@ -121,3 +121,6 @@ def parse_raw_records(records):
     return [parse_single_raw_record(r) for r in records]
 
 
+
+if __name__ == '__main__':
+    print('foo')
