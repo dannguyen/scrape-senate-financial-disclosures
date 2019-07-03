@@ -135,7 +135,7 @@ def fetch_and_stash_allstates():
 
 
 
-def parse_and_stash_state_indexes():
+def collate_state_indexes():
     allrecs = []
     srcdir = STASHED_DIR / 'state-indexes'
     srcfiles = srcdir.glob('*.json')
@@ -161,3 +161,7 @@ def parse_and_stash_state_indexes():
 
     print("Wrote", len(allrecs), 'records to:\n', destpath)
 
+
+def collate_docfiles():
+    import formparser
+    formparser.main()

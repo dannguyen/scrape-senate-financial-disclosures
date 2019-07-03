@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 from scraper import fetch_doc_files, fetch_state_index
-from scraper import fetch_and_stash_allstates, parse_and_stash_state_indexes
+from scraper import fetch_and_stash_allstates, collate_state_indexes, collate_docfiles
 
 
 
@@ -13,12 +13,17 @@ def _define_subparsers(parser):
     wparser.add_argument('state', help='''the postal code of the state, e.g. NY, FL''')
 
 
-    wparser = subparsers.add_parser('parse_state_index', help='Parse extracted records into one nice CSV')
-    wparser.set_defaults(mode='parse_state_index')
+    wparser = subparsers.add_parser('collate_states', help='Parse extracted records into one nice CSV')
+    wparser.set_defaults(mode='collate_states')
+
+    wparser = subparsers.add_parser('collate_docs', help='Parse extracted records into one nice CSV')
+    wparser.set_defaults(mode='collate_docs')
 
     wparser = subparsers.add_parser('fetch_files', help='Fetch files from parsed CSV')
     wparser.set_defaults(mode='fetch_files')
     return subparsers
+
+
 
 
 def init_arg_parser():
@@ -41,11 +46,12 @@ def main():
         else:
             fetch_state_index(args.state)
 
-    elif args.mode == 'parse_state_index':
-        parse_and_stash_state_indexes()
+    elif args.mode == 'collate_states':
+        collate_state_indexes()
 
 
-
+    elif args.mode == 'collate_docs':
+        collate_docfiles()
 
 
 
