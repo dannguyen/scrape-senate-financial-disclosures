@@ -1,6 +1,5 @@
 # Notes
 
-
 ## TODOS
 
 - [ ] Write custom parser for Assets table, e.g. parse out "company" and "description"
