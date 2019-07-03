@@ -10,7 +10,6 @@
 - [ ] download every individual form
 - [ ] figureout why my all state count is 100 less than the site's default open search
 
-
 ## Problem with successfully posting to the form
 
 Using the defaults of requests.Session will result in getting a 403 response when attempting to post the form:
