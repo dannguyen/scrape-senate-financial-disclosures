@@ -1,5 +1,33 @@
 [
   [
+    "John K",
+    "Mues",
+    "Candidate",
+    "<a href=\"/search/view/annual/a9dc979c-c5e4-46fb-8ef7-6755ea544b4d/\" target=\"_blank\">Candidate Report </a>",
+    "10/25/2019"
+  ],
+  [
+    "Jack",
+    "Ballard",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/33b0d2df-51d0-4996-97cf-63731d945ffd/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
+    "08/26/2019"
+  ],
+  [
+    "John K",
+    "Mues",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/cc272d9e-5736-4ad1-a64c-63b528bd8db1/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
+    "08/12/2019"
+  ],
+  [
+    "Wilmot",
+    "Collins, Sr.",
+    "Candidate",
+    "<a href=\"/search/view/annual/5ae90226-53a7-4895-9b51-87f77e4eb241/\" target=\"_blank\">Candidate Report </a>",
+    "06/29/2019"
+  ],
+  [
     "Steve",
     "Daines",
     "Senator",
@@ -392,17 +420,17 @@
     "10/10/2012"
   ],
   [
-    "MAX",
-    "BAUCUS",
-    "Former Senator",
-    "<a href=\"/search/view/paper/C1839580-865C-425B-8397-06EFA3F8C48D/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2012"
-  ],
-  [
     "JON",
     "TESTER",
     "Senator",
     "<a href=\"/search/view/paper/37061492-3D8D-441B-AB44-5BD122003FCC/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2012"
+  ],
+  [
+    "MAX",
+    "BAUCUS",
+    "Former Senator",
+    "<a href=\"/search/view/paper/C1839580-865C-425B-8397-06EFA3F8C48D/\" target=\"_blank\">Annual Report</a>",
     "05/15/2012"
   ]
 ]

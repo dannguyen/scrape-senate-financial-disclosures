@@ -1,5 +1,47 @@
 [
   [
+    "John E",
+    "James",
+    "Candidate",
+    "<a href=\"/search/view/annual/ef2edeb3-eb5c-4fef-952a-e0de18d99361/\" target=\"_blank\">Candidate Report </a>",
+    "10/04/2019"
+  ],
+  [
+    "Gary C",
+    "Peters",
+    "Senator",
+    "<a href=\"/search/view/ptr/bc5764cd-d819-4508-bfda-8b3931bcfeb6/\" target=\"_blank\">Periodic Transaction Report for 09/30/2019</a>",
+    "09/30/2019"
+  ],
+  [
+    "Gary C",
+    "Peters",
+    "Senator",
+    "<a href=\"/search/view/ptr/f0f9e5f1-9983-4b0f-b1bb-37a6cee7ed7d/\" target=\"_blank\">Periodic Transaction Report for 09/03/2019</a>",
+    "09/03/2019"
+  ],
+  [
+    "Gary C",
+    "Peters",
+    "Senator",
+    "<a href=\"/search/view/ptr/6f3fbbb9-f091-4aa2-915c-a4fc78645aae/\" target=\"_blank\">Periodic Transaction Report for 08/01/2019</a>",
+    "08/01/2019"
+  ],
+  [
+    "Gary C",
+    "Peters",
+    "Senator",
+    "<a href=\"/search/view/ptr/eb3075d2-0697-4113-a05f-086e3d919399/\" target=\"_blank\">Periodic Transaction Report for 07/02/2019</a>",
+    "07/02/2019"
+  ],
+  [
+    "John E",
+    "James",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/2ea07a17-ae8c-4118-9dd9-84444fe51d8e/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
+    "06/24/2019"
+  ],
+  [
     "Gary C",
     "Peters",
     "Senator",
@@ -497,17 +539,17 @@
     "05/15/2013"
   ],
   [
-    "CARL",
-    "LEVIN",
-    "Former Senator",
-    "<a href=\"/search/view/paper/1B224EFD-B7B3-462D-AF1B-DBE1F186D54B/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2012"
-  ],
-  [
     "DEBORAH A",
     "STABENOW",
     "Senator",
     "<a href=\"/search/view/paper/E29ACA2E-9B84-43B9-B889-9E65E3277164/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2012"
+  ],
+  [
+    "CARL",
+    "LEVIN",
+    "Former Senator",
+    "<a href=\"/search/view/paper/1B224EFD-B7B3-462D-AF1B-DBE1F186D54B/\" target=\"_blank\">Annual Report</a>",
     "05/15/2012"
   ]
 ]

@@ -19,7 +19,7 @@ def _define_subparsers(parser):
     wparser = subparsers.add_parser('collate_docs', help='Parse extracted records into one nice CSV')
     wparser.set_defaults(mode='collate_docs')
 
-    wparser = subparsers.add_parser('fetch_files', help='Fetch files from parsed CSV')
+    wparser = subparsers.add_parser('fetch_files', help='Fetch files from collate CSV')
     wparser.set_defaults(mode='fetch_files')
     return subparsers
 
@@ -41,7 +41,7 @@ def main():
     elif args.mode == 'fetch_files':
         fetch_doc_files()
     elif args.mode == 'state':
-        if args.state == '':
+        if args.state == 'ALL':
             fetch_and_stash_allstates()
         else:
             fetch_state_index(args.state)

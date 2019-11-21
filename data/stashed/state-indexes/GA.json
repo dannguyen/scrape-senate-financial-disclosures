@@ -1,5 +1,103 @@
 [
   [
+    "Sarah",
+    "Riggs Amico",
+    "Candidate",
+    "<a href=\"/search/view/annual/5588bbfc-53c1-4a3e-a8e0-f58c800f4eb8/\" target=\"_blank\">Candidate Report </a>",
+    "11/15/2019"
+  ],
+  [
+    "Harold S",
+    "Shouse, Jr",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/36dd8399-c582-46a4-802e-0574ef0dd987/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
+    "11/12/2019"
+  ],
+  [
+    "David A",
+    "Perdue , Jr",
+    "Senator",
+    "<a href=\"/search/view/ptr/3000341a-63cf-4512-876d-9bf80a74eaf7/\" target=\"_blank\">Periodic Transaction Report for 11/05/2019</a>",
+    "11/05/2019"
+  ],
+  [
+    "David A",
+    "Perdue , Jr",
+    "Senator",
+    "<a href=\"/search/view/ptr/c6302d00-ca70-47b4-82be-71cbd2c0ecf5/\" target=\"_blank\">Periodic Transaction Report for 09/30/2019</a>",
+    "09/30/2019"
+  ],
+  [
+    "Edward (Ted)",
+    "Terry",
+    "Candidate",
+    "<a href=\"/search/view/annual/9d4cc756-501e-4879-9c6b-177ed6168959/\" target=\"_blank\">Candidate Report </a>",
+    "09/12/2019"
+  ],
+  [
+    "David A",
+    "Perdue , Jr",
+    "Senator",
+    "<a href=\"/search/view/ptr/a24f0a3a-e61d-44de-a775-36e7d0a14456/\" target=\"_blank\">Periodic Transaction Report for 09/03/2019</a>",
+    "09/03/2019"
+  ],
+  [
+    "Teresa P",
+    "Tomlinson",
+    "Candidate",
+    "<a href=\"/search/view/annual/a6b0e44f-c592-4471-83ad-1dc53f466a07/\" target=\"_blank\">Candidate Report </a>",
+    "08/28/2019"
+  ],
+  [
+    "Teresa P",
+    "Tomlinson",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/44ac0ec9-6fbb-4e25-9e77-ff7875313a40/\" target=\"_blank\">Candidate Report  Due Date Extension 5</a>",
+    "08/15/2019"
+  ],
+  [
+    "Sarah",
+    "Riggs Amico",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/04ea821e-c357-46aa-8495-550c02085b5c/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
+    "08/12/2019"
+  ],
+  [
+    "David A",
+    "Perdue , Jr",
+    "Senator",
+    "<a href=\"/search/view/annual/fe0071a6-142b-4e26-8543-17d02813c9b8/\" target=\"_blank\">Annual Report for CY 2018</a>",
+    "08/09/2019"
+  ],
+  [
+    "David A",
+    "Perdue , Jr",
+    "Senator",
+    "<a href=\"/search/view/ptr/300d9599-4ab7-4403-a615-c08a033aa6f4/\" target=\"_blank\">Periodic Transaction Report for 08/05/2019</a>",
+    "08/05/2019"
+  ],
+  [
+    "Teresa P",
+    "Tomlinson",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/d2b07efc-09a9-4b79-b3cd-7638212d3a09/\" target=\"_blank\">Candidate Report  Due Date Extension 4</a>",
+    "07/29/2019"
+  ],
+  [
+    "David A",
+    "Perdue , Jr",
+    "Senator",
+    "<a href=\"/search/view/ptr/b533f3c3-3a6f-4e5f-b955-3ab5a9ecf625/\" target=\"_blank\">Periodic Transaction Report for 07/03/2019</a>",
+    "07/03/2019"
+  ],
+  [
+    "Teresa P",
+    "Tomlinson",
+    "Candidate",
+    "<a href=\"/search/view/extension-notice/regular/291b6178-b613-4d08-a575-bcde4cc9f2bd/\" target=\"_blank\">Candidate Report  Due Date Extension 3</a>",
+    "06/27/2019"
+  ],
+  [
     "Teresa P",
     "Tomlinson",
     "Candidate",
@@ -686,13 +784,6 @@
     "07/15/2013"
   ],
   [
-    "JOHN H",
-    "ISAKSON",
-    "Senator",
-    "<a href=\"/search/view/paper/B04D7C49-C410-4DB8-8631-0A71EF74FB3D/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2013"
-  ],
-  [
     "SAXBY",
     "CHAMBLISS",
     "Former Senator",
@@ -703,14 +794,21 @@
     "JOHN H",
     "ISAKSON",
     "Senator",
-    "<a href=\"/search/view/paper/48D08AE7-19E5-4188-8831-1D031923791F/\" target=\"_blank\">Annual Report (Amendment)</a>",
-    "05/14/2013"
+    "<a href=\"/search/view/paper/B04D7C49-C410-4DB8-8631-0A71EF74FB3D/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2013"
   ],
   [
     "JOHN H",
     "ISAKSON",
     "Senator",
     "<a href=\"/search/view/paper/B5817F61-887A-4C14-9DF4-D2F9875EBC61/\" target=\"_blank\">Annual Report (Amendment)</a>",
+    "05/14/2013"
+  ],
+  [
+    "JOHN H",
+    "ISAKSON",
+    "Senator",
+    "<a href=\"/search/view/paper/48D08AE7-19E5-4188-8831-1D031923791F/\" target=\"_blank\">Annual Report (Amendment)</a>",
     "05/14/2013"
   ],
   [
@@ -728,17 +826,17 @@
     "05/23/2012"
   ],
   [
-    "JOHN H",
-    "ISAKSON",
-    "Senator",
-    "<a href=\"/search/view/paper/8A040B7D-2692-4A09-B9C1-E43C4ED62253/\" target=\"_blank\">Report Due Date Extension</a>",
-    "05/15/2012"
-  ],
-  [
     "SAXBY",
     "CHAMBLISS",
     "Former Senator",
     "<a href=\"/search/view/paper/AEB0D00E-6490-4B3C-B8CA-9A724B2C5ACE/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2012"
+  ],
+  [
+    "JOHN H",
+    "ISAKSON",
+    "Senator",
+    "<a href=\"/search/view/paper/8A040B7D-2692-4A09-B9C1-E43C4ED62253/\" target=\"_blank\">Report Due Date Extension</a>",
     "05/15/2012"
   ],
   [

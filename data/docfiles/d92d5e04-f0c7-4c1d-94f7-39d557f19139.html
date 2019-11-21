@@ -1,0 +1,4657 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2019 -
+	
+		Kelly,
+	
+	
+		Mark
+	
+
+	
+		E
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Candidate
+				
+					Report 
+				
+				
+				
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					Mr.
+				
+
+				
+					Mark
+				
+
+				
+					E
+				
+
+				
+					Kelly
+				
+
+				
+
+				
+			</h2>
+			
+				<p class="muted">
+					State of Candidacy: AZ
+					<span class="p-1">|</span> Candidacy Commenced: 02/12/2019
+				</p>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 07/30/2019 @ 8:03 PM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of honoraria added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Activity</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Who Paid?</th>
+						<th scope="col">Who received payment?</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								01/08/2018
+							</td>
+							<td>Speech</td>
+							<td>$34,000.00</td>
+							<td>
+								Starkey Hearing Technology
+								<div class="muted">Eden Prairie, MN</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								01/08/2018
+							</td>
+							<td>Speech</td>
+							<td>$58,250.00</td>
+							<td>
+								Subaru of America
+								<div class="muted">Camden, NJ</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								01/23/2018
+							</td>
+							<td>Speech</td>
+							<td>$31,875.00</td>
+							<td>
+								Northwestern Mutual
+								<div class="muted">Milwaukee, WI</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								02/06/2018
+							</td>
+							<td>Speech</td>
+							<td>$31,875.00</td>
+							<td>
+								Northwestern Mutual
+								<div class="muted">Milwaukee, WI</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								02/12/2018
+							</td>
+							<td>Speech</td>
+							<td>$25,500.00</td>
+							<td>
+								Georgia Ports Authority
+								<div class="muted">Garden City, GA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								02/12/2018
+							</td>
+							<td>Speech</td>
+							<td>$19,125.00</td>
+							<td>
+								Alliant Insurance
+								<div class="muted">Newport Beach, CA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								02/20/2018
+							</td>
+							<td>Speech</td>
+							<td>$47,000.00</td>
+							<td>
+								Youngstown State University
+								<div class="muted">Youngstown, OH</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								02/26/2018
+							</td>
+							<td>Speech</td>
+							<td>$44,750.00</td>
+							<td>
+								Desert Forum Inc.
+								<div class="muted">Indian Springs, CA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								02/26/2018
+							</td>
+							<td>Speech</td>
+							<td>$31,875.00</td>
+							<td>
+								Northwestern Mutual
+								<div class="muted">Milwaukee, WI</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								03/12/2018
+							</td>
+							<td>Speech</td>
+							<td>$19,125.00</td>
+							<td>
+								Association for Financial Technology
+								<div class="muted">Atlanta, GA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								03/12/2018
+							</td>
+							<td>Speech</td>
+							<td>$42,500.00</td>
+							<td>
+								American Medical Group Association
+								<div class="muted">Alexandria, VA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>
+								03/19/2018
+							</td>
+							<td>Speech</td>
+							<td>$23,375.00</td>
+							<td>
+								Self Storage Association
+								<div class="muted">Alexandria, VA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>
+								03/26/2018
+							</td>
+							<td>Speech</td>
+							<td>$38,250.00</td>
+							<td>
+								Christus Foundation for Healthcare
+								<div class="muted">Houston, TX</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								14</td>
+							<td>
+								03/26/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								American College of Foot and Ankle Surgeons
+								<div class="muted">Chicago, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								15</td>
+							<td>
+								04/02/2018
+							</td>
+							<td>Speech</td>
+							<td>$34,000.00</td>
+							<td>
+								Cambridge Baltimore Speakers Series
+								<div class="muted">Baltimore, MD</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								16</td>
+							<td>
+								04/10/2018
+							</td>
+							<td>Speech</td>
+							<td>$31,960.00</td>
+							<td>
+								Boston Speakers Series
+								<div class="muted">Boston, MA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								17</td>
+							<td>
+								04/02/2018
+							</td>
+							<td>Speech</td>
+							<td>$17,000.00</td>
+							<td>
+								Tri-State Generation and Transmission Association Inc.
+								<div class="muted">Westminister, CO</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								18</td>
+							<td>
+								04/10/2018
+							</td>
+							<td>Speech</td>
+							<td>$17,000.00</td>
+							<td>
+								Sonitrol National Dealers Association
+								<div class="muted">Dayton, OH</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								19</td>
+							<td>
+								04/16/2018
+							</td>
+							<td>Speech</td>
+							<td>$34,000.00</td>
+							<td>
+								Cambridge Pittsburgh Speakers Series LLC
+								<div class="muted">Pittsburgh, PA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								20</td>
+							<td>
+								04/24/2018
+							</td>
+							<td>Speech</td>
+							<td>$21,250.00</td>
+							<td>
+								Ossip Optometry and Ophthalmology
+								<div class="muted">Camel, IN</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								21</td>
+							<td>
+								04/30/2018
+							</td>
+							<td>Speech</td>
+							<td>$25,500.00</td>
+							<td>
+								Boy Scouts of America, Northern New Jersey Council
+								<div class="muted">Garfield, NJ</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								22</td>
+							<td>
+								04/30/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								The Manufacturers&#39; Association
+								<div class="muted">Emigsville, PA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								23</td>
+							<td>
+								05/08/2018
+							</td>
+							<td>Speech</td>
+							<td>$24,650.00</td>
+							<td>
+								Aviation Insurance Association
+								<div class="muted">Overland Park, KS</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								24</td>
+							<td>
+								05/08/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								Great Dane Trailers
+								<div class="muted">Chicago, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								25</td>
+							<td>
+								05/21/2018
+							</td>
+							<td>Speech</td>
+							<td>$35,062.00</td>
+							<td>
+								Aclara Technologies LLC
+								<div class="muted">Saint Louis, MO</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								26</td>
+							<td>
+								05/30/2018
+							</td>
+							<td>Speech</td>
+							<td>$42,500.00</td>
+							<td>
+								Experian
+								<div class="muted">Costa Mesa, CA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								27</td>
+							<td>
+								06/11/2018
+							</td>
+							<td>Speech</td>
+							<td>$55,250.00</td>
+							<td>
+								Pink Tank
+								<div class="muted">Dubai, UAE</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								28</td>
+							<td>
+								06/19/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								Regency Centers
+								<div class="muted">Jacksonville, FL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								29</td>
+							<td>
+								06/26/2018
+							</td>
+							<td>Speech</td>
+							<td>$20,825.00</td>
+							<td>
+								Kinney Drugs Foundation, Inc.
+								<div class="muted">Gouverneur, NY</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								30</td>
+							<td>
+								07/16/2018
+							</td>
+							<td>Speech</td>
+							<td>$58,250.00</td>
+							<td>
+								Chobani, LLC
+								<div class="muted">Norwich, NY</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								31</td>
+							<td>
+								07/30/2018
+							</td>
+							<td>Speech</td>
+							<td>$32,812.50</td>
+							<td>
+								Oracle Corporation
+								<div class="muted">Redwood City, CA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								32</td>
+							<td>
+								08/06/2018
+							</td>
+							<td>Speech</td>
+							<td>$33,770.50</td>
+							<td>
+								Ameriprise Financial Services LLC
+								<div class="muted">Minneapolis, MN</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								33</td>
+							<td>
+								09/17/2018
+							</td>
+							<td>Speech</td>
+							<td>$21,250.00</td>
+							<td>
+								CORYS Thunder Inc.
+								<div class="muted">Jacksonville, FL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								34</td>
+							<td>
+								09/17/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								Paradigm Outcomes
+								<div class="muted">Walnut Creek, CA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								35</td>
+							<td>
+								09/25/2018
+							</td>
+							<td>Speech</td>
+							<td>$23,375.00</td>
+							<td>
+								American Railway Engineering Association
+								<div class="muted">Lanham, MD</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								36</td>
+							<td>
+								10/02/2018
+							</td>
+							<td>Speech</td>
+							<td>$27,265.00</td>
+							<td>
+								Big Lots Inc.
+								<div class="muted">Columbus, OH</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								37</td>
+							<td>
+								10/02/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								SNAC International
+								<div class="muted">Arlington, VA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								38</td>
+							<td>
+								10/07/2018
+							</td>
+							<td>Speech</td>
+							<td>$17,000.00</td>
+							<td>
+								Swiss Re
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								39</td>
+							<td>
+								10/16/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								Innovatix
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								40</td>
+							<td>
+								10/16/2018
+							</td>
+							<td>Speech</td>
+							<td>$25,500.00</td>
+							<td>
+								American Society of Dermatological Surgery
+								<div class="muted">Rolling Meadows, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								41</td>
+							<td>
+								10/22/2018
+							</td>
+							<td>Speech</td>
+							<td>$37,187.50</td>
+							<td>
+								Tourism Jasper
+								<div class="muted">Alberta, Canada</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								42</td>
+							<td>
+								10/30/2018
+							</td>
+							<td>Speech</td>
+							<td>$19,125.00</td>
+							<td>
+								Society for Maintenance and Reliability Professionals
+								<div class="muted">Atlanta, GA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								43</td>
+							<td>
+								10/30/2018
+							</td>
+							<td>Speech</td>
+							<td>$21,250.00</td>
+							<td>
+								Rutgers University
+								<div class="muted">New Brunswick, NJ</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								44</td>
+							<td>
+								10/30/2018
+							</td>
+							<td>Speech</td>
+							<td>$16,562.00</td>
+							<td>
+								American Academy of Periodontology
+								<div class="muted">Chicago, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								45</td>
+							<td>
+								11/14/2018
+							</td>
+							<td>Speech</td>
+							<td>$21,250.00</td>
+							<td>
+								Intuitive Surgical Inc.
+								<div class="muted">Sunnyvale, CA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								46</td>
+							<td>
+								11/14/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								Sexual Medicine Society of North America
+								<div class="muted">Burnsville, MN</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								47</td>
+							<td>
+								11/14/2018
+							</td>
+							<td>Speech</td>
+							<td>$31,875.00</td>
+							<td>
+								Evanta, a Gartner Company
+								<div class="muted">Portland, OR</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								48</td>
+							<td>
+								12/03/2018
+							</td>
+							<td>Speech</td>
+							<td>$19,125.00</td>
+							<td>
+								Illinois Farm Bureau
+								<div class="muted">Bloomington, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								49</td>
+							<td>
+								12/10/2018
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								The Heico Companies, LLC
+								<div class="muted">Chicago, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								50</td>
+							<td>
+								12/17/2018
+							</td>
+							<td>Speech</td>
+							<td>$25,500.00</td>
+							<td>
+								Clean Earth
+								<div class="muted">Philadelphia, PA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								51</td>
+							<td>
+								02/20/2019
+							</td>
+							<td>Speech</td>
+							<td>$19,125.00</td>
+							<td>
+								Everglades Foundation
+								<div class="muted">Palm Beach, FL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								52</td>
+							<td>
+								02/20/2019
+							</td>
+							<td>Speech</td>
+							<td>$23,375.00</td>
+							<td>
+								College of DuPage
+								<div class="muted">Chicago, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								53</td>
+							<td>
+								02/27/2019
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								John Deere
+								<div class="muted">Moline, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								54</td>
+							<td>
+								03/11/2019
+							</td>
+							<td>Speech</td>
+							<td>$29,750.00</td>
+							<td>
+								National Business Officers Association
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								55</td>
+							<td>
+								03/10/2019
+							</td>
+							<td>Speech</td>
+							<td>$18,700.00</td>
+							<td>
+								Share
+								<div class="muted">Chicago, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								56</td>
+							<td>
+								03/25/2019
+							</td>
+							<td>Speech</td>
+							<td>$17,000.00</td>
+							<td>
+								Telecommunications Risk Mgmt Assoc
+								<div class="muted">Roseland, NJ</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								57</td>
+							<td>
+								02/15/2018
+							</td>
+							<td>Speech</td>
+							<td>$15,000.00</td>
+							<td>
+								WP Global Partners Inc.
+								<div class="muted">Chicago, IL</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								58</td>
+							<td>
+								03/26/2019
+							</td>
+							<td>Speech</td>
+							<td>$23,375.00</td>
+							<td>
+								National Quality Forum
+								<div class="muted">Washington, DC</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								59</td>
+							<td>
+								04/02/2019
+							</td>
+							<td>Speech</td>
+							<td>$33,575.00</td>
+							<td>
+								West Texas A&amp;M University
+								<div class="muted">Canyon, TX</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								60</td>
+							<td>
+								04/16/2019
+							</td>
+							<td>Speech</td>
+							<td>$25,500.00</td>
+							<td>
+								Yakima Town Hall
+								<div class="muted">Yakima, WA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								61</td>
+							<td>
+								05/22/2019
+							</td>
+							<td>Speech</td>
+							<td>$31,875.00</td>
+							<td>
+								Tenebale Network Security
+								<div class="muted">Atlanta, GA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								62</td>
+							<td>
+								06/04/2019
+							</td>
+							<td>Speech</td>
+							<td>$23,375.00</td>
+							<td>
+								Electric Utility Fleet Managers Conference
+								<div class="muted">Williamsburg, VA</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Royalties
+								
+								
+							</td>
+							<td>
+								Simon and Schuster<br>
+								<div class="muted">New York, NY</div>
+							</td>
+							
+								<td>$280.85</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Other
+								<br>
+									<div class="muted">(Consulting)</div>
+								
+							</td>
+							<td>
+								Angel MedFlight<br>
+								<div class="muted">Scottsdale, AZ</div>
+							</td>
+							
+								<td>$20,000.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Salary
+								
+								
+							</td>
+							<td>
+								World View Enterprises<br>
+								<div class="muted">Tucson, AZ</div>
+							</td>
+							
+								<td>$4,379.84</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Self-Employment Income
+								
+								
+							</td>
+							<td>
+								Kelly Aerospace Consulting, LLC<br>
+								<div class="muted">Tucson, AZ</div>
+							</td>
+							
+								<td>$1,538,149.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								The Vistria Group<br>
+								<div class="muted">Chicago, IL</div>
+							</td>
+							
+								<td>$50,000.00</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong class="marginit-right">Residential Property</strong><div class="muted"><em>Description:</em> Residential Property (Tucson, AZ)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>$100,001 - $250,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong>Pacific Premier Bank</strong><div class="muted noWrap">(Irvine, CA)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong class="marginit-right">SV Angel V Investment Fund</strong><div class="muted"><em>Description</em>: SV Angel V Investment Fund&nbsp;(San Francisco, CA)&nbsp;<em>Filer comment:  </em>Although we have requested addl info. from the fund mgr, addl info. is not known or ascertainable; and the filer has no authority to direct the investments.</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong class="marginit-right">SV Angel VI Investment Fund</strong><div class="muted"><em>Description</em>: SV Angel VI Investment Fund&nbsp;(San Francisco, CA)&nbsp;<em>Filer comment:  </em>Although we have requested addl info. from the fund mgr, addl info. is not known or ascertainable; and the filer has no authority to direct the investments.</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, Capital Gains, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">Northern Trust Brokerage Account</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Joint</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=MXF" target="_blank">MXF</a> - The Mexico Fund, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Dividends, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.2</td>
+							<td class="span4"><strong class="marginit-right">Goldman Sachs Group Inc MTN</strong><div class="muted"><em>Rate/Coupon:</em> 2.0% <br> <em>Matures:</em> 11/28/2021</div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Corporate Bond</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.3</td>
+							<td class="span4"><strong class="marginit-right">Credit Suisse AG London BRH ME MTN</strong><div class="muted"><em>Rate/Coupon:</em> 2.0% <br> <em>Matures:</em> 11/29/2021</div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Corporate Bond</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.4</td>
+							<td class="span4"><strong class="marginit-right">Arizona St Transn BRD Grant Antic Nts</strong><div class="muted"><em>Rate/Coupon:</em> 5.25% <br> <em>Matures:</em> 07/01/2024</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.5</td>
+							<td class="span4"><strong class="marginit-right">Chandler Arizona GO Ref BDS SER, 2016</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 07/01/2025</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.6</td>
+							<td class="span4"><strong class="marginit-right">Tempe Arizona GO BDS SER B</strong><div class="muted"><em>Rate/Coupon:</em> 4.0% <br> <em>Matures:</em> 07/01/2027</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.7</td>
+							<td class="span4"><strong class="marginit-right">Tempe Arizona UN High Sch Dist No 213 Ref </strong><div class="muted"><em>Rate/Coupon:</em> 5.25% <br> <em>Matures:</em> 07/01/2024</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.8</td>
+							<td class="span4"><strong class="marginit-right">Maricopa County Arizona Sch Dist No 001</strong><div class="muted"><em>Rate/Coupon:</em> 3.0% <br> <em>Matures:</em> 07/01/2028</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.9</td>
+							<td class="span4"><strong class="marginit-right">Maricopa County Arizona UNI Sch Dist No 80</strong><div class="muted"><em>Rate/Coupon:</em> 2.75% <br> <em>Matures:</em> 07/01/2028</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=LFRAX" target="_blank">LFRAX</a> - Lord Abbett Floating Rate Fund Class A</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.11</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=LHYAX" target="_blank">LHYAX</a> - Lord Abbett High Yield Fund Class A</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.12</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=LALDX" target="_blank">LALDX</a> - Lord Abbett Short Duration Income Fund Class A</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.13</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWSTX" target="_blank">VWSTX</a> - Vanguard Short-Term Tax-Exempt Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.14</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IJR" target="_blank">IJR</a> - iShares Core S&P Small-Cap ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.15</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=EFV" target="_blank">EFV</a> - iShares MSCI EAFE Value ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.16</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IBB" target="_blank">IBB</a> - iShares Nasdaq Biotechnology ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.17</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=EEM" target="_blank">EEM</a> - iShares MSCI Emerging Markets ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.18</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=DIA" target="_blank">DIA</a> - SPDR Dow Jones Industrial Average ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.19</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=MDY" target="_blank">MDY</a> - SPDR S&P MidCap 400 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.20</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=SPY" target="_blank">SPY</a> - SPDR S&P 500 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.21</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VOO" target="_blank">VOO</a> - Vanguard S&P 500 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.22</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VTI" target="_blank">VTI</a> - Vanguard Total Stock Market Index Fund ETF Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.23</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NOGXX" target="_blank">NOGXX</a> - Northern Funds - U.S. Government Money Market Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Joint</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.24</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=XRAY" target="_blank">XRAY</a> - DENTSPLY SIRONA Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Capital Gains, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.25</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VLO" target="_blank">VLO</a> - Valero Energy Corporation</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Dividends, Capital Gains, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.26</td>
+							<td class="span4"><strong class="marginit-right">Salt River Project Arizona Agri Impt & Pwr Dist Elec Sys Rev Bond</strong><div class="muted"><em>Rate/Coupon:</em> 5.0% <br> <em>Matures:</em> 01/01/2026</div><div class="muted"></div></td>
+							<td>Government Securities<div class="muted">Municipal Security</div></td>
+							<td>Joint</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong class="marginit-right">Northern Trust - Traditional IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IUSV" target="_blank">IUSV</a> - iShares Core S&P U.S. Value ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=EFA" target="_blank">EFA</a> - iShares MSCI EAFE ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IWN" target="_blank">IWN</a> - iShares Russell 2000 Value ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VWO" target="_blank">VWO</a> - Vanguard FTSE Emerging Markets Index Fund ETF Shar</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.5</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NOGXX" target="_blank">NOGXX</a> - Northern Funds - U.S. Government Money Market Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong class="marginit-right">Northern Trust - Roth IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NOGXX" target="_blank">NOGXX</a> - Northern Funds - U.S. Government Money Market Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NOIEX" target="_blank">NOIEX</a> - Northern Income Equity Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NOLCX" target="_blank">NOLCX</a> - Northern Large Cap Core Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=NOLVX" target="_blank">NOLVX</a> - Northern Large Cap Value Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong class="marginit-right">USAA Brokerage Account</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Brokerage/Managed Account</td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USEXX" target="_blank">USEXX</a> - USAA Mutual Funds Trust - USAA Tax Exempt Money Ma</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=UATXX" target="_blank">UATXX</a> - USAA Mutual Funds Trust - USAA Treasury Money Mark</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.3</td>
+							<td class="span4"><strong>USAA Investment Management Co.</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Certificate of Deposit, </div><em>Filer comment:  </em>Yield 0.86%</div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.4</td>
+							<td class="span4"><strong>USAA Investment Management Co.</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Certificate of Deposit, </div><em>Filer comment:  </em>Yield 0.96%</div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Interest, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.5</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USAUX" target="_blank">USAUX</a> - USAA Aggressive Growth Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.6</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USISX" target="_blank">USISX</a> - USAA Income Stock Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFINX" target="_blank">VFINX</a> - Vanguard 500 Index Fund Investor Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.8</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IJR" target="_blank">IJR</a> - iShares Core S&P Small-Cap ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.9</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IYY" target="_blank">IYY</a> - iShares Dow Jones U.S. ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8.10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=MDY" target="_blank">MDY</a> - SPDR S&P MidCap 400 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong class="marginit-right">USAA Federal Savings Bank - Traditional IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.1</td>
+							<td class="span4"><strong>USAA Investment Management Co.</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>IRA Cash Accounts, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USEMX" target="_blank">USEMX</a> - USAA Emerging Markets Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USAAX" target="_blank">USAAX</a> - USAA Growth Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USISX" target="_blank">USISX</a> - USAA Income Stock Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.5</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USIFX" target="_blank">USIFX</a> - USAA International Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.6</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=UMAFX" target="_blank">UMAFX</a> - USAA Managed Allocation Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USCAX" target="_blank">USCAX</a> - USAA Small Cap Stock Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.8</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USHYX" target="_blank">USHYX</a> - USAA High Income Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.9</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USAIX" target="_blank">USAIX</a> - USAA Income Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.10</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USIBX" target="_blank">USIBX</a> - USAA Intermediate-Term Bond Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9.11</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USSBX" target="_blank">USSBX</a> - USAA Short-Term Bond Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right">USAA Roth IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USCRX" target="_blank">USCRX</a> - USAA Cornerstone Moderately Aggressive Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong>USAA - Certificate of Deposit #1</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Certificate of Deposit, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong>USAA - Certificate of Deposit #2</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Certificate of Deposit, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13</td>
+							<td class="span4"><strong>USSA Federal Savings Bank</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>14</td>
+							<td class="span4"><strong>USAA Federal Savings Bank</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>15</td>
+							<td class="span4"><strong class="marginit-right">Kelly Aerospace Consulting LLC</strong><div class="muted"><em>Company:</em> Kelly Aerospace Consulting LLC (Tucson, AZ)&nbsp;<em>Description:</em>&nbsp;Consulting&nbsp;<em>Filer comment:  </em>Sole asset is checking account</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Other, (Ordinary Business Income)</td>
+							<td>$1,000,001 - $5,000,000<br/>Other $2,163,447.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16</td>
+							<td class="span4"><strong class="marginit-right">Undercover Colors</strong><div class="muted"><em>Description</em>: Technology Company&nbsp;(New York, NY)&nbsp;</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17</td>
+							<td class="span4"><strong class="marginit-right">Vistria Fund II (FT), LP</strong><div class="muted"><em>Description</em>: Investment Company&nbsp;(Chicago, IL)&nbsp;<em>Filer comment:  </em>Although we have requested addl info. from the fund mgr, addl info. is not known or ascertainable; and the filer has no authority to direct the investments.</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>18</td>
+							<td class="span4"><strong class="marginit-right">World View Enterprises, Inc.</strong><div class="muted"><em>Company:</em> World View Enterprises, Inc. (Tucson, AZ)&nbsp;<em>Description:</em>&nbsp;Aerospace Company&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19</td>
+							<td class="span4"><strong class="marginit-right">Mal Pais Entertainment LLC</strong><div class="muted"><em>Description</em>: American Esports organization&nbsp;(Newark, NJ)&nbsp;</div></td>
+							<td>Other Securities</td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>20</td>
+							<td class="span4"><strong class="marginit-right">Boom Aerospace</strong><div class="muted"><em>Strike price:</em> $2.06 | Neither<br><em>Expires:</em> 02/01/2022 </div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock Option</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>21</td>
+							<td class="span4"><strong class="marginit-right">General Fusion</strong><div class="muted"><em>Strike price:</em> $0.38 | Neither<br><em>Expires:</em> 04/15/2024 </div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock Option</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=WTRH" target="_blank">WTRH</a> - Waitr Holdings Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23</td>
+							<td class="span4"><strong class="marginit-right">Angel MedFlight</strong><div class="muted"><em>Company:</em> Angel MedFlight (Scottsdale, AZ)&nbsp;<em>Description:</em>&nbsp;Ambulance Services&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24</td>
+							<td class="span4"><strong class="marginit-right">General Fusion</strong><div class="muted"><em>Strike price:</em> $0.38 | Neither<br><em>Expires:</em> 04/15/2025 </div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock Option</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>25</td>
+							<td class="span4"><strong class="marginit-right">General Fusion</strong><div class="muted"><em>Strike price:</em> $0.38 | Neither<br><em>Expires:</em> 04/14/2026 </div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock Option</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>26</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=PINS" target="_blank">PINS</a> - Pinterest, Inc.</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27</td>
+							<td class="span4"><strong class="marginit-right">Kelly Aerospace Consulting LLC - 401(k)</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">Defined Contribution Pension Plan</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27.1</td>
+							<td class="span4"><strong>USAA Investment Management Co.</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=USCRX" target="_blank">USCRX</a> - USAA Cornerstone Moderately Aggressive Fund</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IYY" target="_blank">IYY</a> - iShares Dow Jones U.S. ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>27.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=MDY" target="_blank">MDY</a> - SPDR S&P MidCap 400 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28</td>
+							<td class="span4"><strong class="marginit-right">Kelly Aerospace Consulting LLC - Defined Benefit Plan</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">Deferred Compensation</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28.1</td>
+							<td class="span4"><strong class="marginit-right">UATXX - USAA Mutual Funds Trust - USAA Treasury Money Market</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28.2</td>
+							<td class="span4"><strong>USAA Federal Savings Bank</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Certificate of Deposit, </div><em>Filer comment:  </em>Yield 0.86%</div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28.3</td>
+							<td class="span4"><strong>USAA Federal Savings Bank</strong><div class="muted noWrap">(San Antonio, TX)</div><div class="muted"><div class="muted"><em>Type: </em>Certificate of Deposit, </div><em>Filer comment:  </em>Yield 0.96%</div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VTSAX" target="_blank">VTSAX</a> - Vanguard Total Stock Market Index Fund Admiral Sha</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28.5</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFINX" target="_blank">VFINX</a> - Vanguard 500 Index Fund Investor Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28.6</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=IYY" target="_blank">IYY</a> - iShares Dow Jones U.S. ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>28.7</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=MDY" target="_blank">MDY</a> - SPDR S&P MidCap 400 ETF</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Exchange Traded Fund/Note</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>Excepted Investment Fund, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>29</td>
+							<td class="span4"><strong class="marginit-right">Lightspeed Partners LLC</strong><div class="muted"><em>Company:</em> Lightspeed Partners LLC (Tucson, AZ)&nbsp;<em>Description:</em>&nbsp;Media Production&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>30</td>
+							<td class="span4"><strong class="marginit-right">Vistria Fund II, LP</strong><div class="muted"><em>Description</em>: Investment Company&nbsp;(Chicago, IL)&nbsp;<em>Filer comment:  </em>Although we have requested addl info. from the fund mgr, addl info. is not known or ascertainable; and the filer has no authority to direct the investments.</div></td>
+							<td>Investment Fund<div class="muted">Private Equity Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>31</td>
+							<td class="span4"><strong class="marginit-right">Alacura Medical Transportation Management LLC</strong><div class="muted"><em>Company:</em> Alacura Medical Transportation Management LLC (Dallas, TX)&nbsp;<em>Description:</em>&nbsp;Managed Medical Transportation Company&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>32</td>
+							<td class="span4"><strong class="marginit-right">World View Enterprises, Inc.</strong><div class="muted"><em>Strike price:</em> $0.72 | Neither<br><em>Expires:</em> 03/11/2026 </div><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock Option</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>33</td>
+							<td class="span4"><strong class="marginit-right">Boom Aerospace</strong><div class="muted"><em>Company:</em> Boom Aerospace (Denver, CO)&nbsp;<em>Description:</em>&nbsp;Aerospace Company&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>34</td>
+							<td class="span4"><strong>Northern Trust</strong><div class="muted noWrap">(Chicago, IL)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Feb 2013 to
+								Aug 2017
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Landry&#39;s Inc.
+								<div class="muted">
+									Houston, TX
+								</div>
+							</td>
+							<td>
+								Corporation
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								May 2014 to
+								Feb 2019
+							</td>
+							<td>
+								Other
+								(Advisory Board Member)
+							</td>
+							<td>
+								General Fusion, Inc.
+								<div class="muted">
+									Burnaby, British Columbia
+								</div>
+							</td>
+							<td>
+								Company
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Nov 2015 to
+								Feb 2019
+							</td>
+							<td>
+								Other
+								(Strategic Advisor)
+							</td>
+							<td>
+								World View Enterprises, Inc.
+								<div class="muted">
+									Tucson, AZ
+								</div>
+							</td>
+							<td>
+								Company
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Jan 2016 to
+								Feb 2019
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Angel MedFlight
+								<div class="muted">
+									Scottsdale, AZ
+								</div>
+							</td>
+							<td>
+								Company
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Jan 2016 to
+								Sep 2018
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Alacura Medical Transportation Management LLC
+								<div class="muted">
+									Dallas, TX
+								</div>
+							</td>
+							<td>
+								Company
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								May 2016 to
+								Nov 2018
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Landcadia Holdings LLC
+								<div class="muted">
+									New York, NY
+								</div>
+							</td>
+							<td>
+								Company
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								Sep 2013 to
+								Feb 2018
+							</td>
+							<td>
+								Other
+								(Advisory Board Member)
+							</td>
+							<td>
+								University of Arizona Math Department
+								<div class="muted">
+									Tucson, AZ
+								</div>
+							</td>
+							<td>
+								Educational Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								Aug 2015 to
+								Sep 2018
+							</td>
+							<td>
+								Other
+								(Advisory Board Member)
+							</td>
+							<td>
+								Lunar and Planetary Laboratory of the University of Arizona
+								<div class="muted">
+									Tucson, AZ
+								</div>
+							</td>
+							<td>
+								Educational Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								Jul 2015 to
+								Apr 2018
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Challenger Center for Space Science Education
+								<div class="muted">
+									Washington, DC
+								</div>
+							</td>
+							<td>
+								Educational Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								Mar 2012 to
+								Feb 2019
+							</td>
+							<td>
+								Other
+								(Crew Safety Advisory Board Member)
+							</td>
+							<td>
+								SpaceX
+								<div class="muted">
+									Hawthorne, CA
+								</div>
+							</td>
+							<td>
+								Corporation
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								Oct 2015 to
+								Feb 2019
+							</td>
+							<td>
+								Other
+								(Advisory Board Member)
+							</td>
+							<td>
+								Boom Aerospace
+								<div class="muted">
+									Denver, CO
+								</div>
+							</td>
+							<td>
+								Corporation
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>
+								Jun 2016 to
+								present
+							</td>
+							<td>
+								Other
+								(Manager)
+							</td>
+							<td>
+								El Campo Center LLC
+								<div class="muted">
+									El Campo, TX
+								</div>
+							</td>
+							<td>
+								Other
+								(Limited Liability Company)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>
+								Aug 2011 to
+								present
+							</td>
+							<td>
+								Other
+								(Sole Owner)
+							</td>
+							<td>
+								Kelly Aerospace Consulting LLC
+								<div class="muted">
+									Tucson, AZ
+								</div>
+							</td>
+							<td>
+								Other
+								(Limited Liability Company)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								14</td>
+							<td>
+								Aug 2017 to
+								present
+							</td>
+							<td>
+								Other
+								(Managing Member)
+							</td>
+							<td>
+								Lightspeed Partners LLC
+								<div class="muted">
+									Tucson, AZ
+								</div>
+							</td>
+							<td>
+								Other
+								(Limited Liability Company)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								15</td>
+							<td>
+								Jan 2009 to
+								Sep 2017
+							</td>
+							<td>
+								Other
+								(Advisory Board Member)
+							</td>
+							<td>
+								University of Arizona School of Engineering
+								<div class="muted">
+									Tucson, AZ
+								</div>
+							</td>
+							<td>
+								Educational Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of agreements or arrangements added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Parties Involved</th>
+						<th scope="col">Type</th>
+						<th scope="col">Status and Terms</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								May 2011
+							</td>
+							<td>
+								Simon and Schuster
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Agreement to receive royalty payments based on usual and customary terms for the publication of the book titled, &quot;Gabby.&quot;</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Nov 2011
+							</td>
+							<td>
+								Simon and Schuster
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Agreement to receive book advance and royalty payments based on usual and customary terms for the publication of the book titled, &quot;Mousetronaut.&quot;</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Sep 2012
+							</td>
+							<td>
+								Simon and Schuster
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Agreement to receive book advance and royalty payments based on usual and customary terms for the publication of the book titled, &quot;Mousetronaut Goes To Mars.&quot;</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Jun 2013
+							</td>
+							<td>
+								Simon and Schuster
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Agreement to receive book advance and payments based on usual and customary terms for the publication of the book titled, &quot;Enough.&quot;</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Jan 2014
+							</td>
+							<td>
+								Simon and Schuster
+								<div class="muted">New York, NY</div>
+							</td>
+							<td>Royalty Agreement
+								
+							</td>
+							<td>Agreement to receive book advances and royalty payments based on usual and customary terms for the publication of the books titled, &quot;Astrotwins Project Blastoff and Astrotwins Project Rescue.&quot;</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of compensation sources added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Source</th>
+						<th scope="col">Duties</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Aclara Technologies LLC
+								<div class="muted">Saint Louis, MO</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								All Saints Episcopal School
+								<div class="muted">Tyler, TX</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Allegheny College
+								<div class="muted">Meadville, PA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Alliant Insurance
+								<div class="muted">Newport Beach, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Amazon
+								<div class="muted">Seattle, WA</div>
+							<td>Commercial</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								American Academy of Periodontology
+								<div class="muted">Chicago, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								American College of Foot and Ankle Surgeons
+								<div class="muted">Chicago, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								American Gear Manufacturers Association
+								<div class="muted">Alexandria, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								American Medical Group Association
+								<div class="muted">Alexandria, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								American Osteopathic Association
+								<div class="muted">Chicago, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								American Railway Engineering Association
+								<div class="muted">Lanham, MD</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>
+								American School Counselors Association
+								<div class="muted">Alexandria, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>
+								American Society of Dermatological Surgery
+								<div class="muted">Rolling Meadows, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								14</td>
+							<td>
+								Ameriprise Financial Services LLC
+								<div class="muted">Minneapolis, MN</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								15</td>
+							<td>
+								Angel MedFlight
+								<div class="muted">Scottsdale, AZ</div>
+							<td>Consulting</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								16</td>
+							<td>
+								Arizona Association of School Business Officials
+								<div class="muted">Phoenix, AZ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								17</td>
+							<td>
+								Arizona Healthcare Association
+								<div class="muted">Phoenix, AZ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								18</td>
+							<td>
+								Association for Financial Technology
+								<div class="muted">Atlanta, GA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								19</td>
+							<td>
+								Association For Talent Development
+								<div class="muted">Alexandria, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								20</td>
+							<td>
+								Association of Equipment Manufacturers
+								<div class="muted">Milwaukee, WI</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								21</td>
+							<td>
+								Atlanta Science Festival
+								<div class="muted">Atlanta, GA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								22</td>
+							<td>
+								Aviation Insurance Association
+								<div class="muted">Overland Park, KS</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								23</td>
+							<td>
+								Big Lots Inc.
+								<div class="muted">Columbus, OH</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								24</td>
+							<td>
+								Boston Speakers Series
+								<div class="muted">Boston, MA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								25</td>
+							<td>
+								Bowling Green State University
+								<div class="muted">Bowling Green, OH</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								26</td>
+							<td>
+								Boy Scouts of America, Northern New Jersey Council
+								<div class="muted">Garfield, NJ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								27</td>
+							<td>
+								Boys Scouts of America - Dan Beard Council
+								<div class="muted">Cincinnati, OH</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								28</td>
+							<td>
+								Breitling USA Inc.
+								<div class="muted">Wilton, CT</div>
+							<td>Endorsement Fee</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								29</td>
+							<td>
+								Bridgewater College
+								<div class="muted">Bridgewater, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								30</td>
+							<td>
+								Building Owners and Managers Association (BOMA)
+								<div class="muted">Washington, DC</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								31</td>
+							<td>
+								Californians Dedicated to Education Foundation
+								<div class="muted">Redwood City, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								32</td>
+							<td>
+								Callidus Software Inc.
+								<div class="muted">Dublin, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								33</td>
+							<td>
+								Cambridge Baltimore Speakers Series
+								<div class="muted">Baltimore, MD</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								34</td>
+							<td>
+								Cambridge Pittsburgh Speakers Series LLC
+								<div class="muted">Pittsburgh, PA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								35</td>
+							<td>
+								Chobani, LLC
+								<div class="muted">Norwich, NY</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								36</td>
+							<td>
+								Christus Foundation for Healthcare
+								<div class="muted">Houston, TX</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								37</td>
+							<td>
+								Clean Earth
+								<div class="muted">Philadelphia, PA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								38</td>
+							<td>
+								College of DuPage
+								<div class="muted">Chicago, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								39</td>
+							<td>
+								CORY&#39;s Thunder Inc.
+								<div class="muted">Jacksonville, FL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								40</td>
+							<td>
+								CRIF Lending Solutions
+								<div class="muted">Atlanta, GA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								41</td>
+							<td>
+								Dart Enterprises Ltd.
+								<div class="muted">Camana Bay, Cayman Islands</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								42</td>
+							<td>
+								Dell Inc.
+								<div class="muted">Austin, TX</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								43</td>
+							<td>
+								Desert Forum Inc.
+								<div class="muted">Indian Springs, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								44</td>
+							<td>
+								Discovery Communications
+								<div class="muted">Silver Spring, MD</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								45</td>
+							<td>
+								Dunn and Bradstreet Corporation
+								<div class="muted">Short Hills, NJ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								46</td>
+							<td>
+								Electric Utility Fleet Managers Conference
+								<div class="muted">Williamsburg, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								47</td>
+							<td>
+								Energy Insurance Mutual Limited
+								<div class="muted">Tampa, FL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								48</td>
+							<td>
+								Evanta, a Gardner Company
+								<div class="muted">Portland, OR</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								49</td>
+							<td>
+								Everglades Foundation
+								<div class="muted">Palm Beach, FL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								50</td>
+							<td>
+								Executive Women of the Palm Beaches
+								<div class="muted">Palm Beach, FL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								51</td>
+							<td>
+								Experian
+								<div class="muted">Costa Mesa, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								52</td>
+							<td>
+								First Data
+								<div class="muted">New York, NY</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								53</td>
+							<td>
+								General Fusion Inc.
+								<div class="muted">Burnaby, Canada</div>
+							<td>Advisory Board</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								54</td>
+							<td>
+								Georgia Ports Authority
+								<div class="muted">Garden City, GA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								55</td>
+							<td>
+								Great Dane Trailers
+								<div class="muted">Chicago, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								56</td>
+							<td>
+								Hawaiian Eye and Retina
+								<div class="muted">Kuai, HI</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								57</td>
+							<td>
+								Healthcare Financial Management Association - Region 2
+								<div class="muted">Westchester, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								58</td>
+							<td>
+								Illinois Farm Bureau
+								<div class="muted">Bloomington, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								59</td>
+							<td>
+								Independent Community Bankers of America
+								<div class="muted">Washington, DC</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								60</td>
+							<td>
+								Independent Pharmacy Cooperative
+								<div class="muted">Sun Prairie, WI</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								61</td>
+							<td>
+								Indiana University and Purdue University Fort Wayne
+								<div class="muted">Fort Wayne, IN</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								62</td>
+							<td>
+								Innovatix
+								<div class="muted">New York, NY</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								63</td>
+							<td>
+								International Facility Management Association
+								<div class="muted">Houston, TX</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								64</td>
+							<td>
+								Intuitive Surgical Inc.
+								<div class="muted">Sunnyvale, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								65</td>
+							<td>
+								Jive Software
+								<div class="muted">Palo Alto, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								66</td>
+							<td>
+								John Deere
+								<div class="muted">Moline, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								67</td>
+							<td>
+								Kelly Aerospace Consulting, LLC
+								<div class="muted">Tucson, AZ</div>
+							<td>Consulting business</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								68</td>
+							<td>
+								Kinney Drugs Foundation, Inc.
+								<div class="muted">Gouvernour, NY</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								69</td>
+							<td>
+								KPMG LLP
+								<div class="muted">Houston, TX</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								70</td>
+							<td>
+								Lightspeed Partners, LLC
+								<div class="muted">Menlo Park, CA</div>
+							<td>Film production</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								71</td>
+							<td>
+								Landry&#39;s Inc.
+								<div class="muted">Houston, TX</div>
+							<td>Board compensation</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								72</td>
+							<td>
+								Mechanical Contractors Association of America
+								<div class="muted">Rockville, MD</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								73</td>
+							<td>
+								Michigan Infrastructure and Transportation Association
+								<div class="muted">Okemos, MI</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								74</td>
+							<td>
+								National Business Aviation Association
+								<div class="muted">Washington, DC</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								75</td>
+							<td>
+								National Business Officers Association
+								<div class="muted">Washington, DC</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								76</td>
+							<td>
+								National League of Cities
+								<div class="muted">Washington, DC</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								77</td>
+							<td>
+								National Quality Forum
+								<div class="muted">Washington, DC</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								78</td>
+							<td>
+								North American Bancard
+								<div class="muted">Troy, MI</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								79</td>
+							<td>
+								Northwell Health
+								<div class="muted">New York, NY</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								80</td>
+							<td>
+								Northwestern Mutual
+								<div class="muted">Milwaukee, WI</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								81</td>
+							<td>
+								Opthalmic Mutual Insurance Company
+								<div class="muted">San Francisco, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								82</td>
+							<td>
+								Optum
+								<div class="muted">Eden Prairie, MN</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								83</td>
+							<td>
+								Oracle Corporation
+								<div class="muted">Redwood City, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								84</td>
+							<td>
+								Ossip Optometry and Ophthalmology
+								<div class="muted">Camel, IN</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								85</td>
+							<td>
+								Paradigm Outcomes
+								<div class="muted">Walnut Creek, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								86</td>
+							<td>
+								Pink Tank
+								<div class="muted">Dubai, UAE</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								87</td>
+							<td>
+								Regency Centers
+								<div class="muted">Jacksonville, FL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								88</td>
+							<td>
+								Resource Management Services Inc.
+								<div class="muted">Santa Fe Springs, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								89</td>
+							<td>
+								RMEL
+								<div class="muted">Centenial, CO</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								90</td>
+							<td>
+								Rollins College
+								<div class="muted">Winter Park, FL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								91</td>
+							<td>
+								Rutgers University
+								<div class="muted">New Brunswick, NJ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								92</td>
+							<td>
+								Safe-Guard Products International
+								<div class="muted">Atlanta, GA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								93</td>
+							<td>
+								Sarkeys Foundation
+								<div class="muted">Norman, OK</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								94</td>
+							<td>
+								School Nutrition Association
+								<div class="muted">Arlington, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								95</td>
+							<td>
+								Science Teachers Association of Texas
+								<div class="muted">Austin, TX</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								96</td>
+							<td>
+								Self Storage Association
+								<div class="muted">Alexandria, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								97</td>
+							<td>
+								Sexual Medicine Society of North America
+								<div class="muted">Burnsville, MN</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								98</td>
+							<td>
+								Share
+								<div class="muted">Chicago, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								99</td>
+							<td>
+								SME Entertainment Group, LLC
+								<div class="muted">Los Angeles, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								100</td>
+							<td>
+								SNAC International
+								<div class="muted">Arlington, VA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								101</td>
+							<td>
+								Society for Maintenance and Reliability Professionals
+								<div class="muted">Atlanta, GA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								102</td>
+							<td>
+								Sonitrol National Dealers Association
+								<div class="muted">Dayton, OH</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								103</td>
+							<td>
+								SpaceX
+								<div class="muted">Hawthorne, CA</div>
+							<td>Consulting</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								104</td>
+							<td>
+								Starkey Hearing Technology
+								<div class="muted">Eden Prairie, MN</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								105</td>
+							<td>
+								Subaru of America
+								<div class="muted">Camden, NJ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								106</td>
+							<td>
+								Swiss Re
+								<div class="muted">New York, NY</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								107</td>
+							<td>
+								Target Markets Program Administrators Association
+								<div class="muted">Wilmington, DE</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								108</td>
+							<td>
+								Telecommunications Risk Management Association
+								<div class="muted">Roseland, NJ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								109</td>
+							<td>
+								Temple Sinai of Roslyn
+								<div class="muted">Roslyn, NY</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								110</td>
+							<td>
+								Tenebale Network Security
+								<div class="muted">Atlanta, GA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								111</td>
+							<td>
+								The Association for Hose and Accessories Distribution (NAHAD)
+								<div class="muted">Annapolis, MD</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								112</td>
+							<td>
+								The Heico Corporation, LLC
+								<div class="muted">Chicago, IL</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								113</td>
+							<td>
+								The Manufacturers Association
+								<div class="muted">Emigsville, PA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								114</td>
+							<td>
+								The Vistria Group
+								<div class="muted">Chicago, IL</div>
+							<td>Board compensation</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								115</td>
+							<td>
+								Tourism Jasper
+								<div class="muted">Alberta, Canada</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								116</td>
+							<td>
+								Tri-State Generation and Transmission Association Inc.
+								<div class="muted">Westminster, CO</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								117</td>
+							<td>
+								Tulsa Town Hall
+								<div class="muted">Tulsa, OK</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								118</td>
+							<td>
+								University of Arkansas Fayetteville
+								<div class="muted">Fayetteville, AR</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								119</td>
+							<td>
+								Washington Health Care Association
+								<div class="muted">Tumwater, WA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								120</td>
+							<td>
+								West Texas A&amp;M University
+								<div class="muted">Canon, TX</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								121</td>
+							<td>
+								Western States Acquirers Association
+								<div class="muted">Racho Mirage, CA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								122</td>
+							<td>
+								WhiteWave Foods
+								<div class="muted">Denver, CO</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								123</td>
+							<td>
+								Winsight LLC
+								<div class="muted">Mesa, AZ</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								124</td>
+							<td>
+								Yakima Town Hall
+								<div class="muted">Yakima, WA</div>
+							<td>Speech</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								125</td>
+							<td>
+								Youngstown State University
+								<div class="muted">Youngstown, OH</div>
+							<td>Speech</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>

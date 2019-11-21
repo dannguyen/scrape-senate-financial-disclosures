@@ -1,5 +1,33 @@
 [
   [
+    "Tina",
+    "Smith",
+    "Senator",
+    "<a href=\"/search/view/ptr/2c7444a7-64a1-412c-a6d7-c6b3c54de9fe/\" target=\"_blank\">Periodic Transaction Report for 10/25/2019</a>",
+    "10/25/2019"
+  ],
+  [
+    "Tina",
+    "Smith",
+    "Senator",
+    "<a href=\"/search/view/annual/a402c20b-d668-4c6c-be4c-870fa5a5e766/\" target=\"_blank\">Annual Report for CY 2018 (Amendment 1)</a>",
+    "10/24/2019"
+  ],
+  [
+    "Tina",
+    "Smith",
+    "Senator",
+    "<a href=\"/search/view/ptr/e9e4b334-837b-46ad-86c1-f582d040faed/\" target=\"_blank\">Periodic Transaction Report for 10/23/2019</a>",
+    "10/23/2019"
+  ],
+  [
+    "Jason",
+    "Lewis",
+    "Candidate",
+    "<a href=\"/search/view/annual/11548a7a-3e12-4619-8eef-1a9c44d98912/\" target=\"_blank\">Candidate Report </a>",
+    "09/19/2019"
+  ],
+  [
     "Amy J",
     "Klobuchar",
     "Senator",
@@ -280,17 +308,17 @@
     "05/01/2014"
   ],
   [
-    "AMY J",
-    "KLOBUCHAR",
-    "Senator",
-    "<a href=\"/search/view/paper/60F86695-1233-4C69-A258-CB759EB29DA7/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2013"
-  ],
-  [
     "ALAN S",
     "FRANKEN",
     "Former Senator",
     "<a href=\"/search/view/paper/F245EEC5-6E67-45B5-B38B-0AE4B0C99240/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2013"
+  ],
+  [
+    "AMY J",
+    "KLOBUCHAR",
+    "Senator",
+    "<a href=\"/search/view/paper/60F86695-1233-4C69-A258-CB759EB29DA7/\" target=\"_blank\">Annual Report</a>",
     "05/15/2013"
   ],
   [

@@ -1,0 +1,2788 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2019 -
+	
+		Liss-Riordan,
+	
+	
+		Shannon
+	
+
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Candidate
+				
+					Report 
+				
+				
+				
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					Ms.
+				
+
+				
+					Shannon
+				
+
+				
+
+				
+					Liss-Riordan
+				
+
+				
+
+				
+			</h2>
+			
+				<p class="muted">
+					State of Candidacy: MA
+					<span class="p-1">|</span> Candidacy Commenced: 04/19/2019
+				</p>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 08/16/2019 @ 6:33 PM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Salary
+								
+								
+							</td>
+							<td>
+								Lichten &amp; Liss-Riordan, P.C.<br>
+								<div class="muted">Boston, MA</div>
+							</td>
+							
+								<td>$2,344,831.00</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong>Bank of America</strong><div class="muted noWrap">(Boston, Massachusetts)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$50,001 - $100,000</td>
+							<td>Interest, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong class="marginit-right">Shannon Liss-Riordan Family Trust </strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.1</td>
+							<td class="span4"><strong class="marginit-right">Washington 202 LLC </strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Washington 202 LLC (Brookline, MA)&nbsp;<em>Description:</em>&nbsp;Commercial Real Estate LLC&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.1.1</td>
+							<td class="span4"><strong class="marginit-right">202 Washington Street </strong><div class="muted"><em>Description:</em> Commercial Real Estate (Brookline, MA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.1.2</td>
+							<td class="span4"><strong>Brookline Bank</strong><div class="muted noWrap">(Brookline, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.1.3</td>
+							<td class="span4"><strong class="marginit-right">Note Payable to Washington 202 LLC</strong><div class="muted"><em>Company:</em> The Village Works, LLC (Brookline, MA)&nbsp;</div></td>
+							<td>Accounts Receivable<div class="muted">From a Business</div></td>
+							<td>Spouse</td>
+							<td>$250,001 - $500,000</td>
+							<td>Other, (Payments on the Note)</td>
+							<td><br/>Other $35,960.00</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.2</td>
+							<td class="span4"><strong class="marginit-right">182 Walnut Street </strong><div class="muted"><em>Description:</em> Residential Real Estate (Brookline, MA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.3</td>
+							<td class="span4"><strong class="marginit-right">Boylston 729 LLC </strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Boylston 729 LLC (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Commerical Real Estate LLC&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.3.1</td>
+							<td class="span4"><strong class="marginit-right">729 Boylston Street, Unit 2</strong><div class="muted"><em>Description:</em> Commercial Real Estate (Boston, MA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.3.2</td>
+							<td class="span4"><strong>Brookline Bank</strong><div class="muted noWrap">(Brookline, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.3.3</td>
+							<td class="span4"><strong>Brookline Bank</strong><div class="muted noWrap">(Brookline, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.4</td>
+							<td class="span4"><strong class="marginit-right">6235 Stage Road </strong><div class="muted"><em>Description:</em> Residential Real Estate (Barnard, VT)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.5</td>
+							<td class="span4"><strong class="marginit-right">12 East 12th Street #2NW</strong><div class="muted"><em>Description:</em> Residential Real Estate (New York, NY)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.6</td>
+							<td class="span4"><strong class="marginit-right">201 Newbury Street #406</strong><div class="muted"><em>Description:</em> Residential Real Estate (Boston, MA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.7</td>
+							<td class="span4"><strong>Brookline Bank</strong><div class="muted noWrap">(Brookline, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.8</td>
+							<td class="span4"><strong class="marginit-right">6282 Stage Road</strong><div class="muted"><em>Description:</em> Unimproved Land (Barnard, VT)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Spouse</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.9</td>
+							<td class="span4"><strong class="marginit-right">6183 Stage Road </strong><div class="muted"><em>Description:</em> Unimproved Land (Barnard, VT)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Unimproved Land</div></td>
+							<td>Spouse</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.10</td>
+							<td class="span4"><strong>Bank of America</strong><div class="muted noWrap">(Boston, Massachusetts)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong class="marginit-right">Lichten & Liss-Riordan, P.C.</strong><div class="muted"><em>Company:</em> Lichten & Liss-Riordan, P.C. (Boston, MA)&nbsp;<em>Description:</em>&nbsp;Law Firm&nbsp;<em>Filer comment:  </em>Value represents the candidate's 50% equity interest; compensation from the firm is listed under salary in Part 2.</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong class="marginit-right">Philbrick Holdings LLC </strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> Philbrick Holdings LLC (Brookline, MA)&nbsp;<em>Description:</em>&nbsp;Residential Real Estate LLC&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.1</td>
+							<td class="span4"><strong class="marginit-right">45 Dane Street </strong><div class="muted"><em>Description:</em> Residential Real Estate (Somerville, MA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>Rent/Royalties, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.2</td>
+							<td class="span4"><strong>Brookline Bank</strong><div class="muted noWrap">(Brookline, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">Worthy Kitchen LLC </strong><div class="muted"><em>Company:</em> Worthy Kitchen LLC (Barnard, VT)&nbsp;<em>Description:</em>&nbsp;Restaurant Holding LLC&nbsp;<em>Filer comment:  </em>Spouse holds minority interest (2%) in LLC</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong class="marginit-right">Worthy Burger LLC </strong><div class="muted"><em>Company:</em> Worthy Burger LLC (Barnard, VT)&nbsp;<em>Description:</em>&nbsp;Restaurant Holding LLC&nbsp;<em>Filer comment:  </em>Spouse holds minority interest (1%) in LLC</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>Dividends, </td>
+							<td>$2,501 - $5,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong class="marginit-right">450-466 Geary Street LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> 450-466 Geary Street LLC (San Francisco, CA)&nbsp;<em>Description:</em>&nbsp;Commercial Real Estate LLC&nbsp;<em>Filer comment:  </em>Spouse holds minority interest in LLC</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.1</td>
+							<td class="span4"><strong class="marginit-right">450-466 Geary Street</strong><div class="muted"><em>Description:</em> Commercial Real Estate (San Francisco, CA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong>Bank of America</strong><div class="muted noWrap">(Boston, MA)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong>Bank of America</strong><div class="muted noWrap">(Boston, Massachusetts)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right">Kevin Liss-Riordan Revocable Trust</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10.1</td>
+							<td class="span4"><strong class="marginit-right">9 Irving Street, Brookline, MA </strong><div class="muted"><em>Description:</em> Residential Real Estate (Brookline, Massachusetts)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong class="marginit-right">2245—2257 Irving Street LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> 2245—2257 Irving Street LLC (San Francisco, CA)&nbsp;<em>Description:</em>&nbsp;Commercial Real Estate LLC&nbsp;<em>Filer comment:  </em>Spouse hold minority interest in LLC</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11.1</td>
+							<td class="span4"><strong class="marginit-right">2245—2257 Irving Street </strong><div class="muted"><em>Description:</em> Commercial Real Estate (San Francisco, CA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Spouse</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$50,001 - $100,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong class="marginit-right">Vanguard IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFIAX" target="_blank">VFIAX</a> - Vanguard 500 Index Fund Admiral Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VSMAX" target="_blank">VSMAX</a> - Vanguard Small-Cap Index Fund Admiral Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VIMAX" target="_blank">VIMAX</a> - Vanguard Mid-Cap Index Fund Admiral Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>13</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFIAX" target="_blank">VFIAX</a> - Vanguard 500 Index Fund Admiral Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>14</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFINX" target="_blank">VFINX</a> - Vanguard 500 Index Fund Investor Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>15</td>
+							<td class="span4"><strong class="marginit-right">Vanguard Municipal Money Market Fund </strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>Interest, </td>
+							<td>$201 - $1,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16</td>
+							<td class="span4"><strong class="marginit-right">Individual 529 College Savings </strong><div class="muted"><em>Institution:</em> Vanguard</div><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Education Savings Plans<div class="muted">529 College Savings Plan</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>16.1</td>
+							<td class="span4"><strong class="marginit-right">Vanguard 500 Index Portfolio </strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17</td>
+							<td class="span4"><strong class="marginit-right">Individual 529 College Savings </strong><div class="muted"><em>Institution:</em> Vanguard</div><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Education Savings Plans<div class="muted">529 College Savings Plan</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17.1</td>
+							<td class="span4"><strong class="marginit-right">Vanguard 500 Index Portfolio </strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>17.2</td>
+							<td class="span4"><strong class="marginit-right">Vanguard Total Bond Market Index Portfolio</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>18</td>
+							<td class="span4"><strong class="marginit-right">Individual 529 College Savings </strong><div class="muted"><em>Institution:</em> Vanguard</div><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Education Savings Plans<div class="muted">529 College Savings Plan</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>18.1</td>
+							<td class="span4"><strong class="marginit-right">Vanguard Total Bond Market Index Portfolio</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>18.2</td>
+							<td class="span4"><strong class="marginit-right">Vanguard Total Stock Market Portfolio</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19</td>
+							<td class="span4"><strong class="marginit-right">Lichten & Liss-Riordan, P.C. Profit Sharing Plan </strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">Defined Contribution Pension Plan</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VBTLX" target="_blank">VBTLX</a> - Vanguard Total Bond Market Index Fund Admiral Shar</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19.2</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFIAX" target="_blank">VFIAX</a> - Vanguard 500 Index Fund Admiral Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19.3</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VFWAX" target="_blank">VFWAX</a> - Vanguard FTSE All-World ex-US Index Fund Admiral S</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>19.4</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=VSMAX" target="_blank">VSMAX</a> - Vanguard Small-Cap Index Fund Admiral Shares</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>20</td>
+							<td class="span4"><strong class="marginit-right">22 Marne Avenue, San Francisco, CA </strong><div class="muted"><em>Description:</em> Residential Real Estate (San Francisco, CA)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>21</td>
+							<td class="span4"><strong class="marginit-right">1151 York Lane, St Helena, CA </strong><div class="muted"><em>Description:</em> Residential Real Estate (St Helena, CA)&nbsp;<em>Filer comment:  </em>Spouse holds a 60% interest in this property</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22</td>
+							<td class="span4"><strong class="marginit-right">Anticipated Inheritance from Estate of Gloria Riordan </strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Filer comment:  </em>Assets not yet distributed to Spouse</div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22.1</td>
+							<td class="span4"><strong class="marginit-right">Gloria Riordan Life Insurance Annuity </strong><div class="muted"></div></td>
+							<td>Life Insurance<div class="muted">Variable</div></td>
+							<td>Spouse</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22.2</td>
+							<td class="span4"><strong class="marginit-right">Gloria Riordan Vanguard Account </strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22.3</td>
+							<td class="span4"><strong class="marginit-right">Gloria Riordan UBS Non-Retirement Account</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>22.4</td>
+							<td class="span4"><strong class="marginit-right">Gloria Riordan UBS Retirement Account</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>Over $1,000,000 and held independently by spouse or dependent child</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>23</td>
+							<td class="span4"><strong class="marginit-right">Loan Payable to Shannon Liss-Riordan</strong><div class="muted"><em>Company:</em> Lichten & Liss-Riordan, P.C. (Boston, MA)&nbsp;<em>Filer comment:  </em>Loan had a zero balance as of the date of filing, but the income earned  reflects the interest paid during the reporting period.</div></td>
+							<td>Accounts Receivable<div class="muted">From a Business</div></td>
+							<td>Self</td>
+							<td>None (or less than $1,001)</td>
+							<td>Interest, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>24</td>
+							<td class="span4"><strong class="marginit-right">Note Payable to Shannon Liss-Riordan</strong><div class="muted"><em>Company:</em> The Committee to Elect Shannon Liss-Riordan (Boston, MA)&nbsp;</div></td>
+							<td>Accounts Receivable<div class="muted">From a Business</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a liability worth more than $10,000 at any time?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of liabilities added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Incurred</th>
+						<th scope="col">Debtor</th>
+						<th scope="col">Type</th>
+						<th scope="col">Points</th>
+						<th scope="col">Rate<br>(Term)</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Creditor</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								2014
+							</td>
+							<td>Spouse</td>
+							<td>Line of Credit
+								</td>
+							<td>
+								-</td>
+							<td>
+								4.125%<br>
+								
+														(10 Years)
+								
+							</td>
+							<td>Over $1,000,000 (asset held independently by spouse or dependent child)</td>
+							<td>
+								Brookline Bank
+								<div class="muted">Brookline, MA</div>
+							</td>
+							<td>
+								Line of credit held by Shannon Liss-Riordan Family Trust</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								2018
+							</td>
+							<td>Spouse</td>
+							<td>Home Equity Line of Credit
+								</td>
+							<td>
+								-</td>
+							<td>
+								4.99%<br>
+								
+														(50 Years)
+								
+							</td>
+							<td>Over $1,000,000 (asset held independently by spouse or dependent child)</td>
+							<td>
+								Brookline Bank
+								<div class="muted">Brookline, MA</div>
+							</td>
+							<td>
+								HELOC held by Shannon Liss-Riordan Family Trust</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								2014
+							</td>
+							<td>Spouse</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								3.95%<br>
+								
+														(30 Years)
+								
+							</td>
+							<td>Over $1,000,000 (asset held independently by spouse or dependent child)</td>
+							<td>
+								Brookline Bank
+								<div class="muted">Brookline, MA</div>
+							</td>
+							<td>
+								Mortgage held by Shannon Liss-Riordan Family Trust</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								2012
+							</td>
+							<td>Joint</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								3.25%<br>
+								
+														(15 Years)
+								
+							</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>
+								Bank of America
+								<div class="muted">Boston, Massachusetts</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								2013
+							</td>
+							<td>Spouse</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								4.125%<br>
+								
+														(120 months)
+								
+							</td>
+							<td>Over $1,000,000 (asset held independently by spouse or dependent child)</td>
+							<td>
+								Brookline Bank
+								<div class="muted">Brookline, MA</div>
+							</td>
+							<td>
+								Mortgage held by Shannon Liss-Riordan Family Trust</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								2018
+							</td>
+							<td>Spouse</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								5.75%<br>
+								
+														(60 months)
+								
+							</td>
+							<td>Over $1,000,000 (asset held independently by spouse or dependent child)</td>
+							<td>
+								Brookline Bank
+								<div class="muted">Brookline, MA</div>
+							</td>
+							<td>
+								Mortgage held by Philbrick Holdings LLC</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								2011
+							</td>
+							<td>Spouse</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								4.13%<br>
+								
+														(120 months)
+								
+							</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>
+								Brookline Bank
+								<div class="muted">Brookline, MA</div>
+							</td>
+							<td>
+								Mortgage held by Shannon Liss-Riordan Family Trust</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								2014
+							</td>
+							<td>Spouse</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								3.75%<br>
+								
+														(30 years)
+								
+							</td>
+							<td>Over $1,000,000 (asset held independently by spouse or dependent child)</td>
+							<td>
+								PenFed Credit Union
+								<div class="muted">Omaha, Nebraska</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Apr 2009 to
+								present
+							</td>
+							<td>
+								Partner
+								
+							</td>
+							<td>
+								Lichten &amp; Liss-Riordan, P.C.
+								<div class="muted">
+									Boston, MA
+								</div>
+							</td>
+							<td>
+								Corporation
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Jul 2011 to
+								present
+							</td>
+							<td>
+								Other
+								(Manager)
+							</td>
+							<td>
+								Washington 202 LLC
+								<div class="muted">
+									Brookline, MA
+								</div>
+							</td>
+							<td>
+								Other
+								(Limited Liability Company)
+							</td>
+							<td>None</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						No
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of compensation sources added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Source</th>
+						<th scope="col">Duties</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Rafael Abreu
+								<div class="muted">New London, CT</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Hassan Aden
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Robert Alford
+								<div class="muted">Hudson, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Dominga Almonte
+								<div class="muted">New London, CT</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Dulce Amado
+								<div class="muted">Malden, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								Esther Arboleda
+								<div class="muted">Hookset, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								Jairo Arboleda
+								<div class="muted">Flushing Queens, NY</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								Joseph Asare
+								<div class="muted">Cambridge, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								Patricia Baldwin
+								<div class="muted">Forestdale, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								Leonor Bastidas
+								<div class="muted">Manchester, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								Joao Bastos
+								<div class="muted">Marlboro, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>
+								Ramon Batista
+								<div class="muted">Lawrence, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								13</td>
+							<td>
+								Debra Bennett
+								<div class="muted">Billerica, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								14</td>
+							<td>
+								Celso Borgo
+								<div class="muted">Merrimack, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								15</td>
+							<td>
+								Herve Brioche
+								<div class="muted">Lowell, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								16</td>
+							<td>
+								Berenise Cabreja
+								<div class="muted">Lynn, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								17</td>
+							<td>
+								Lucila Caceres
+								<div class="muted">Bridgeport, CT</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								18</td>
+							<td>
+								Richard Cannon
+								<div class="muted">Norton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								19</td>
+							<td>
+								Lois Carey
+								<div class="muted">Mendon, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								20</td>
+							<td>
+								Miguel Carranza
+								<div class="muted">Bowie, MD</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								21</td>
+							<td>
+								Flayne Carvalho
+								<div class="muted">Marlborough, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								22</td>
+							<td>
+								Manuel Centeio
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								23</td>
+							<td>
+								Mamie Clark
+								<div class="muted">Plymouth, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								24</td>
+							<td>
+								Valdice Coronel
+								<div class="muted">Boylston, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								25</td>
+							<td>
+								George Crones
+								<div class="muted">Chestnut Hill, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								26</td>
+							<td>
+								Ramona Cruz
+								<div class="muted">Taunton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								27</td>
+							<td>
+								Rosario Cruz
+								<div class="muted">Methuen, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								28</td>
+							<td>
+								Idelmira Cruz Barbosa
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								29</td>
+							<td>
+								Elisabeth Cunha
+								<div class="muted">Framingham, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								30</td>
+							<td>
+								Luiz Dacosta
+								<div class="muted">Marlborough, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								31</td>
+							<td>
+								Hueder Darosa
+								<div class="muted">Methuen, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								32</td>
+							<td>
+								Frantz David
+								<div class="muted">Haverhill, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								33</td>
+							<td>
+								Mario De Barros Jr.
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								34</td>
+							<td>
+								Maquinair Rodrigues De Freitas
+								<div class="muted">Fall River, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								35</td>
+							<td>
+								Vincent De Giovanni
+								<div class="muted">Westford, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								36</td>
+							<td>
+								Douglas De Souza
+								<div class="muted">East Providence, RI</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								37</td>
+							<td>
+								Gilmar Defaria
+								<div class="muted">Marlborough, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								38</td>
+							<td>
+								Dina Dellamano
+								<div class="muted">E. Weymouth, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								39</td>
+							<td>
+								Adilson Dos Santos
+								<div class="muted">Fall River, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								40</td>
+							<td>
+								Carlos Duenas
+								<div class="muted">Malden, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								41</td>
+							<td>
+								Joseph Farrell
+								<div class="muted">Westwood, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								42</td>
+							<td>
+								Diamantino Fernandes
+								<div class="muted">Cambridge, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								43</td>
+							<td>
+								Geraldo Figuiredo
+								<div class="muted">Stoughton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								44</td>
+							<td>
+								Flavio Filho
+								<div class="muted">Framingham, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								45</td>
+							<td>
+								John Fuller
+								<div class="muted">Rochester, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								46</td>
+							<td>
+								Douglas Furrier
+								<div class="muted">Melrose, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								47</td>
+							<td>
+								Sarah Gamage
+								<div class="muted">New Bedford, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								48</td>
+							<td>
+								Miosotis Garcia
+								<div class="muted">Haverhill, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								49</td>
+							<td>
+								Jason Gentry
+								<div class="muted">Lynn, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								50</td>
+							<td>
+								Emanuel Gomes
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								51</td>
+							<td>
+								Miguel Gomes
+								<div class="muted">Canton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								52</td>
+							<td>
+								Hector Gonzalez
+								<div class="muted">Providence, RI</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								53</td>
+							<td>
+								Pedro Gonzalez
+								<div class="muted">Lawrence, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								54</td>
+							<td>
+								Kayla Gould
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								55</td>
+							<td>
+								Matilda Haxhiaj
+								<div class="muted">Salem, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								56</td>
+							<td>
+								Mariluce Hicks
+								<div class="muted">Merrimack, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								57</td>
+							<td>
+								Janet Kendall
+								<div class="muted">Hudson, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								58</td>
+							<td>
+								Kwang Kim
+								<div class="muted">Billerica, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								59</td>
+							<td>
+								Orville Knibbs
+								<div class="muted">Lynn, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								60</td>
+							<td>
+								Lormeus Lafleur
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								61</td>
+							<td>
+								Donna Lagomarsino
+								<div class="muted">Wilmington, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								62</td>
+							<td>
+								Robert Lamarche Jr.
+								<div class="muted">Lowell, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								63</td>
+							<td>
+								Pavel Leclair
+								<div class="muted">Hayward, CA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								64</td>
+							<td>
+								Edgard Lemos Da Silva
+								<div class="muted">Hyannis, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								65</td>
+							<td>
+								Jefry Limbat
+								<div class="muted">Dover, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								66</td>
+							<td>
+								Arlindo Lopes
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								67</td>
+							<td>
+								Denise Lunceford
+								<div class="muted">Billerica, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								68</td>
+							<td>
+								Sonia Maria Lydon
+								<div class="muted">Everett, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								69</td>
+							<td>
+								Johanna Manon
+								<div class="muted">Providence, RI</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								70</td>
+							<td>
+								Luis Martinez
+								<div class="muted">Waltham, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								71</td>
+							<td>
+								Sebastian Matos
+								<div class="muted">Framingham, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								72</td>
+							<td>
+								Sean Mckean
+								<div class="muted">San Francisco, CA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								73</td>
+							<td>
+								Leon Medvinsky
+								<div class="muted">Needham, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								74</td>
+							<td>
+								Manuel Mendes
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								75</td>
+							<td>
+								Nelita Monteiro
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								76</td>
+							<td>
+								Tito Moore
+								<div class="muted">North Attleboro, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								77</td>
+							<td>
+								Victor Moy Alves Berardinelli
+								<div class="muted">West Yarmouth, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								78</td>
+							<td>
+								John Nichols
+								<div class="muted">Halifax, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								79</td>
+							<td>
+								Utseoritselaju Ogedengbe
+								<div class="muted">Providence, RI</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								80</td>
+							<td>
+								Armindo Oliveira
+								<div class="muted">Chelsea, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								81</td>
+							<td>
+								Luis Ortet
+								<div class="muted">Dorchester, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								82</td>
+							<td>
+								Cristina Pacheco
+								<div class="muted">New Bedford, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								83</td>
+							<td>
+								Valmia Paiva
+								<div class="muted">Peabody, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								84</td>
+							<td>
+								Francisco Paula Valle
+								<div class="muted">Rochdale, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								85</td>
+							<td>
+								Marina Peixoto
+								<div class="muted">New Bedford, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								86</td>
+							<td>
+								Mayara Pena
+								<div class="muted">Middletown, RI</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								87</td>
+							<td>
+								Ezio Pereira Nascimento
+								<div class="muted">Manchester, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								88</td>
+							<td>
+								Bethany Pires
+								<div class="muted">East Freetown, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								89</td>
+							<td>
+								Sabrina Pittman
+								<div class="muted">Brockton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								90</td>
+							<td>
+								Nicorina Prudhomme
+								<div class="muted">Hooksett, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								91</td>
+							<td>
+								Patricia Ann Reekie
+								<div class="muted">Tyngsboro, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								92</td>
+							<td>
+								Edson Reyes
+								<div class="muted">Revere, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								93</td>
+							<td>
+								Jose Reyes
+								<div class="muted">Derry, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								94</td>
+							<td>
+								Luiz Ribeiro
+								<div class="muted">Malden, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								95</td>
+							<td>
+								Graciano Sampaio Machado
+								<div class="muted">Hudson, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								96</td>
+							<td>
+								Gleysson Santos
+								<div class="muted">Lowell, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								97</td>
+							<td>
+								Jose Silva
+								<div class="muted">Riverside, RI</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								98</td>
+							<td>
+								Venancio Silva
+								<div class="muted">Quincy, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								99</td>
+							<td>
+								Paul Slinsky
+								<div class="muted">Davenport, FL</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								100</td>
+							<td>
+								Carlos Soares
+								<div class="muted">New Bedford, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								101</td>
+							<td>
+								Gilberto Sousa
+								<div class="muted">Somerville, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								102</td>
+							<td>
+								Fernando Souza
+								<div class="muted">Marlborough, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								103</td>
+							<td>
+								Walex Souza
+								<div class="muted">Nashua, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								104</td>
+							<td>
+								Sandra St. Peter
+								<div class="muted">West Yarmouth, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								105</td>
+							<td>
+								Melissa Stawicki
+								<div class="muted">New Bedford, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								106</td>
+							<td>
+								Susan Taddeo
+								<div class="muted">Pepperell, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								107</td>
+							<td>
+								Celeste Tenaglia
+								<div class="muted">Tewksbury, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								108</td>
+							<td>
+								Brian Thai
+								<div class="muted">Woburn, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								109</td>
+							<td>
+								Robson Valotto
+								<div class="muted">East Providence, RI</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								110</td>
+							<td>
+								Gabriel Vascoucelos
+								<div class="muted">East Taunton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								111</td>
+							<td>
+								Roberto Vasquez
+								<div class="muted">Nashua, NH</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								112</td>
+							<td>
+								Ana Vieira
+								<div class="muted">New Bedford, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								113</td>
+							<td>
+								Amanda Walsh
+								<div class="muted">Taunton, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								114</td>
+							<td>
+								Annalise Walsh
+								<div class="muted">Framingham, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								115</td>
+							<td>
+								Seunghee Yoo
+								<div class="muted">Arlington, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								116</td>
+							<td>
+								Sarah Zaparoli
+								<div class="muted">Lowell, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								117</td>
+							<td>
+								Janai Zayas
+								<div class="muted">Lowell, MA</div>
+							<td>Client of Lichten &amp; Liss-Riordan, P.C.</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<h4 class="h5">Comments</h4>
+				The candidate&#39;s income listed in Part 2 is comprised of both salary and bonus received from Lichten &amp; Liss-Riordan, P.C. during the reporting period.  
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>
