@@ -1,0 +1,1569 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <title>eFD: 
+	Annual Report for 2019 -
+	
+		Lindstrom,
+	
+	
+		David
+	
+
+	
+		A
+	
+</title>
+            <meta name="robots" content="noindex">
+            <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+
+            
+	<style type="text/css">
+		.txtLogo {
+			display: none;
+		}
+	</style>
+
+
+
+            
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap-custom/theme-starter-site.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" integrity="sha384-rHEtTzUO+F6AxgVJs86ZaDoE9sm0tDz/xaSt1ohRCJoeu4gkMIUvcA4cnm60Em/k" crossorigin="anonymous" >
+
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/main.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/static/css/carousel.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/static/css/print.css" />
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/static/scripts/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"
+        integrity="sha384-NHtbx1Hf6ctHNdZmU28YfhGjB63gcU1YU64ttM+c0RxMKNBj67j+N/axpqTfdffo"
+        crossorigin="anonymous"></script>
+
+<script src="/static/scripts/popper.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="/static/scripts/jquery/jquery.placeholder.js"></script>
+<script src="/static/scripts/jquery/jquery.dPassword.js"></script>
+<script src="/static/scripts/jquery/modernizr.js"></script>
+<script src="/static/scripts/jquery/jquery.cooke.js"></script>
+<script src="/static/browser-detect.js"></script>
+
+<script>
+    $(document).ready( function(){
+        if(!Modernizr.input.placeholder){
+            $('[placeholder]').focus(function() {
+                var input = $(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                    input.removeClass('placeholder');
+                }
+            }).blur(function() {
+                        var input = $(this);
+                        if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                            input.addClass('placeholder');
+                            input.val(input.attr('placeholder'));
+                        }
+                    }).blur();
+            $('[placeholder]').parents('form').submit(function() {
+                $(this).find('[placeholder]').each(function() {
+                    var input = $(this);
+                    if (input.val() == input.attr('placeholder')) {
+                        input.val('');
+                    }
+                })
+            });
+        }
+
+
+        //Popovers
+
+        //Initializes popovers and provides target containers
+        var i = 0;
+        $(document).find('[data-toggle="popover"]').each(function(){;
+            var popoverCount = 'popover'+i;
+            i++;
+            $(this).parent().addClass(popoverCount);
+            var popoverContainer = '.' + popoverCount;
+            $(this).popover({ container: popoverContainer});
+          });
+
+        //Hides popover if you click/touch away from it
+        $(document).on('click touchstart', function (e) {
+            $('[data-toggle="popover"],[data-original-title]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false;
+                }
+            });
+        });
+
+        //Hides popover if press Esc
+        $(document).keydown(function (e) {
+            if (e.which === 27 && $(this).has('.popover')) {
+                $('.popover').popover('hide');
+            }
+        });
+
+        //Hides popover if you press close
+        $(document).click(function() {
+            $('button.close').click(function() {
+                $('.popover').popover('hide');
+            });
+        });
+    });
+
+
+</script>
+
+<script>
+    if (window.location.pathname != '/incompatible-browser/')
+    {
+        if (BrowserDetect.browser == "Explorer" && parseInt(BrowserDetect.version, 10) < 11 ||
+            BrowserDetect.browser == "Chrome" && parseInt(BrowserDetect.version, 10) < 36 ||
+            BrowserDetect.browser == "Safari" && parseInt(BrowserDetect.version, 10) < 7 ||
+            BrowserDetect.browser == "Firefox" && parseInt(BrowserDetect.version, 10) < 31)
+        {
+           window.location.replace("/incompatible-browser/");
+        }
+    }
+</script>
+
+
+            
+
+
+
+        </head>
+
+        <body>
+            <div class="container-wrap" id="top">
+                <header class="container-fluid d-print-block txtLogo ">
+                    <small>United States Senate</small><br />
+                    Financial Disclosures
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none">
+                    <a href="#content" class="sr-only sr-only-focusable" tabindex="0">Skip to main content</a>
+
+                    <div class="navbar-brand" id="x"><img src="/static/images/logo.svg" alt="U.S. Senate Financial Disclosure logo"></div>
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                        
+                            <ul class="navbar-nav" role="navigation">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/search/">
+                                        <i class="fa fa-search fa-fw fa-lg" aria-hidden="true"></i>
+                                        Find Reports
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                        <ul class="navbar-nav justify-content-end accountNav" role="navigation">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                <main class="container-fluid pgContent" id="content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--Message Block-->
+                            
+    
+    
+    <div class="alert alert-danger" id="genericErrorMessageDiv" role="alert" aria-live="assertive" aria-relevant="all" style="display:none;">
+       <i class="fa fa-warning" title="Warning" aria-label="Warning"></i> <span id="genericErrorMessage"></span>
+    </div>
+
+                            <!--End Message Block-->
+
+                            
+	<style type="text/css">
+		.navbar-nav {
+			display: none;
+		}
+	</style>
+	<strong class="d-print-none return-search">
+		Return to the search tab to select another report.
+	</strong>
+	<div class="justify-content-between">
+		<div>
+			<h1 class="mb-2">
+				
+					Candidate
+				
+					Report 
+				
+				
+				
+				
+					(Amendment 1)
+				
+			</h1>
+			<h2 class="filedReport">
+				
+					Mr.
+				
+
+				
+					David
+				
+
+				
+					A
+				
+
+				
+					Lindstrom
+				
+
+				
+
+				
+			</h2>
+			
+				<p class="muted">
+					State of Candidacy: KS
+					<span class="p-1">|</span> Candidacy Commenced: 06/27/2019
+				</p>
+			
+			<p class="muted font-weight-bold">
+				<i class="fa fa-folder-open"></i>
+				Filed 02/05/2020 @ 11:24 AM
+			</p>
+		</div>
+		<div>
+            <span class="d-print-none">
+                <a href="javascript:window.print()" class="btn btn-primary"><i class="fa fa-print mr-1" aria-hidden="true"></i> Print Report</a>
+            </span>
+		</div>
+	</div>
+
+	<hr>
+
+	<p>The following statements were checked before filing:</p>
+
+	<div class="mb-4">
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_certified" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I certify that the statements I have made on this form are true, complete and correct to the best of my knowledge and belief.
+		</label>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_cannot_be_edited" disabled="disabled"
+					 checked="checked" class="form-check-input"/>
+			I understand that reports cannot be edited once filed. To make corrections, I will submit an
+			<em>electronic</em> amendment to this report.
+		</label>
+		<hr>
+		<label class="form-check-label">
+			<input type="checkbox" name="filing_omitted_assets" disabled="disabled"
+					 class="form-check-input"/>
+			I
+			<em>omitted</em> assets because they meet the three-part test for exemption.
+		</label>
+	</div>
+
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Part 1. Honoraria Payments or Payments to Charity in Lieu of Honoraria
+				
+			</h3>
+			<p>
+				Did any individual or organization pay you or your spouse more than $200 or donate any amount to a charity on your behalf, for an article, speech, or appearance?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of honoraria added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Activity</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Who Paid?</th>
+						<th scope="col">Who received payment?</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								12/14/2018
+							</td>
+							<td>Appearance</td>
+							<td>$500.00</td>
+							<td>
+								Monarch Cement
+								<div class="muted">Kansas City, Missouri</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								01/19/2018
+							</td>
+							<td>Appearance</td>
+							<td>$500.00</td>
+							<td>
+								Kansas City Chiefs
+								<div class="muted">Kansas City, Missouri</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								04/04/2018
+							</td>
+							<td>Appearance</td>
+							<td>$700.00</td>
+							<td>
+								Kansas City Chiefs
+								<div class="muted">Kansas City, Missouri</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								08/24/2019
+							</td>
+							<td>Appearance</td>
+							<td>$100.00</td>
+							<td>
+								Kansas City Chiefs
+								<div class="muted">Kansas City, Missouri</div>
+							</td>
+							<td>Self</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 2. Earned and Non-Investment Income
+				
+					<small>
+						<i class="fa fa-asterisk" title="Amended section"></i> Amended
+					</small>
+				
+			</h3>
+			<p>
+				Did you or your spouse have reportable earned income or non-investment income?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of payments added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Who Was Paid</th>
+						<th scope="col">Type</th>
+						<th scope="col">Who Paid</th>
+						<th scope="col">Amount Paid</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								Kansas Leadership Center<br>
+								<div class="muted">Wichita, Kansas</div>
+							</td>
+							
+								<td>$8,750.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Other
+								<br>
+									<div class="muted">(Value of Season tickets to former players as Chief&#39;s Ambassadors)</div>
+								
+							</td>
+							<td>
+								Kansas City Chiefs Football Club, Inc.<br>
+								<div class="muted">Kansas City, Missouri</div>
+							</td>
+							
+								<td>$1,620.00</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Retirement
+								
+								
+							</td>
+							<td>
+								Kansas Public Employees Retirement System<br>
+								<div class="muted">Topeka, Kanas</div>
+							</td>
+							
+								<td>$12,194.40</td>
+							
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Self
+
+							</td>
+							<td>
+								Board Compensation
+								
+								
+							</td>
+							<td>
+								Kansas Turnpike Authority<br>
+								<div class="muted">Wichita, Kansas</div>
+							</td>
+							
+								<td>$1,309.87</td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 3. Assets
+				
+					<small>
+						<i class="fa fa-asterisk" title="Amended section"></i> Amended
+					</small>
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child own any asset worth more than $1000, have a deposit account with a balance over $5,000, or receive income of more than $200 from an asset?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table id="grid_items" class="table dataTable">
+					<caption class="sr-only">List of assets added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">Asset</th>
+						<th scope="col">Asset Type</th>
+						<th scope="col">Owner</th>
+						<th scope="col">Value</th>
+						<th scope="col">Income Type</th>
+						<th scope="col">Income</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>1</td>
+							<td class="span4"><strong class="marginit-right">Commercial Rental Building</strong><div class="muted"><em>Company:</em> DML, Incorporated (Overland Park, Kansas)&nbsp;<em>Description:</em>&nbsp;Burger King Building rental&nbsp;</div></td>
+							<td>Corporate Securities<div class="muted">Non-Public Stock</div></td>
+							<td>Self</td>
+							<td>$250,001 - $500,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$15,001 - $50,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2</td>
+							<td class="span4"><strong class="marginit-right">DML Properties, LLC</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"><em>Company:</em> DML Properties, LLC (Overland Park, Kansas)&nbsp;<em>Description:</em>&nbsp;Holding Company for Rental Real Estate&nbsp;</div></td>
+							<td>Business Entity<div class="muted">Limited Liability Company (LLC)</div></td>
+							<td>Joint</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.1</td>
+							<td class="span4"><strong class="marginit-right">Commercial Rental #1 (Kansas City Missouri)</strong><div class="muted"><em>Description:</em> Burger King Property (Kansas City Missouri location) (Kansas City, Missouri)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.2</td>
+							<td class="span4"><strong class="marginit-right">Commercial Rental  #2 (Louisburg, Kansas) </strong><div class="muted"><em>Description:</em> Burger King Property (Louisburg, Kansas) (Louisburg, Kansas)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Joint</td>
+							<td>$500,001 - $1,000,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.3</td>
+							<td class="span4"><strong class="marginit-right">Commercial Rental #3 (Overland Park, Kansas)</strong><div class="muted"><em>Description:</em> Burger King Property (Overland Park, Kansas) (Overland Park, Kansas)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Commercial</div></td>
+							<td>Joint</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$100,001 - $1,000,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.4</td>
+							<td class="span4"><strong class="marginit-right">Residential Rental #1 (Louisburg, Kansas)</strong><div class="muted"><em>Description:</em> Residential Rental #1-A Frame(in need of renovation) (Louisburg, Kansas)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.5</td>
+							<td class="span4"><strong>Commerce Bank</strong><div class="muted noWrap">(Overland Park, Kansas)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.6</td>
+							<td class="span4"><strong class="marginit-right">Motor Vehicle #1</strong><div class="muted"><em>Description</em>: Vehicle for use by DML Properties, LLC&nbsp;</div></td>
+							<td>Personal Property<div class="muted">Other</div></td>
+							<td>Joint</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>2.7</td>
+							<td class="span4"><strong class="marginit-right">Motor Vehicle #2</strong><div class="muted"><em>Description</em>: Vehicle for use by DML Properties, LLC&nbsp;</div></td>
+							<td>Personal Property<div class="muted">Other</div></td>
+							<td>Joint</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>3</td>
+							<td class="span4"><strong class="marginit-right">Farm Rental Property #1</strong><div class="muted"><em>Description:</em> 33 acres for farm rental property with old home included (Louisburg, Kansas)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Rent/Royalties, </td>
+							<td>$5,001 - $15,000</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4</td>
+							<td class="span4"><strong class="marginit-right">UMB--Inherited IRA--CD</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>4.1</td>
+							<td class="span4"><strong>UMB</strong><div class="muted noWrap">(Overland Park, Kansas)</div><div class="muted"><div class="muted"><em>Type: </em>Certificate of Deposit, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Spouse</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5</td>
+							<td class="span4"><strong class="marginit-right">Johnson County KS Deferred Compensation Plan</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">Defined Contribution Pension Plan</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.1</td>
+							<td class="span4"><strong class="marginit-right">Vanguard Small-Cap Index Fund Adm</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.2</td>
+							<td class="span4"><strong class="marginit-right">Franklin Growth Fund Adv</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$15,001 - $50,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>5.3</td>
+							<td class="span4"><strong class="marginit-right">VY TRowePrice Captl Apprec Pt Inst</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Self</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6</td>
+							<td class="span4"><strong class="marginit-right">American Century IRA</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">IRA</div></td>
+							<td>Spouse</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>6.1</td>
+							<td class="span4"><strong class="marginit-right"><a href="http://finance.yahoo.com/q?s=AOMIX" target="_blank">AOMIX</a> - American Century Investments One Choice Portfolio:</strong><div class="muted"></div></td>
+							<td>Mutual Funds<div class="muted">Mutual Fund</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7</td>
+							<td class="span4"><strong class="marginit-right">Lindstrom Sons Trust</strong><div class="addUnderlyingAssets noWrap"></div><div class="muted"></div></td>
+							<td>Trust<div class="muted">General Trust</div></td>
+							<td>Self</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.1</td>
+							<td class="span4"><strong class="marginit-right">Residential Rental Apartment complex</strong><div class="muted"><em>Description:</em> Residential Rental Apartment Complex (Punta Gorda, Florida)&nbsp;</div></td>
+							<td>Real Estate<div class="muted">Residential</div></td>
+							<td>Self</td>
+							<td>$1,000,001 - $5,000,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>7.2</td>
+							<td class="span4"><strong>Commerce Bank</strong><div class="muted noWrap">(Kansas City, Missouri)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Self</td>
+							<td>$100,001 - $250,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>8</td>
+							<td class="span4"><strong>UMB</strong><div class="muted noWrap">(Overland Park, Kansas)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, Money Market Account, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$250,001 - $500,000</td>
+							<td>Interest, </td>
+							<td>$1,001 - $2,500</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>9</td>
+							<td class="span4"><strong>American Bank</strong><div class="muted noWrap">(Baxter Springs, Kansas)</div><div class="muted"><div class="muted"><em>Type: </em>Checking, </div></div></td>
+							<td>Bank Deposit</td>
+							<td>Joint</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>10</td>
+							<td class="span4"><strong class="marginit-right">Whole Life Insurance Policy</strong><div class="muted"><em>Provider:</em> Nassau&nbsp;</div></td>
+							<td>Life Insurance<div class="muted">Whole</div></td>
+							<td>Spouse</td>
+							<td>$50,001 - $100,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>11</td>
+							<td class="span4"><strong class="marginit-right">US Alliance</strong><div class="muted"></div></td>
+							<td>Corporate Securities<div class="muted">Stock</div></td>
+							<td>Self</td>
+							<td>$1,001 - $15,000</td>
+							<td>None, </td>
+							<td>None (or less than $201)</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>12</td>
+							<td class="span4"><strong class="marginit-right">Kansas Employees Public Retirement System</strong><div class="muted"></div></td>
+							<td>Retirement Plans<div class="muted">Defined Benefit Pension Plan</div></td>
+							<td>Self</td>
+							<td>Unascertainable</td>
+							<td>Other, (Monthly Defined Benefit Pension Payments)</td>
+							<td>$5,001 - $15,000<br/>Other $12,194.40</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4a. Periodic Transaction Report Summary
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 4b. Transactions
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 5. Gifts
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 6. Travel
+				
+			</h3>
+			<p>
+				
+				<strong>
+					
+						Not required
+					
+				</strong>
+			</p>
+		</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 7. Liabilities
+				
+			</h3>
+			<p>
+				Did you, your spouse, or dependent child have a reportable liability worth more than $10,000 at any time?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of liabilities added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Incurred</th>
+						<th scope="col">Debtor</th>
+						<th scope="col">Type</th>
+						<th scope="col">Points</th>
+						<th scope="col">Rate<br>(Term)</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Creditor</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								2015
+							</td>
+							<td>Joint</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								3.25%<br>
+								
+														(30 years (7 year arm))
+								
+							</td>
+							<td>$250,001 - $500,000</td>
+							<td>
+								Capitol Federal
+								<div class="muted">Topeka, Kansas</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								2015
+							</td>
+							<td>Joint</td>
+							<td>Mortgage
+								</td>
+							<td>
+								None</td>
+							<td>
+								3.25 var.%<br>
+								
+														(15 years)
+								
+							</td>
+							<td>$100,001 - $250,000</td>
+							<td>
+								American Bank
+								<div class="muted">Baxter Springs, Kansas</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								2018
+							</td>
+							<td>Joint</td>
+							<td>Other
+								 (DML Properties, LLC Business Loan for A-Frame)</td>
+							<td>
+								-</td>
+							<td>
+								5.25%<br>
+								
+														(36 months)
+								
+							</td>
+							<td>$100,001 - $250,000</td>
+							<td>
+								American Bank
+								<div class="muted">Baxter Springs, Kansas</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								2015
+							</td>
+							<td>Joint</td>
+							<td>Other
+								 (DML Properties, LLC Business Loan for Motor Vehicle (Toyota Rav4))</td>
+							<td>
+								-</td>
+							<td>
+								0%<br>
+								
+														(5 year)
+								
+							</td>
+							<td>$10,001 - $15,000</td>
+							<td>
+								Toyota Financial
+								<div class="muted">Plano, Texas</div>
+							</td>
+							<td>
+								-</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 8. Positions
+				
+					<small>
+						<i class="fa fa-asterisk" title="Amended section"></i> Amended
+					</small>
+				
+			</h3>
+			<p>
+				Did you hold any outside positions during the reporting period?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of outside employment added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Position Dates</th>
+						<th scope="col">Position Held</th>
+						<th scope="col">Entity</th>
+						<th scope="col">Entity Type</th>
+						<th scope="col">Comments</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Jan 1994 to
+								present
+							</td>
+							<td>
+								Other
+								(Member)
+							</td>
+							<td>
+								DML Properties, LLC
+								<div class="muted">
+									Overland Park, Kansas
+								</div>
+							</td>
+							<td>
+								Other
+								(LLC)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Jan 1987 to
+								present
+							</td>
+							<td>
+								Other
+								(President)
+							</td>
+							<td>
+								DML Incorporated
+								<div class="muted">
+									Overland Park, Kansas
+								</div>
+							</td>
+							<td>
+								Corporation
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Jan 2014 to
+								present
+							</td>
+							<td>
+								Other
+								(Chairman)
+							</td>
+							<td>
+								Kansas Leadership Center
+								<div class="muted">
+									Wichita, Kansas
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								4</td>
+							<td>
+								Mar 2016 to
+								present
+							</td>
+							<td>
+								Other
+								(Chairman)
+							</td>
+							<td>
+								Kansas Turnpike Authority
+								<div class="muted">
+									Wichita, Kansas
+								</div>
+							</td>
+							<td>
+								Other
+								(Government Entity)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								5</td>
+							<td>
+								Jan 2011 to
+								present
+							</td>
+							<td>
+								Other
+								(Representative of KS State Government)
+							</td>
+							<td>
+								Kansas and Missouri Metropolitan Culture, Bi-State Commission
+								<div class="muted">
+									Kansas City, Missouri
+								</div>
+							</td>
+							<td>
+								Other
+								(Government Entity)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								6</td>
+							<td>
+								Jan 2019 to
+								present
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Kansas University Edwards, Vice Chancelor Advisory Board
+								<div class="muted">
+									Overland Park, Kansas
+								</div>
+							</td>
+							<td>
+								Educational Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								7</td>
+							<td>
+								Jan 1998 to
+								present
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Kansas Foundation for Excellence in Education
+								<div class="muted">
+									Topeka, Kansas
+								</div>
+							</td>
+							<td>
+								Educational Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								8</td>
+							<td>
+								Dec 2012 to
+								present
+							</td>
+							<td>
+								Other
+								(Trusteee, Subcommittee Chair)
+							</td>
+							<td>
+								Johnson County Community College Board of Trustee
+								<div class="muted">
+									Overland Park, Kansas
+								</div>
+							</td>
+							<td>
+								Other
+								(Government Entity)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								9</td>
+							<td>
+								Jan 2018 to
+								present
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Johnson County Educational Research Triangle
+								<div class="muted">
+									Johnson County, Kansas
+								</div>
+							</td>
+							<td>
+								Other
+								(Government Entity)
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								10</td>
+							<td>
+								Jan 1999 to
+								present
+							</td>
+							<td>
+								Other
+								(Board Member)
+							</td>
+							<td>
+								Shawnee Mission Medical Center Foundation
+								<div class="muted">
+									Shawnee Mission, Kansas
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								11</td>
+							<td>
+								Jan 1989 to
+								present
+							</td>
+							<td>
+								Other
+								(Member)
+							</td>
+							<td>
+								Kansas City Chiefs Ambassadors
+								<div class="muted">
+									Kansas City, Missouri
+								</div>
+							</td>
+							<td>
+								Nonprofit Organization
+								
+							</td>
+							<td>None</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								12</td>
+							<td>
+								Aug 2016 to
+								present
+							</td>
+							<td>
+								Other
+								(Managing Member)
+							</td>
+							<td>
+								AIRT LLC
+								<div class="muted">
+									Overland Park, Kansas
+								</div>
+							</td>
+							<td>
+								Company
+								
+							</td>
+							<td>AIRT LLC has no underlying assets</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 9. Agreements
+				
+					<small>
+						<i class="fa fa-asterisk" title="Amended section"></i> Amended
+					</small>
+				
+			</h3>
+			<p>
+				Did you have any reportable agreement or arrangement with an outside entity?
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped ">
+					<caption class="sr-only">List of agreements or arrangements added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Date</th>
+						<th scope="col">Parties Involved</th>
+						<th scope="col">Type</th>
+						<th scope="col">Status and Terms</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Feb 2013
+							</td>
+							<td>
+								Kansas Public Employees Retirement System
+								<div class="muted">Topeka, Kansas</div>
+							</td>
+							<td>Other
+								
+									<div class="muted">(KPERS Defined Benefit Pension Plan)</div>
+							</td>
+							<td>Mr Lindstrom retired from the Johnson County Commission on 2/1/2013 and began drawing the normal Defined Benefit Pension Payment for his position and years of Service. The retirement payments are monthly and adjusted annually for inflation for all participants of the State plan, as determined by the Trustees of the Plan.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								2</td>
+							<td>
+								Feb 2013
+							</td>
+							<td>
+								Johnson County KS Retirement Plan Manager
+								<div class="muted">Hartford, Connecticut</div>
+							</td>
+							<td>Continuing participation in an employee benefit plan
+								
+							</td>
+							<td>Mr Lindstrom has maintained his participation in the Johnson County KS Deferred Compensation Plan after he retired and the management is maintained by the Company that manages the ongoing plan for Johnson County. His account within the plan is subject to the same provisions as any other retired employee who elects to leave their assets invested in the plan after they retire.</td>
+						</tr>
+					
+						<tr class="nowrap">
+							<td>
+							</td>
+							<td>
+								3</td>
+							<td>
+								Jan 1989
+							</td>
+							<td>
+								Kansas City Chiefs
+								<div class="muted">Kansas City, Missouri</div>
+							</td>
+							<td>Other
+								
+									<div class="muted">(Policy related to season tickets for Chief&#39;s Ambassadors)</div>
+							</td>
+							<td>David Lindstrom is a former KC Chiefs football player. Pursuant to a policy of the Chiefs, they provide 2 season tickets to all Chiefs Ambassadors.</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">Part 10. Compensation
+				
+					<small>
+						<i class="fa fa-asterisk" title="Amended section"></i> Amended
+					</small>
+				
+			</h3>
+			<p>
+				<strong>If this is your first report, or you are a candidate</strong> did you receive compensation of more than $5,000 from a single source in the <strong>two</strong> prior years? 
+				<strong>
+					
+						Yes
+					
+				</strong>
+			</p>
+		</div>
+		
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<caption class="sr-only">List of compensation sources added to this report</caption>
+					<thead>
+					<tr class="header">
+						<th scope="col"></th>
+						<th scope="col">&#35;</th>
+						<th scope="col">Source</th>
+						<th scope="col">Duties</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								1</td>
+							<td>
+								Kansas Leadership Center
+								<div class="muted">Wichita, Kansas</div>
+							<td>Board Member with normal duties of a Board Member on a Not-for-Profit Entity</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+	</section>
+
+	<section class="card mb-2">
+		<div class="card-body">
+			<h3 class="h4">
+				Attachments & Comments
+				
+			</h3>
+
+			
+				<em class="muted">No attachments added.</em>
+			
+
+			
+				<br/>
+				<em class="text-muted">No comments added.</em>
+			
+		</div>
+	</section>
+
+                        </div>
+                    </div>
+                </main>
+
+               <footer id="footer" class="footer d-print-none">
+
+                </footer>
+            </div><!-- end #wrap -->
+        </body>
+    </html>
