@@ -1,5 +1,10 @@
 # Scraping Senate Financial Disclosures
 
+## Random update notes to myself
+
+- 2020-02-27: I have no idea where I left off, other than remembering I should re-run scrapes once in awhile since older reports/senators may be removed from the Senate site from time to time. Last scrape was 2019-11-21
+
+
 
 
 ## Prelim examination
@@ -10,7 +15,7 @@ Parse the extracted JSON data:
 $ python efdsenate parse_raw
 ```
 
-
+> Note (2020-02-28): I have no idea what the above command refers to. Ignore it please.
 
 How many paper records have been submitted, by year?
 

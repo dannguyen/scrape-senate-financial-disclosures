@@ -1,43 +1,64 @@
 [
   [
+    "JOHN ",
+    "BOOZMAN",
+    "Senator",
+    "<a href=\"/search/view/paper/d145efef-1925-4ec2-b435-118c9a57a394/\" target=\"_blank\">Periodic Transaction Report for 02/07/2020</a>",
+    "02/07/2020"
+  ],
+  [
+    "JOHN ",
+    "BOOZMAN",
+    "Senator",
+    "<a href=\"/search/view/paper/7b9582d4-6a8b-4f49-8100-f43c0537a561/\" target=\"_blank\">Periodic Transaction Report for 01/24/2020</a>",
+    "01/24/2020"
+  ],
+  [
+    "JOHN ",
+    "BOOZMAN",
+    "Senator",
+    "<a href=\"/search/view/paper/dc7026aa-e4d5-481c-9846-270e41a8f72c/\" target=\"_blank\">Periodic Transaction Report for 12/20/2019</a>",
+    "12/20/2019"
+  ],
+  [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/eba1ede8-5f06-4eb9-b904-9b0f26e9458c/\" target=\"_blank\">Candidate Report  (Amendment 5)</a>",
     "10/25/2019"
   ],
   [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/fc32b4aa-0d14-4177-9729-367a35b11e83/\" target=\"_blank\">Candidate Report  (Amendment 4)</a>",
     "09/18/2019"
   ],
   [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/3686d633-60ba-427e-840c-b22c7bfc4f37/\" target=\"_blank\">Candidate Report  (Amendment 3)</a>",
     "09/17/2019"
   ],
   [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/de0e127c-0ac4-4c45-bab6-8d9ab3a53187/\" target=\"_blank\">Candidate Report  (Amendment 2)</a>",
     "09/17/2019"
   ],
   [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/bf77ee51-951f-45f4-9a8a-af15cbf2f226/\" target=\"_blank\">Candidate Report  (Amendment 1)</a>",
     "09/17/2019"
   ],
   [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/8827d181-b31f-4e69-86bb-e159ab2a3905/\" target=\"_blank\">Candidate Report </a>",
     "09/17/2019"
   ],
@@ -65,7 +86,7 @@
   [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/extension-notice/regular/7f68565d-3123-4b4c-8989-dafa1c8fa75f/\" target=\"_blank\">Candidate Report  Due Date Extension 3</a>",
     "07/31/2019"
   ],
@@ -79,7 +100,7 @@
   [
     "Joshua",
     "Mahony",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/extension-notice/regular/73bd795b-d7a7-4400-8257-f0659cc45d1c/\" target=\"_blank\">Candidate Report  Due Date Extension 2</a>",
     "07/02/2019"
   ],
@@ -89,6 +110,13 @@
     "Senator",
     "<a href=\"/search/view/paper/c075c149-8a56-4afd-9c75-0ad24eb084a0/\" target=\"_blank\">Periodic Transaction Report for 06/18/2019</a>",
     "06/18/2019"
+  ],
+  [
+    "Joshua",
+    "Mahony",
+    "Candidate (Candidate)",
+    "<a href=\"/search/view/extension-notice/regular/ac68bf25-7754-4335-8c1e-60bfddbc7b0d/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
+    "05/28/2019"
   ],
   [
     "JOHN ",
@@ -107,7 +135,7 @@
   [
     "John",
     "Boozman",
-    "Senator",
+    "Boozman, John (Senator)",
     "<a href=\"/search/view/extension-notice/regular/94d7cff5-7e20-4c1b-b6a1-6a48f2db224d/\" target=\"_blank\">Annual Report for 2018 Due Date Extension 1</a>",
     "05/03/2019"
   ],
@@ -198,7 +226,7 @@
   [
     "John",
     "Boozman",
-    "Senator",
+    "Boozman, John (Senator)",
     "<a href=\"/search/view/extension-notice/regular/fbf13dff-bcbb-4b6c-98a5-1b75c7bcf906/\" target=\"_blank\">Annual Report for 2017 Due Date Extension 1</a>",
     "05/14/2018"
   ],
@@ -296,7 +324,7 @@
   [
     "John",
     "Boozman",
-    "Senator",
+    "Boozman, John (Senator)",
     "<a href=\"/search/view/extension-notice/regular/4fbdf8cf-76a2-4763-9a44-ef0ad7039383/\" target=\"_blank\">Annual Report for 2016 Due Date Extension 1</a>",
     "05/12/2017"
   ],
@@ -374,7 +402,7 @@
     "JOHN ",
     "BOOZMAN",
     "Senator",
-    "<a href=\"/search/view/paper/3382ba90-85ad-444b-8685-d09c71e787d9/\" target=\"_blank\">Periodic Transaction Report for 08/11/2016</a>",
+    "<a href=\"/search/view/paper/8db00083-64fd-4dee-af9c-ef994c6dbe40/\" target=\"_blank\">Annual Report</a>",
     "08/11/2016"
   ],
   [
@@ -388,21 +416,14 @@
     "JOHN ",
     "BOOZMAN",
     "Senator",
-    "<a href=\"/search/view/paper/8db00083-64fd-4dee-af9c-ef994c6dbe40/\" target=\"_blank\">Annual Report</a>",
+    "<a href=\"/search/view/paper/3382ba90-85ad-444b-8685-d09c71e787d9/\" target=\"_blank\">Periodic Transaction Report for 08/11/2016</a>",
     "08/11/2016"
   ],
   [
     "John",
     "Boozman",
-    "Senator",
+    "Boozman, John (Senator)",
     "<a href=\"/search/view/extension-notice/regular/9ff300d6-c69b-42b6-abb3-3dd549ff8f87/\" target=\"_blank\">Annual Report for 2015 Due Date Extension 1</a>",
-    "05/13/2016"
-  ],
-  [
-    "TOM ",
-    "COTTON",
-    "Senator",
-    "<a href=\"/search/view/paper/bd2f5ab0-ac4d-4eeb-ac7c-884f62a19597/\" target=\"_blank\">Annual Report</a>",
     "05/13/2016"
   ],
   [
@@ -413,24 +434,24 @@
     "05/13/2016"
   ],
   [
-    "Conner",
-    "Eldridge",
-    "Candidate",
-    "<a href=\"/search/view/extension-notice/regular/665e7375-1620-45d5-8939-b7d180c6eaaf/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
-    "10/14/2015"
-  ],
-  [
-    "JOHN ",
-    "BOOZMAN",
+    "TOM ",
+    "COTTON",
     "Senator",
-    "<a href=\"/search/view/paper/D7EEEBCC-603D-408F-A4D1-D56FEA29288B/\" target=\"_blank\">Annual Report (Amendment)</a>",
-    "10/13/2015"
+    "<a href=\"/search/view/paper/bd2f5ab0-ac4d-4eeb-ac7c-884f62a19597/\" target=\"_blank\">Annual Report</a>",
+    "05/13/2016"
   ],
   [
     "JOHN ",
     "BOOZMAN",
     "Senator",
     "<a href=\"/search/view/paper/B2C89D7B-D35C-4C7E-8834-9FAC9EF469D4/\" target=\"_blank\">Annual Report (Amendment)</a>",
+    "10/13/2015"
+  ],
+  [
+    "JOHN ",
+    "BOOZMAN",
+    "Senator",
+    "<a href=\"/search/view/paper/D7EEEBCC-603D-408F-A4D1-D56FEA29288B/\" target=\"_blank\">Annual Report (Amendment)</a>",
     "10/13/2015"
   ],
   [
@@ -455,13 +476,6 @@
     "05/01/2015"
   ],
   [
-    "Mark L",
-    "Pryor",
-    "Former Senator",
-    "<a href=\"/search/view/annual/9a8b18ef-ac9f-4aa6-a354-b4fdb9489ff0/\" target=\"_blank\">Annual Report for CY 2013</a>",
-    "05/15/2014"
-  ],
-  [
     "JOHN ",
     "BOOZMAN",
     "Senator",
@@ -476,13 +490,6 @@
     "01/22/2014"
   ],
   [
-    "JOHN N",
-    "BOOZMAN",
-    "Senator",
-    "<a href=\"/search/view/paper/E5C2E145-8F47-4A38-909C-F7F6853440C4/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2013"
-  ],
-  [
     "MARK L",
     "PRYOR",
     "Former Senator",
@@ -490,17 +497,24 @@
     "05/15/2013"
   ],
   [
-    "MARK L",
-    "PRYOR",
-    "Former Senator",
-    "<a href=\"/search/view/paper/19D83DF7-E5CC-431C-B859-4D6E860671E7/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2012"
+    "JOHN N",
+    "BOOZMAN",
+    "Senator",
+    "<a href=\"/search/view/paper/E5C2E145-8F47-4A38-909C-F7F6853440C4/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2013"
   ],
   [
     "JOHN N",
     "BOOZMAN",
     "Senator",
     "<a href=\"/search/view/paper/6DF1933A-4669-4386-88FD-7863B3AE0EFE/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2012"
+  ],
+  [
+    "MARK L",
+    "PRYOR",
+    "Former Senator",
+    "<a href=\"/search/view/paper/19D83DF7-E5CC-431C-B859-4D6E860671E7/\" target=\"_blank\">Annual Report</a>",
     "05/15/2012"
   ]
 ]

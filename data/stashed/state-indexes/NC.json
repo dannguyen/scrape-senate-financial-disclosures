@@ -1,15 +1,36 @@
 [
   [
+    "RICHARD M",
+    "BURR",
+    "Senator",
+    "<a href=\"/search/view/paper/c5ce97f8-72c9-4067-b789-34b656af4fb4/\" target=\"_blank\">Periodic Transaction Report for 02/26/2020</a>",
+    "02/26/2020"
+  ],
+  [
+    "RICHARD M",
+    "BURR",
+    "Senator",
+    "<a href=\"/search/view/paper/dc2d7218-f412-4aa0-af59-1f7790502c43/\" target=\"_blank\">Periodic Transaction Report for 12/04/2019</a>",
+    "12/04/2019"
+  ],
+  [
+    "RICHARD M",
+    "BURR",
+    "Senator",
+    "<a href=\"/search/view/paper/ae296441-8769-4000-90eb-7c73987593e0/\" target=\"_blank\">Periodic Transaction Report for 11/19/2019</a>",
+    "11/19/2019"
+  ],
+  [
     "Erica D",
     "Smith",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/78df75fb-39c0-45ad-93ef-a39a983ef886/\" target=\"_blank\">Candidate Report </a>",
     "10/23/2019"
   ],
   [
     "James C",
     "Cunningham, III",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/2065e167-79be-4a37-a0bd-9fa29cd73c0f/\" target=\"_blank\">Candidate Report </a>",
     "10/15/2019"
   ],
@@ -24,27 +45,27 @@
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/ba0e05ef-d738-40db-9219-0b18d6cf4323/\" target=\"_blank\">Periodic Transaction Report for 08/01/2019</a>",
+    "<a href=\"/search/view/paper/b93a26ef-d98b-4b8c-95ef-e7a870df27fc/\" target=\"_blank\">Periodic Transaction Report for 08/01/2019</a>",
     "08/01/2019"
   ],
   [
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/b93a26ef-d98b-4b8c-95ef-e7a870df27fc/\" target=\"_blank\">Periodic Transaction Report for 08/01/2019</a>",
+    "<a href=\"/search/view/paper/ba0e05ef-d738-40db-9219-0b18d6cf4323/\" target=\"_blank\">Periodic Transaction Report for 08/01/2019</a>",
     "08/01/2019"
   ],
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/05339430-3ec5-4d67-a1af-7786e347aaf0/\" target=\"_blank\">Annual Report for CY 2018 (Amendment 1)</a>",
     "07/31/2019"
   ],
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/ptr/eaa9e663-e475-41a5-ac0d-3e107ed67481/\" target=\"_blank\">Periodic Transaction Report for 02/27/2019 (Amendment 2)</a>",
     "07/30/2019"
   ],
@@ -65,14 +86,14 @@
   [
     "James C",
     "Cunningham, III",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/extension-notice/regular/00e42020-b81a-4d8d-a9da-adb97b884b82/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
     "07/16/2019"
   ],
   [
     "Garland S",
     "Tucker, III",
-    "Candidate",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/451c6abe-125c-4d6c-8b21-d6514fb12c6c/\" target=\"_blank\">Candidate Report </a>",
     "07/16/2019"
   ],
@@ -100,14 +121,14 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/207d8714-8cd0-4f83-a474-5ac682ed92e8/\" target=\"_blank\">Annual Report for CY 2018</a>",
     "06/15/2019"
   ],
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/ptr/2c7b33c4-c85b-44a8-b8f7-cfe2f15961f5/\" target=\"_blank\">Periodic Transaction Report for 02/27/2019 (Amendment 1)</a>",
     "06/15/2019"
   ],
@@ -121,7 +142,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/extension-notice/regular/569d631c-315a-4efb-903d-9e533e69e08a/\" target=\"_blank\">Annual Report for 2018 Due Date Extension 1</a>",
     "05/14/2019"
   ],
@@ -136,14 +157,14 @@
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/d5aedac2-a021-4f33-9142-721d3c82724f/\" target=\"_blank\">Periodic Transaction Report for 05/02/2019 (Amendment)</a>",
+    "<a href=\"/search/view/paper/5ba213ef-42a1-4517-bf32-5cc941a82d7c/\" target=\"_blank\">Periodic Transaction Report for 05/02/2019</a>",
     "05/02/2019"
   ],
   [
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/5ba213ef-42a1-4517-bf32-5cc941a82d7c/\" target=\"_blank\">Periodic Transaction Report for 05/02/2019</a>",
+    "<a href=\"/search/view/paper/d5aedac2-a021-4f33-9142-721d3c82724f/\" target=\"_blank\">Periodic Transaction Report for 05/02/2019 (Amendment)</a>",
     "05/02/2019"
   ],
   [
@@ -163,7 +184,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/ptr/44a21895-607d-48b6-89d9-0876caad796f/\" target=\"_blank\">Periodic Transaction Report for 02/27/2019</a>",
     "02/27/2019"
   ],
@@ -192,20 +213,20 @@
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/0a9a1209-6dc7-499b-be11-847b557c833d/\" target=\"_blank\">Periodic Transaction Report for 10/16/2018</a>",
+    "<a href=\"/search/view/paper/39c78342-f5e4-47eb-83fd-2e101e8c1724/\" target=\"_blank\">Periodic Transaction Report for 10/16/2018</a>",
     "10/16/2018"
   ],
   [
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/39c78342-f5e4-47eb-83fd-2e101e8c1724/\" target=\"_blank\">Periodic Transaction Report for 10/16/2018</a>",
+    "<a href=\"/search/view/paper/0a9a1209-6dc7-499b-be11-847b557c833d/\" target=\"_blank\">Periodic Transaction Report for 10/16/2018</a>",
     "10/16/2018"
   ],
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/a5641ff5-edce-4913-abcc-567e8937c2b5/\" target=\"_blank\">Annual Report for CY 2017 (Amendment 1)</a>",
     "10/11/2018"
   ],
@@ -240,16 +261,9 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/d0a57235-18e3-4ea9-af43-0d64b4bec24f/\" target=\"_blank\">Annual Report for CY 2017</a>",
     "07/10/2018"
-  ],
-  [
-    "RICHARD M",
-    "BURR",
-    "Senator",
-    "<a href=\"/search/view/paper/2d0972d0-fd7d-472b-bc07-33863c26fddb/\" target=\"_blank\">Periodic Transaction Report for 06/27/2018</a>",
-    "06/27/2018"
   ],
   [
     "RICHARD M",
@@ -259,9 +273,16 @@
     "06/27/2018"
   ],
   [
+    "RICHARD M",
+    "BURR",
+    "Senator",
+    "<a href=\"/search/view/paper/2d0972d0-fd7d-472b-bc07-33863c26fddb/\" target=\"_blank\">Periodic Transaction Report for 06/27/2018</a>",
+    "06/27/2018"
+  ],
+  [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/extension-notice/regular/7173a501-bac5-4ee9-a767-0fb316895b22/\" target=\"_blank\">Annual Report for 2017 Due Date Extension 2</a>",
     "06/13/2018"
   ],
@@ -296,7 +317,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/extension-notice/regular/2b02e897-7ba8-420c-b32d-f4cd855d0c31/\" target=\"_blank\">Annual Report for 2017 Due Date Extension 1</a>",
     "05/07/2018"
   ],
@@ -359,7 +380,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/7c429067-215b-4135-a139-294609c4464c/\" target=\"_blank\">Annual Report for CY 2016 (Amendment 1)</a>",
     "09/16/2017"
   ],
@@ -367,14 +388,14 @@
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/9a6fcfb0-d5a6-4a7e-a3a3-c75762f45a1b/\" target=\"_blank\">Periodic Transaction Report for 09/12/2017 (Amendment)</a>",
+    "<a href=\"/search/view/paper/02115eab-aba8-4e16-8a4d-1257cafedddf/\" target=\"_blank\">Periodic Transaction Report for 09/12/2017</a>",
     "09/12/2017"
   ],
   [
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/02115eab-aba8-4e16-8a4d-1257cafedddf/\" target=\"_blank\">Periodic Transaction Report for 09/12/2017</a>",
+    "<a href=\"/search/view/paper/9a6fcfb0-d5a6-4a7e-a3a3-c75762f45a1b/\" target=\"_blank\">Periodic Transaction Report for 09/12/2017 (Amendment)</a>",
     "09/12/2017"
   ],
   [
@@ -415,14 +436,14 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/6c0c295d-08a5-4a3f-b834-1cd880e19737/\" target=\"_blank\">Annual Report for CY 2016</a>",
     "06/04/2017"
   ],
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/extension-notice/regular/7e1eca50-112c-4b05-8a80-01a3a74d51bb/\" target=\"_blank\">Annual Report for 2016 Due Date Extension 1</a>",
     "05/15/2017"
   ],
@@ -430,14 +451,14 @@
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/7d69809a-16a1-4b4f-9bf6-8cb8d122bc3e/\" target=\"_blank\">Annual Report</a>",
+    "<a href=\"/search/view/paper/5e61d29a-0e35-470b-8b05-1ae9a7a429c6/\" target=\"_blank\">Periodic Transaction Report for 05/10/2017</a>",
     "05/10/2017"
   ],
   [
     "RICHARD M",
     "BURR",
     "Senator",
-    "<a href=\"/search/view/paper/5e61d29a-0e35-470b-8b05-1ae9a7a429c6/\" target=\"_blank\">Periodic Transaction Report for 05/10/2017</a>",
+    "<a href=\"/search/view/paper/7d69809a-16a1-4b4f-9bf6-8cb8d122bc3e/\" target=\"_blank\">Annual Report</a>",
     "05/10/2017"
   ],
   [
@@ -457,7 +478,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/ptr/c7e41996-1636-4615-8d99-3fe47ca90f95/\" target=\"_blank\">Periodic Transaction Report for 02/17/2017</a>",
     "02/17/2017"
   ],
@@ -492,7 +513,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/caacfbda-c556-4b3c-9cb9-849d99436551/\" target=\"_blank\">Annual Report for CY 2015 (Amendment 1)</a>",
     "10/11/2016"
   ],
@@ -527,7 +548,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/de597d2a-12c3-4541-9be8-966fd92c99ce/\" target=\"_blank\">Annual Report for CY 2015</a>",
     "05/16/2016"
   ],
@@ -574,13 +595,6 @@
     "01/11/2016"
   ],
   [
-    "Deborah K",
-    "Ross",
-    "Candidate",
-    "<a href=\"/search/view/extension-notice/regular/99e00065-be8d-4dc4-a2dd-bca415523d74/\" target=\"_blank\">Candidate Report  Due Date Extension 1</a>",
-    "11/04/2015"
-  ],
-  [
     "RICHARD M",
     "BURR",
     "Senator",
@@ -604,14 +618,14 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/b266a0c8-13e2-4fee-af0c-014c86dd889b/\" target=\"_blank\">Candidate Report  (Amendment 3)</a>",
     "06/17/2015"
   ],
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/annual/7ffeb314-bfc3-472c-96ff-46660763ab82/\" target=\"_blank\">Annual Report for CY 2014</a>",
     "06/11/2015"
   ],
@@ -639,7 +653,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/extension-notice/regular/74bd1c8e-da78-4170-8d6b-26699777501b/\" target=\"_blank\">Annual Report for 2014 Due Date Extension 1</a>",
     "05/15/2015"
   ],
@@ -661,14 +675,14 @@
     "KAY R",
     "HAGAN",
     "Former Senator",
-    "<a href=\"/search/view/paper/1D149868-07EA-46AD-87D6-2D89319D7328/\" target=\"_blank\">Periodic Transaction Report for 05/04/2015 (Amendment)</a>",
+    "<a href=\"/search/view/paper/E11475F0-EDB0-4543-9ED8-EDA77CDD16DB/\" target=\"_blank\">Periodic Transaction Report for 05/04/2015</a>",
     "05/04/2015"
   ],
   [
     "KAY R",
     "HAGAN",
     "Former Senator",
-    "<a href=\"/search/view/paper/E11475F0-EDB0-4543-9ED8-EDA77CDD16DB/\" target=\"_blank\">Periodic Transaction Report for 05/04/2015</a>",
+    "<a href=\"/search/view/paper/1D149868-07EA-46AD-87D6-2D89319D7328/\" target=\"_blank\">Periodic Transaction Report for 05/04/2015 (Amendment)</a>",
     "05/04/2015"
   ],
   [
@@ -695,7 +709,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Tillis, Thom (Senator)",
     "<a href=\"/search/view/ptr/bbdeaa6d-dcb6-41fa-a5d5-cb5e5d10af6b/\" target=\"_blank\">Periodic Transaction Report for 02/26/2015</a>",
     "02/26/2015"
   ],
@@ -716,7 +730,7 @@
   [
     "Kay R",
     "Hagan",
-    "Former Senator",
+    "Former Senator (Former Senator)",
     "<a href=\"/search/view/extension-notice/regular/bec52bb2-2b25-48f3-b1fc-f908bda799a6//\" target=\"_blank\">Termination Report for 2015 Due Date Extension 1</a>",
     "01/08/2015"
   ],
@@ -737,7 +751,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/dff83ca8-ef6e-4960-9810-a0ab10d137d8/\" target=\"_blank\">Candidate Report  (Amendment 2)</a>",
     "11/18/2014"
   ],
@@ -793,7 +807,7 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/21130e5c-b68c-491a-879d-dd61a4ea84ae/\" target=\"_blank\">Candidate Report  (Amendment 1)</a>",
     "08/25/2014"
   ],
@@ -870,22 +884,22 @@
   [
     "Thomas R",
     "Tillis",
-    "Senator",
+    "Candidate (Candidate)",
     "<a href=\"/search/view/annual/0f005fe7-3e64-47a6-a66e-139c59f37fa8/\" target=\"_blank\">Candidate Report </a>",
     "05/15/2014"
-  ],
-  [
-    "RICHARD M",
-    "BURR",
-    "Senator",
-    "<a href=\"/search/view/paper/78FFDB0C-BAE6-417E-BF95-B484B1523B8D/\" target=\"_blank\">Annual Report</a>",
-    "05/14/2014"
   ],
   [
     "KAY R",
     "HAGAN",
     "Former Senator",
     "<a href=\"/search/view/paper/BAAED6EC-4A5C-44AE-B9DB-D3EE95FB660E/\" target=\"_blank\">Periodic Transaction Report for 05/14/2014</a>",
+    "05/14/2014"
+  ],
+  [
+    "RICHARD M",
+    "BURR",
+    "Senator",
+    "<a href=\"/search/view/paper/78FFDB0C-BAE6-417E-BF95-B484B1523B8D/\" target=\"_blank\">Annual Report</a>",
     "05/14/2014"
   ],
   [
@@ -1057,17 +1071,17 @@
     "08/13/2013"
   ],
   [
-    "KAY ",
-    "HAGAN",
-    "Former Senator",
-    "<a href=\"/search/view/paper/6C6531C8-0539-42E5-B65B-0FCBFBBF1BBB/\" target=\"_blank\">Periodic Transaction Report for 07/31/2013</a>",
-    "07/31/2013"
-  ],
-  [
     "THOMAS R",
     "TILLIS",
     "Senator",
     "<a href=\"/search/view/paper/05A6FD07-6A46-4252-886F-4B20AA7DD305/\" target=\"_blank\">Annual Report (Amendment)</a>",
+    "07/31/2013"
+  ],
+  [
+    "KAY ",
+    "HAGAN",
+    "Former Senator",
+    "<a href=\"/search/view/paper/6C6531C8-0539-42E5-B65B-0FCBFBBF1BBB/\" target=\"_blank\">Periodic Transaction Report for 07/31/2013</a>",
     "07/31/2013"
   ],
   [
@@ -1284,14 +1298,14 @@
     "KAY ",
     "HAGAN",
     "Former Senator",
-    "<a href=\"/search/view/paper/E2F2E0B5-9472-411F-B7A3-B5FF3019C9E7/\" target=\"_blank\">Annual Report</a>",
+    "<a href=\"/search/view/paper/60FB61FB-58B1-4827-96FA-5C6CA088F759/\" target=\"_blank\">Annual Report (Amendment)</a>",
     "08/10/2012"
   ],
   [
     "KAY ",
     "HAGAN",
     "Former Senator",
-    "<a href=\"/search/view/paper/60FB61FB-58B1-4827-96FA-5C6CA088F759/\" target=\"_blank\">Annual Report (Amendment)</a>",
+    "<a href=\"/search/view/paper/E2F2E0B5-9472-411F-B7A3-B5FF3019C9E7/\" target=\"_blank\">Annual Report</a>",
     "08/10/2012"
   ],
   [
