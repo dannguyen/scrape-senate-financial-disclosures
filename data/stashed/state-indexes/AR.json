@@ -430,28 +430,28 @@
     "TOM ",
     "COTTON",
     "Senator",
-    "<a href=\"/search/view/paper/602fbcb8-0c63-42ae-92b4-022d6c3fd335/\" target=\"_blank\">Annual Report (Amendment)</a>",
+    "<a href=\"/search/view/paper/bd2f5ab0-ac4d-4eeb-ac7c-884f62a19597/\" target=\"_blank\">Annual Report</a>",
     "05/13/2016"
   ],
   [
     "TOM ",
     "COTTON",
     "Senator",
-    "<a href=\"/search/view/paper/bd2f5ab0-ac4d-4eeb-ac7c-884f62a19597/\" target=\"_blank\">Annual Report</a>",
+    "<a href=\"/search/view/paper/602fbcb8-0c63-42ae-92b4-022d6c3fd335/\" target=\"_blank\">Annual Report (Amendment)</a>",
     "05/13/2016"
   ],
   [
     "JOHN ",
     "BOOZMAN",
     "Senator",
-    "<a href=\"/search/view/paper/B2C89D7B-D35C-4C7E-8834-9FAC9EF469D4/\" target=\"_blank\">Annual Report (Amendment)</a>",
+    "<a href=\"/search/view/paper/D7EEEBCC-603D-408F-A4D1-D56FEA29288B/\" target=\"_blank\">Annual Report (Amendment)</a>",
     "10/13/2015"
   ],
   [
     "JOHN ",
     "BOOZMAN",
     "Senator",
-    "<a href=\"/search/view/paper/D7EEEBCC-603D-408F-A4D1-D56FEA29288B/\" target=\"_blank\">Annual Report (Amendment)</a>",
+    "<a href=\"/search/view/paper/B2C89D7B-D35C-4C7E-8834-9FAC9EF469D4/\" target=\"_blank\">Annual Report (Amendment)</a>",
     "10/13/2015"
   ],
   [
@@ -490,13 +490,6 @@
     "01/22/2014"
   ],
   [
-    "MARK L",
-    "PRYOR",
-    "Former Senator",
-    "<a href=\"/search/view/paper/50DF8093-8AAB-45B5-9885-41C385D29DCD/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2013"
-  ],
-  [
     "JOHN N",
     "BOOZMAN",
     "Senator",
@@ -504,17 +497,24 @@
     "05/15/2013"
   ],
   [
-    "JOHN N",
-    "BOOZMAN",
-    "Senator",
-    "<a href=\"/search/view/paper/6DF1933A-4669-4386-88FD-7863B3AE0EFE/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2012"
+    "MARK L",
+    "PRYOR",
+    "Former Senator",
+    "<a href=\"/search/view/paper/50DF8093-8AAB-45B5-9885-41C385D29DCD/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2013"
   ],
   [
     "MARK L",
     "PRYOR",
     "Former Senator",
     "<a href=\"/search/view/paper/19D83DF7-E5CC-431C-B859-4D6E860671E7/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2012"
+  ],
+  [
+    "JOHN N",
+    "BOOZMAN",
+    "Senator",
+    "<a href=\"/search/view/paper/6DF1933A-4669-4386-88FD-7863B3AE0EFE/\" target=\"_blank\">Annual Report</a>",
     "05/15/2012"
   ]
 ]

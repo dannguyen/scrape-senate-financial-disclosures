@@ -238,13 +238,6 @@
     "05/23/2013"
   ],
   [
-    "BERNARD",
-    "SANDERS",
-    "Senator",
-    "<a href=\"/search/view/paper/7F7DB9DE-7B2D-4B41-8812-FB9E62C4E48C/\" target=\"_blank\">Report Due Date Extension</a>",
-    "05/15/2013"
-  ],
-  [
     "PATRICK",
     "LEAHY",
     "Senator",
@@ -252,17 +245,24 @@
     "05/15/2013"
   ],
   [
-    "PATRICK",
-    "LEAHY",
+    "BERNARD",
+    "SANDERS",
     "Senator",
-    "<a href=\"/search/view/paper/EDA8932A-7940-49D9-84A8-F0CA81CF5F7B/\" target=\"_blank\">Annual Report</a>",
-    "05/15/2012"
+    "<a href=\"/search/view/paper/7F7DB9DE-7B2D-4B41-8812-FB9E62C4E48C/\" target=\"_blank\">Report Due Date Extension</a>",
+    "05/15/2013"
   ],
   [
     "BERNARD",
     "SANDERS",
     "Senator",
     "<a href=\"/search/view/paper/08F6FE33-544F-4553-BF81-C4CF6FD0F608/\" target=\"_blank\">Annual Report</a>",
+    "05/15/2012"
+  ],
+  [
+    "PATRICK",
+    "LEAHY",
+    "Senator",
+    "<a href=\"/search/view/paper/EDA8932A-7940-49D9-84A8-F0CA81CF5F7B/\" target=\"_blank\">Annual Report</a>",
     "05/15/2012"
   ]
 ]
